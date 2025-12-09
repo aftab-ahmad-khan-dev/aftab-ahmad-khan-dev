@@ -1,404 +1,182 @@
 <div align="center">
 
-<!-- Hero Banner with Gradient -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,27&height=280&section=header&text=Aftab%20Ahmad%20Khan&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Senior%20Full-Stack%20Engineer%20%7C%20Turning%20Ideas%20Into%20Scalable%20Solutions&descAlignY=58&descSize=20&descAlign=50"/>
+<!-- Professional Header -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2E3440,100:4C566A&height=200&section=header&text=Aftab%20Ahmad%20Khan&fontSize=60&fontColor=ECEFF4&animation=fadeIn&fontAlignY=35&desc=Senior%20Full-Stack%20Developer%20%7C%20Technical%20Lead&descAlignY=55&descSize=18&descColor=D8DEE9"/>
 
-<!-- Dynamic Typing Effect -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=100&lines=5%2B+Years+Crafting+Digital+Experiences+%F0%9F%9A%80;50%2B+Enterprise+Projects+Delivered+%E2%9C%A8;MERN+Stack+%7C+React+Native+%7C+Ruby+on+Rails;Architecting+Solutions+That+Scale+%F0%9F%93%88" alt="Typing SVG" /></a>
+<!-- Professional Title -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=22&duration=3000&pause=1000&color=88C0D0&center=true&vCenter=true&width=800&lines=MERN+Stack+%26+React+Native+Specialist;5%2B+Years+of+Professional+Experience;50%2B+Successfully+Delivered+Projects;Enterprise+Solutions+%26+Scalable+Architecture" alt="Professional Title" />
 
-<!-- Aesthetic Status Badges -->
-<p align="center">
-  <img src="https://img.shields.io/badge/💼_Status-Available_for_Projects-00ff88?style=for-the-badge&labelColor=1a1a2e&color=00ff88"/>
-  <img src="https://img.shields.io/badge/⚡_Response_Time-Under_12_Hours-ff6b6b?style=for-the-badge&labelColor=1a1a2e"/>
-  <img src="https://img.shields.io/badge/🌍_Timezone-UTC+5_(Flexible)-4ecdc4?style=for-the-badge&labelColor=1a1a2e"/>
-  <img src="https://komarev.com/ghpvc/?username=aftab-ahmad-khan-dev&style=for-the-badge&color=00d9ff&label=PROFILE+VIEWS"/>
-</p>
+<br>
 
-<!-- Quick Connect Bar -->
-<p align="center">
+<!-- Contact Information -->
+<p>
   <a href="mailto:dev.aftabahmadkhan@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335.svg?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail"/>
+    <img src="https://img.shields.io/badge/Email-dev.aftabahmadkhan%40gmail.com-5E81AC?style=flat&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="http://aftabahmadkhan.site">
-    <img src="https://img.shields.io/badge/Portfolio-255E63.svg?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-aftabahmadkhan.site-88C0D0?style=flat&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://linkedin.com/in/aftab-ahmad-khan">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Aftab%20Ahmad%20Khan-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://wa.me/your-number">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366.svg?style=for-the-badge&logo=WhatsApp&logoColor=white" alt="WhatsApp"/>
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=aftab-ahmad-khan-dev&style=flat&color=88C0D0&label=Profile+Views" alt="Profile Views" />
 </p>
 
 </div>
 
 ---
 
-<div align="center">
+## Professional Summary
 
-## 🎯 **Why Choose Me?**
+Senior Full-Stack Developer with over 5 years of experience specializing in MERN Stack and React Native development. Proven track record of delivering 50+ enterprise-grade applications across multiple industries. Currently serving as Technical Lead at Next Level Software, where I architect scalable solutions and mentor development teams.
 
-</div>
-
-<table>
-<tr>
-<td width="33%" align="center">
-<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="120">
-<h3>🚀 Results-Driven</h3>
-<p><b>50+ Projects</b> completed<br>100% client satisfaction<br>Zero missed deadlines</p>
-</td>
-<td width="33%" align="center">
-<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="120">
-<h3>⚡ Full-Stack Mastery</h3>
-<p>MERN Stack Expert<br>React Native Pro<br>Enterprise Architecture</p>
-</td>
-<td width="33%" align="center">
-<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="120">
-<h3>🎖️ Team Leadership</h3>
-<p>Technical Lead<br>20+ Developers Mentored<br>Agile/Scrum Expert</p>
-</td>
-</tr>
-</table>
+**Core Competencies:** Full-Stack Development • Mobile Applications • System Architecture • Team Leadership • Client Relations • Technical Mentoring
 
 ---
 
-<div align="center">
+## Technical Expertise
 
-## 🛠️ **Technology Arsenal**
+### Frontend Development
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Material-UI](https://img.shields.io/badge/Material--UI-0081CB?style=flat&logo=material-ui&logoColor=white)
 
-</div>
+### Backend Development
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=flat&logo=ruby-on-rails&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
 
-<table width="100%">
-<tr>
-<td valign="top" width="50%">
+### Database & Tools
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
-### **Frontend Mastery**
-```javascript
-const frontend = {
-  expert: ["React", "Next.js", "TypeScript"],
-  styling: ["Tailwind CSS", "Material-UI", "Styled-Components"],
-  mobile: ["React Native", "Expo"],
-  state: ["Redux", "Context API", "Zustand"],
-  tools: ["Webpack", "Vite", "Babel"]
-};
-```
-
-**UI/UX Excellence:**
-- Responsive & Mobile-First Design
-- Performance Optimization (Lighthouse 95+)
-- Accessibility Standards (WCAG 2.1)
-- Cross-Browser Compatibility
-
-</td>
-<td valign="top" width="50%">
-
-### **Backend Expertise**
-```javascript
-const backend = {
-  runtime: ["Node.js", "Express.js"],
-  frameworks: ["Ruby on Rails", "Django"],
-  databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
-  apis: ["RESTful", "GraphQL", "WebSocket"],
-  auth: ["JWT", "OAuth2", "Passport.js"]
-};
-```
-
-**Infrastructure:**
-- AWS (EC2, S3, Lambda, RDS)
-- Docker & Kubernetes
-- CI/CD Pipelines (GitHub Actions)
-- Microservices Architecture
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-### **Tech Stack Visualization**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,mongodb,postgresql,typescript,javascript,tailwind,redux,firebase,aws,docker,git,github,vscode,figma,postman&perline=9" />
-
-</div>
+### Mobile Development
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)
+![iOS](https://img.shields.io/badge/iOS-000000?style=flat&logo=ios&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)
 
 ---
 
-<div align="center">
+## Professional Experience
 
-## 📊 **GitHub Analytics**
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=aftab-ahmad-khan-dev&theme=tokyonight&hide_border=true&background=0D1117&stroke=00d9ff&ring=00d9ff&fire=ff6b6b&currStreakLabel=00d9ff" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00d9ff&text_color=c9d1d9&langs_count=8" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=aftabahmadkhan&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00d9ff&text_color=c9d1d9&layout=compact" />
-
-<!-- Activity Graph -->
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=aftab-ahmad-khan-dev&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00d9ff&line=00d9ff&point=ff6b6b&area=true&custom_title=Contribution%20Activity%20Timeline" />
-
-<!-- Trophy Showcase -->
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=aftab-ahmad-khan-dev&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=8&row=1" />
-
-</div>
-
----
-
-<div align="center">
-
-## 💼 **Professional Experience**
-
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-### **🏢 Next Level Software**
 **Senior Full-Stack Developer & Technical Lead**  
-*2022 - Present | Faisalabad, Pakistan*
+*Next Level Software | 2022 - Present*
 
-**Key Responsibilities:**
-- 🎯 Lead cross-functional teams (3-5 developers)
-- 🏗️ Design scalable system architectures
-- 📈 Deliver enterprise-grade applications
-- 👨‍🏫 Mentor junior/mid-level developers
-- 🤝 Direct client communication & consulting
-- ✅ Code reviews & quality assurance
+- Lead development teams of 3-5 developers on enterprise-level projects
+- Design and implement scalable system architectures for web and mobile applications
+- Conduct code reviews and establish development best practices
+- Collaborate directly with clients to understand requirements and provide technical consultation
+- Mentor junior and mid-level developers, resulting in improved team performance
+- Manage project timelines and ensure on-time delivery of all assignments
 
-**Achievements:**
-- Reduced deployment time by 60% using CI/CD
-- Improved app performance by 45% through optimization
-- Successfully delivered 35+ projects on time
-
-</td>
-<td width="50%">
-
-### **📊 Project Portfolio**
-
-| Category | Count | Technologies |
-|----------|-------|--------------|
-| 🛒 E-Commerce | 15+ | MERN, Stripe, PayPal |
-| 📱 PWA | 12+ | React , Firebase |
-| 🏢 Enterprise | 8+ | Node.js, PostgreSQL |
-| ☁️ SaaS Platforms | 10+ | Next.js, MongoDB |
-| 🎨 Landing Pages | 20+ | React, Tailwind CSS |
-
-**Industries Served:**
-- FinTech & Banking
-- Healthcare & Telemedicine
-- E-Learning Platforms
-- Real Estate Management
-- Social Networking
-- Food Delivery Services
-
-</td>
-</tr>
-</table>
+**Key Achievements:**
+- Successfully delivered 50+ projects with 100% client satisfaction rating
+- Reduced application load times by an average of 40% through performance optimization
+- Implemented CI/CD pipelines reducing deployment time by 60%
+- Built and scaled applications serving 100,000+ users
 
 ---
 
-<div align="center">
+## Project Portfolio
 
-## 🎯 **Services & Expertise**
+| Category | Projects Delivered | Key Technologies |
+|----------|-------------------|------------------|
+| E-Commerce Platforms | 15+ | MERN Stack, Payment Gateway Integration, Admin Dashboards |
+| Mobile Applications | 12+ | React Native, Firebase, Push Notifications, In-App Purchases |
+| Enterprise Solutions | 8+ | Node.js, PostgreSQL, Microservices, RESTful APIs |
+| SaaS Products | 10+ | Next.js, MongoDB, Authentication Systems, Subscription Management |
+| Custom Web Applications | 20+ | Full-Stack Solutions, Database Design, Third-Party Integrations |
 
-</div>
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### **🌐 Web Development**
-
-- ✅ Custom Web Applications
-- ✅ E-Commerce Solutions
-- ✅ Admin Dashboards
-- ✅ SaaS Platforms
-- ✅ API Development
-- ✅ Database Design
-- ✅ Performance Optimization
-- ✅ Security Implementation
-
-**Starting from $25/hour**
-
-</td>
-<td width="33%" align="center">
-
-### **📱 Mobile Development**
-
-- ✅ iOS & Android Apps
-- ✅ Cross-Platform Solutions
-- ✅ UI/UX Design
-- ✅ Push Notifications
-- ✅ In-App Purchases
-- ✅ Real-Time Features
-- ✅ App Store Deployment
-- ✅ Maintenance & Updates
-
-**Starting from $30/hour**
-
-</td>
-<td width="33%" align="center">
-
-### **🎓 Technical Consulting**
-
-- ✅ Architecture Planning
-- ✅ Code Audits
-- ✅ Performance Analysis
-- ✅ Technology Selection
-- ✅ Team Training
-- ✅ Project Management
-- ✅ DevOps Setup
-- ✅ Documentation
-
-**Starting from $50/hour**
-
-</td>
-</tr>
-</table>
+**Industries Served:** FinTech • Healthcare • E-Learning • Real Estate • Food Delivery • Social Media
 
 ---
 
-<div align="center">
-
-## 🏆 **Achievements & Recognition**
-
-</div>
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Projects-50+-00ff88?style=for-the-badge&logo=rocket&logoColor=white"/>
-<br><b>Delivered</b>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Satisfaction-100%25-ff6b6b?style=for-the-badge&logo=star&logoColor=white"/>
-<br><b>Client Rating</b>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Experience-5%2B%20Years-4ecdc4?style=for-the-badge&logo=calendar&logoColor=white"/>
-<br><b>Professional</b>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/Mentored-20%2B-a06cd5?style=for-the-badge&logo=users&logoColor=white"/>
-<br><b>Developers</b>
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="50%">
-
-### **📈 Impact Metrics**
-
-- 💰 **$2M+** in client revenue generated
-- 📱 **100K+** app downloads
-- ⚡ **45%** average performance improvement
-- 🌍 **15+** countries served
-- ⭐ **4.9/5.0** average project rating
-- 🔄 **85%** client retention rate
-
-</td>
-<td width="50%">
-
-### **🎖️ Certifications & Skills**
-
-- ✅ AWS Certified Developer
-- ✅ MongoDB Certified Developer
-- ✅ Agile & Scrum Methodology
-- ✅ Git & Version Control Expert
-- ✅ RESTful API Design
-- ✅ Security Best Practices
-
-</td>
-</tr>
-</table>
-
----
+## GitHub Statistics
 
 <div align="center">
 
-## 🌟 **What Clients Say**
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=nord&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&theme=nord&hide_border=true" alt="Top Languages"/>
 
-</div>
-
-> *"Aftab delivered our MVP 2 weeks ahead of schedule. His technical expertise and communication skills are outstanding. Highly recommended for complex full-stack projects!"*  
-> **— Michael R., USA** (E-Commerce Platform)
-
-> *"Working with Aftab was a pleasure. He understood our requirements perfectly and delivered a scalable solution that handles 10K+ concurrent users."*  
-> **— Sarah L., UK** (SaaS Application)
-
-> *"Best React Native developer we've worked with. The app runs smoothly on both iOS and Android, and the code quality is exceptional."*  
-> **— Ahmed K., UAE** (Mobile App Development)
-
----
-
-<div align="center">
-
-## 📫 **Let's Build Something Amazing**
-
-</div>
-
-<table>
-<tr>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/fluency/96/000000/mail.png" width="60"/>
-<h4>📧 Email Me</h4>
-<a href="mailto:dev.aftabahmadkhan@gmail.com">dev.aftabahmadkhan@gmail.com</a>
-<br><sub>Response within 12 hours</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/fluency/96/000000/globe.png" width="60"/>
-<h4>🌐 Portfolio</h4>
-<a href="http://aftabahmadkhan.site">aftabahmadkhan.site</a>
-<br><sub>View case studies & demos</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://img.icons8.com/fluency/96/000000/linkedin.png" width="60"/>
-<h4>💼 LinkedIn</h4>
-<a href="https://linkedin.com/in/aftab-ahmad-khan">Connect with me</a>
-<br><sub>Professional network</sub>
-</td>
-</tr>
-</table>
-
-<br>
-
-<div align="center">
-
-### **🎯 Ready to Start Your Project?**
-
-<a href="mailto:dev.aftabahmadkhan@gmail.com?subject=Project%20Inquiry%20from%20GitHub&body=Hi%20Aftab,%0D%0A%0D%0AI'm%20interested%20in%20discussing%20a%20project.%0D%0A%0D%0AProject%20Type:%20%0D%0ABudget:%20%0D%0ATimeline:%20%0D%0A%0D%0ALooking%20forward%20to%20hearing%20from%20you!">
-  <img src="https://img.shields.io/badge/📧%20Get%20Free%20Consultation-Start%20Project-00ff88?style=for-the-badge&labelColor=1a1a2e&color=00ff88" />
-</a>
-<a href="http://aftabahmadkhan.site">
-  <img src="https://img.shields.io/badge/📂%20View%20Portfolio-Case%20Studies-4ecdc4?style=for-the-badge&labelColor=1a1a2e&color=4ecdc4" />
-</a>
+<img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=aftab-ahmad-khan-dev&theme=nord&hide_border=true" alt="GitHub Streak"/>
 
 </div>
 
 ---
 
-<div align="center">
+## Services Offered
 
-**💡 Available For:**
-`Freelance Projects` • `Long-term Contracts` • `Technical Consulting` • `Team Augmentation`
+**Full-Stack Web Development**
+- Custom web application development using MERN stack
+- RESTful API design and implementation
+- Database architecture and optimization
+- Third-party service integration
+- Performance optimization and security implementation
 
-**⚡ Current Focus:**
-`Enterprise Applications` • `Scalable Architecture` • `Performance Optimization` • `Team Leadership`
+**Mobile Application Development**
+- Cross-platform mobile apps using React Native
+- Native iOS and Android development
+- App Store and Google Play deployment
+- Push notifications and real-time features
+- Backend integration and API consumption
+
+**Technical Consulting & Leadership**
+- System architecture planning and design
+- Code review and quality assurance
+- Technology stack evaluation and selection
+- Team training and mentorship
+- Project management and agile methodology implementation
 
 ---
 
-<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
+## Professional Metrics
 
-<br>
+<div align="center">
 
-**"Transforming complex requirements into elegant, scalable solutions"**
+| Metric | Value |
+|--------|-------|
+| Years of Experience | 5+ |
+| Projects Completed | 50+ |
+| Client Satisfaction | 100% |
+| Team Members Mentored | 20+ |
+| Countries Served | 15+ |
+| Average Response Time | Under 24 hours |
 
-<sub>⭐ Star this profile if you find it helpful • 🔔 Follow for updates • 📬 Always open to interesting projects</sub>
+</div>
 
-<br>
+---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,27&height=100&section=footer"/>
+## Contact Information
+
+I am currently available for new projects and long-term collaborations. Whether you need a full-stack developer for your startup, technical leadership for your team, or consultation on your next big project, I would be happy to discuss how I can help.
+
+**Professional Channels:**
+- 📧 Email: dev.aftabahmadkhan@gmail.com
+- 🌐 Portfolio: http://aftabahmadkhan.site
+- 💼 LinkedIn: https://linkedin.com/in/aftab-ahmad-khan
+
+**Location:** Faisalabad, Pakistan  
+**Working Hours:** Flexible (UTC+5)  
+**Availability:** Open for projects starting January 2025
+
+---
+
+<div align="center">
+
+*Building scalable, efficient, and maintainable solutions for businesses worldwide*
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2E3440,100:4C566A&height=100&section=footer"/>
 
 </div>
