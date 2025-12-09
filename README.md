@@ -101,27 +101,6 @@ Senior Full-Stack Developer with over 5 years of experience specializing in MERN
 
 **Industries Served:** FinTech • Healthcare • E-Learning • Real Estate • Food Delivery • Social Media
 
----
-
-## GitHub Statistics
-
-<div align="center">
-
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=nord&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
-</a>
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&theme=nord&hide_border=true" alt="Top Languages"/>
-</a>
-
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=aftab-ahmad-khan-dev&theme=nord&hide_border=true" alt="GitHub Streak"/>
-</a>
-
-</div>
-
----
-
 ## Services Offered
 
 **Full-Stack Web Development**
