@@ -152,7 +152,7 @@ I am currently available for new projects and long-term collaborations. Whether 
 - 🌐 Portfolio: http://aftabahmadkhan.site
 - 💼 LinkedIn: https://linkedin.com/in/aftab-ahmad-khan
 
-**Location:** Faisalabad, Pakistan  
+**Location:** Multan, Pakistan  
 **Working Hours:** Flexible (UTC+5)  
 **Availability:** Open for projects
 
