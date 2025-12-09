@@ -28,7 +28,7 @@
 
 ## Professional Summary
 
-Senior Full-Stack Developer with over 5 years of experience specializing in MERN Stack and React Native development. Proven track record of delivering 50+ enterprise-grade applications across multiple industries. Currently serving as Project Manager at Next Level Software, where I architect scalable solutions and mentor development teams.
+Senior Full-Stack Developer with over 7+ years of experience specializing in MERN Stack and React Native development. Proven track record of delivering 50+ enterprise-grade applications across multiple industries. Currently serving as Project Manager at Next Level Software, where I architect scalable solutions and mentor development teams.
 
 **Core Competencies:** Full-Stack Development • Mobile Applications • System Architecture • Team Leadership • Client Relations • Technical Mentoring
 
