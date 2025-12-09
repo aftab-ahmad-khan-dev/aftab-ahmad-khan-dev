@@ -107,10 +107,16 @@ Senior Full-Stack Developer with over 5 years of experience specializing in MERN
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=nord&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&theme=nord&hide_border=true" alt="Top Languages"/>
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=nord&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats"/>
+</a>
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&theme=nord&hide_border=true" alt="Top Languages"/>
+</a>
 
-<img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=aftab-ahmad-khan-dev&theme=nord&hide_border=true" alt="GitHub Streak"/>
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=aftab-ahmad-khan-dev&theme=nord&hide_border=true" alt="GitHub Streak"/>
+</a>
 
 </div>
 
