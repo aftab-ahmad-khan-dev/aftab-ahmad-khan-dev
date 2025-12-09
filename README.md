@@ -154,7 +154,7 @@ I am currently available for new projects and long-term collaborations. Whether 
 
 **Location:** Faisalabad, Pakistan  
 **Working Hours:** Flexible (UTC+5)  
-**Availability:** Open for projects starting January 2025
+**Availability:** Open for projects
 
 ---
 
