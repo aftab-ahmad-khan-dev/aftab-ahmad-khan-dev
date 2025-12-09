@@ -72,9 +72,9 @@ Senior Full-Stack Developer with over 7+ years of experience specializing in MER
 ## Professional Experience
 
 **Senior Full-Stack Developer & Project Manager**  
-*Next Level Software | 2022 - Present*
+*Next Level Software | 2024 - Present*
 
-- Lead development teams of 3-5 developers on enterprise-level projects
+- Lead development teams of 20-25 developers on enterprise-level projects
 - Design and implement scalable system architectures for web and mobile applications
 - Conduct code reviews and establish development best practices
 - Collaborate directly with clients to understand requirements and provide technical consultation
