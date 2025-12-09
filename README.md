@@ -143,8 +143,6 @@ Senior Full-Stack Developer with over 7+ years of experience specializing in MER
 
 ---
 
-## Contact Information
-
 I am currently available for new projects and long-term collaborations. Whether you need a full-stack developer for your startup, technical leadership for your team, or consultation on your next big project, I would be happy to discuss how I can help.
 
 
