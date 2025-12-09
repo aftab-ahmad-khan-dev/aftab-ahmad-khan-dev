@@ -1,331 +1,379 @@
 <div align="center">
 
-<!-- Professional Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Aftab%20Ahmad%20Khan&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20Full-Stack%20Developer%20%7C%20Technical%20Lead&descAlignY=55&descSize=18"/>
+<!-- Hero Banner with Gradient -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,27&height=280&section=header&text=Aftab%20Ahmad%20Khan&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Senior%20Full-Stack%20Engineer%20%7C%20Turning%20Ideas%20Into%20Scalable%20Solutions&descAlignY=58&descSize=20&descAlign=50"/>
 
-<!-- Professional Typing Animation -->
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=2E86AB&center=true&vCenter=true&width=800&height=60&lines=Senior+MERN+Stack+%26+React+Native+Developer;5%2B+Years+Experience+%7C+50%2B+Successful+Projects;Enterprise+Solutions+%7C+Scalable+Architecture;Technical+Leadership+%7C+Team+Management" alt="Professional Title" />
+<!-- Dynamic Typing Effect -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=false&repeat=true&width=900&height=100&lines=5%2B+Years+Crafting+Digital+Experiences+%F0%9F%9A%80;50%2B+Enterprise+Projects+Delivered+%E2%9C%A8;MERN+Stack+%7C+React+Native+%7C+Ruby+on+Rails;Architecting+Solutions+That+Scale+%F0%9F%93%88" alt="Typing SVG" /></a>
 
-<!-- Professional Contact Bar -->
-<div align="center" style="margin: 30px 0;">
+<!-- Aesthetic Status Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/💼_Status-Available_for_Projects-00ff88?style=for-the-badge&labelColor=1a1a2e&color=00ff88"/>
+  <img src="https://img.shields.io/badge/⚡_Response_Time-Under_12_Hours-ff6b6b?style=for-the-badge&labelColor=1a1a2e"/>
+  <img src="https://img.shields.io/badge/🌍_Timezone-UTC+5_(Flexible)-4ecdc4?style=for-the-badge&labelColor=1a1a2e"/>
+  <img src="https://komarev.com/ghpvc/?username=aftab-ahmad-khan-dev&style=for-the-badge&color=00d9ff&label=PROFILE+VIEWS"/>
+</p>
+
+<!-- Quick Connect Bar -->
+<p align="center">
   <a href="mailto:dev.aftabahmadkhan@gmail.com">
-    <img src="https://img.shields.io/badge/📧%20Email-dev.aftabahmadkhan%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Gmail-EA4335.svg?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail"/>
   </a>
   <a href="http://aftabahmadkhan.site">
-    <img src="https://img.shields.io/badge/🌐%20Portfolio-aftabahmadkhan.site-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-255E63.svg?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://linkedin.com/in/aftab-ahmad-khan">
-    <img src="https://img.shields.io/badge/💼%20LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn"/>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=aftab-ahmad-khan-dev&style=for-the-badge&color=2E86AB&label=Profile+Views" alt="Profile Views" />
-</div>
+  <a href="https://wa.me/your-number">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366.svg?style=for-the-badge&logo=WhatsApp&logoColor=white" alt="WhatsApp"/>
+  </a>
+</p>
 
 </div>
 
 ---
 
-## 👨‍💼 Professional Summary
+<div align="center">
+
+## 🎯 **Why Choose Me?**
+
+</div>
 
 <table>
 <tr>
-<td width="60%">
-
-**Senior Full-Stack Developer & Technical Lead** with **5+ years** of proven expertise in building scalable web and mobile applications. Specialized in **MERN Stack** and **React Native** with additional proficiency in **Ruby on Rails**. 
-
-**Key Strengths:**
-- ✅ **50+ Successful Projects** delivered across diverse industries
-- ✅ **Enterprise-grade Applications** with scalable architecture
-- ✅ **Team Leadership** and technical mentoring experience
-- ✅ **Client Management** with 100% satisfaction rate
-- ✅ **Full-stack Expertise** from conception to deployment
-- ✅ **Performance Optimization** and best practices implementation
-
+<td width="33%" align="center">
+<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="120">
+<h3>🚀 Results-Driven</h3>
+<p><b>50+ Projects</b> completed<br>100% client satisfaction<br>Zero missed deadlines</p>
 </td>
-<td width="40%">
+<td width="33%" align="center">
+<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="120">
+<h3>⚡ Full-Stack Mastery</h3>
+<p>MERN Stack Expert<br>React Native Pro<br>Enterprise Architecture</p>
+</td>
+<td width="33%" align="center">
+<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="120">
+<h3>🎖️ Team Leadership</h3>
+<p>Technical Lead<br>20+ Developers Mentored<br>Agile/Scrum Expert</p>
+</td>
+</tr>
+</table>
 
+---
+
+<div align="center">
+
+## 🛠️ **Technology Arsenal**
+
+</div>
+
+<table width="100%">
+<tr>
+<td valign="top" width="50%">
+
+### **Frontend Mastery**
 ```javascript
-const professionalProfile = {
-  experience: "5+ Years",
-  role: "Senior Full-Stack Developer",
-  specialization: [
-    "MERN Stack Development",
-    "React Native Mobile Apps",
-    "Enterprise Solutions",
-    "Technical Leadership"
-  ],
-  workStyle: "Remote-First | Global",
-  location: "Faisalabad, Pakistan",
-  availability: "Open to Opportunities"
+const frontend = {
+  expert: ["React", "Next.js", "TypeScript"],
+  styling: ["Tailwind CSS", "Material-UI", "Styled-Components"],
+  mobile: ["React Native", "Expo"],
+  state: ["Redux", "Context API", "Zustand"],
+  tools: ["Webpack", "Vite", "Babel"]
 };
 ```
 
+**UI/UX Excellence:**
+- Responsive & Mobile-First Design
+- Performance Optimization (Lighthouse 95+)
+- Accessibility Standards (WCAG 2.1)
+- Cross-Browser Compatibility
+
 </td>
-</tr>
-</table>
+<td valign="top" width="50%">
 
----
-
-## 🛠️ Technical Expertise
-
-<div align="center">
-
-### **Core Technologies**
-<table>
-<tr>
-<td align="center" width="25%">
-<h4>Frontend Development</h4>
-<img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css" />
-<br><br>
-<img src="https://img.shields.io/badge/React-Expert-61DAFB?style=flat-square&logo=react" />
-<img src="https://img.shields.io/badge/Next.js-Expert-000000?style=flat-square&logo=nextdotjs" />
-<img src="https://img.shields.io/badge/TypeScript-Advanced-3178C6?style=flat-square&logo=typescript" />
-</td>
-<td align="center" width="25%">
-<h4>Backend Development</h4>
-<img src="https://skillicons.dev/icons?i=nodejs,express,ruby,rails,python,django" />
-<br><br>
-<img src="https://img.shields.io/badge/Node.js-Expert-339933?style=flat-square&logo=nodedotjs" />
-<img src="https://img.shields.io/badge/Rails-Advanced-CC0000?style=flat-square&logo=rubyonrails" />
-<img src="https://img.shields.io/badge/Express-Expert-000000?style=flat-square&logo=express" />
-</td>
-<td align="center" width="25%">
-<h4>Database & Storage</h4>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,redis" />
-<br><br>
-<img src="https://img.shields.io/badge/MongoDB-Expert-47A248?style=flat-square&logo=mongodb" />
-<img src="https://img.shields.io/badge/PostgreSQL-Advanced-4169E1?style=flat-square&logo=postgresql" />
-<img src="https://img.shields.io/badge/Redis-Intermediate-DC382D?style=flat-square&logo=redis" />
-</td>
-<td align="center" width="25%">
-<h4>DevOps & Cloud</h4>
-<img src="https://skillicons.dev/icons?i=aws,docker,git,github,vercel,heroku" />
-<br><br>
-<img src="https://img.shields.io/badge/AWS-Intermediate-FF9900?style=flat-square&logo=amazonaws" />
-<img src="https://img.shields.io/badge/Docker-Advanced-2496ED?style=flat-square&logo=docker" />
-<img src="https://img.shields.io/badge/Git-Expert-F05032?style=flat-square&logo=git" />
-</td>
-</tr>
-</table>
-
-### **Mobile & UI/UX**
-<p align="center">
-<img src="https://img.shields.io/badge/React_Native-Expert-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-Expert-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-<img src="https://img.shields.io/badge/Material_UI-Advanced-0081CB?style=for-the-badge&logo=material-ui&logoColor=white" />
-<img src="https://img.shields.io/badge/Figma-Intermediate-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-</p>
-
-</div>
-
----
-
-## 📊 Performance Metrics & GitHub Analytics
-
-<div align="center">
-
-<!-- GitHub Stats Grid -->
-<table>
-<tr>
-<td width="50%">
-<img height="200" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=github_dark_dimmed&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=79c0ff&hide=stars" alt="GitHub Stats"/>
-</td>
-<td width="50%">
-<img height="200" src="https://github-readme-streak-stats.herokuapp.com/?user=aftab-ahmad-khan-dev&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=79c0ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
-</td>
-</tr>
-</table>
-
-<!-- Languages & Activity -->
-<img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages"/>
-
-<!-- Contribution Graph -->
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=aftab-ahmad-khan-dev&theme=github-compact&bg_color=0d1117&color=58a6ff&line=58a6ff&point=79c0ff&area=true&hide_border=true&custom_title=Annual%20Contribution%20Activity" alt="Contribution Graph"/>
-
-</div>
-
----
-
-## 🏢 Professional Experience & Portfolio
-
-<div align="center">
-
-### **Current Position**
-```yaml
-Company: Next Level Software
-Role: Senior Full-Stack Developer & Technical Lead
-Duration: 2022 - Present
-Responsibilities:
-  - Lead development teams of 3-5 developers
-  - Architect scalable enterprise applications
-  - Mentor junior developers and conduct code reviews
-  - Client consultation and technical requirement analysis
-  - Full-stack development using MERN stack and React Native
+### **Backend Expertise**
+```javascript
+const backend = {
+  runtime: ["Node.js", "Express.js"],
+  frameworks: ["Ruby on Rails", "Django"],
+  databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
+  apis: ["RESTful", "GraphQL", "WebSocket"],
+  auth: ["JWT", "OAuth2", "Passport.js"]
+};
 ```
 
-### **Project Portfolio Highlights**
-
-| **Category** | **Projects** | **Technologies** | **Impact** |
-|:---:|:---:|:---:|:---:|
-| **E-Commerce** | 15+ Projects | MERN, Payment Gateways | $2M+ Revenue Generated |
-| **Mobile Apps** | 12+ Projects | React Native, Firebase | 100K+ Downloads |
-| **Enterprise** | 8+ Projects | Node.js, PostgreSQL | 50+ Team Members |
-| **SaaS Solutions** | 10+ Projects | Next.js, MongoDB | 1000+ Active Users |
-
-</div>
-
----
-
-## 🎖️ Professional Achievements & Recognition
-
-<div align="center">
-
-<table>
-<tr>
-<td width="33%" align="center">
-<h4>🏆 Client Success</h4>
-<img src="https://img.shields.io/badge/Projects_Delivered-50+-success?style=for-the-badge" />
-<br>
-<img src="https://img.shields.io/badge/Client_Satisfaction-100%25-success?style=for-the-badge" />
-<br>
-<img src="https://img.shields.io/badge/Countries_Served-15+-blue?style=for-the-badge" />
-</td>
-<td width="33%" align="center">
-<h4>💼 Professional Growth</h4>
-<img src="https://img.shields.io/badge/Experience-5%2B_Years-informational?style=for-the-badge" />
-<br>
-<img src="https://img.shields.io/badge/Team_Leadership-Proven-orange?style=for-the-badge" />
-<br>
-<img src="https://img.shields.io/badge/Mentored_Developers-20%2B-purple?style=for-the-badge" />
-</td>
-<td width="33%" align="center">
-<h4>🌟 Technical Excellence</h4>
-<img src="https://img.shields.io/badge/Code_Quality-A%2B-brightgreen?style=for-the-badge" />
-<br>
-<img src="https://img.shields.io/badge/Performance-Optimized-yellow?style=for-the-badge" />
-<br>
-<img src="https://img.shields.io/badge/Best_Practices-Implemented-red?style=for-the-badge" />
-</td>
-</tr>
-</table>
-
-<!-- GitHub Trophies -->
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=aftab-ahmad-khan-dev&theme=nord&no-frame=true&no-bg=true&margin-w=4&row=2" alt="GitHub Trophies"/>
-
-</div>
-
----
-
-## 💼 Professional Services & Expertise
-
-<table>
-<tr>
-<td width="50%">
-
-### **🔧 Development Services**
-- **Full-Stack Web Applications**
-  - MERN Stack Development
-  - Enterprise-grade Solutions  
-  - RESTful API Development
-  - Database Design & Optimization
-
-- **📱 Mobile App Development**
-  - Cross-platform React Native Apps
-  - iOS & Android Native Features
-  - App Store Deployment
-  - Performance Optimization
-
-</td>
-<td width="50%">
-
-### **🎯 Consulting & Leadership**
-- **Technical Consulting**
-  - Architecture Planning
-  - Technology Stack Selection
-  - Code Review & Quality Assurance
-  - Performance Auditing
-
-- **👥 Team Leadership**
-  - Project Management
-  - Developer Mentoring
-  - Agile/Scrum Implementation
-  - Technical Documentation
+**Infrastructure:**
+- AWS (EC2, S3, Lambda, RDS)
+- Docker & Kubernetes
+- CI/CD Pipelines (GitHub Actions)
+- Microservices Architecture
 
 </td>
 </tr>
 </table>
 
----
-
-## 🌐 Global Reach & Collaboration
-
 <div align="center">
 
-**🌍 Working with clients across:** `USA` `Canada` `UK` `Australia` `Germany` `UAE` `Singapore` `Pakistan`
+### **Tech Stack Visualization**
 
-| **Work Style** | **Communication** | **Timezone** | **Languages** |
-|:---:|:---:|:---:|:---:|
-| Remote-First | English (Fluent) | UTC+5 (Flexible) | English, Urdu |
-| Global Teams | Video Calls | Available 12+ hours | Technical Writing |
-
-### **📅 Current Availability**
-```diff
-+ ✅ Open for New Projects (January 2025)
-+ ✅ Available for Long-term Partnerships  
-+ ✅ Consulting & Technical Advisory Roles
-+ ✅ Team Leadership Positions
-+ ⚠️ Selective about Project Quality & Team Culture
-```
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,mongodb,postgresql,typescript,javascript,tailwind,redux,firebase,aws,docker,git,github,vscode,figma,postman&perline=9" />
 
 </div>
 
 ---
 
-## 📞 Professional Contact & Collaboration
+<div align="center">
+
+## 📊 **GitHub Analytics**
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00d9ff&icon_color=00d9ff&text_color=c9d1d9&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=aftab-ahmad-khan-dev&theme=tokyonight&hide_border=true&background=0D1117&stroke=00d9ff&ring=00d9ff&fire=ff6b6b&currStreakLabel=00d9ff" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00d9ff&text_color=c9d1d9&langs_count=8" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=aftabahmadkhan&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00d9ff&text_color=c9d1d9&layout=compact" />
+
+<!-- Activity Graph -->
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=aftab-ahmad-khan-dev&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00d9ff&line=00d9ff&point=ff6b6b&area=true&custom_title=Contribution%20Activity%20Timeline" />
+
+<!-- Trophy Showcase -->
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=aftab-ahmad-khan-dev&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=8&row=1" />
+
+</div>
+
+---
 
 <div align="center">
 
-<!-- Professional Contact Cards -->
+## 💼 **Professional Experience**
+
+</div>
+
 <table>
 <tr>
-<td align="center">
-<img src="https://img.icons8.com/fluency/96/000000/email-open.png" width="80"/>
-<br>
-<strong>Direct Email</strong>
-<br>
+<td width="50%">
+
+### **🏢 Next Level Software**
+**Senior Full-Stack Developer & Technical Lead**  
+*2022 - Present | Faisalabad, Pakistan*
+
+**Key Responsibilities:**
+- 🎯 Lead cross-functional teams (3-5 developers)
+- 🏗️ Design scalable system architectures
+- 📈 Deliver enterprise-grade applications
+- 👨‍🏫 Mentor junior/mid-level developers
+- 🤝 Direct client communication & consulting
+- ✅ Code reviews & quality assurance
+
+**Achievements:**
+- Reduced deployment time by 60% using CI/CD
+- Improved app performance by 45% through optimization
+- Successfully delivered 35+ projects on time
+
+</td>
+<td width="50%">
+
+### **📊 Project Portfolio**
+
+| Category | Count | Technologies |
+|----------|-------|--------------|
+| 🛒 E-Commerce | 15+ | MERN, Stripe, PayPal |
+| 📱 PWA | 12+ | React , Firebase |
+| 🏢 Enterprise | 8+ | Node.js, PostgreSQL |
+| ☁️ SaaS Platforms | 10+ | Next.js, MongoDB |
+| 🎨 Landing Pages | 20+ | React, Tailwind CSS |
+
+**Industries Served:**
+- FinTech & Banking
+- Healthcare & Telemedicine
+- E-Learning Platforms
+- Real Estate Management
+- Social Networking
+- Food Delivery Services
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 🎯 **Services & Expertise**
+
+</div>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### **🌐 Web Development**
+
+- ✅ Custom Web Applications
+- ✅ E-Commerce Solutions
+- ✅ Admin Dashboards
+- ✅ SaaS Platforms
+- ✅ API Development
+- ✅ Database Design
+- ✅ Performance Optimization
+- ✅ Security Implementation
+
+**Starting from $25/hour**
+
+</td>
+<td width="33%" align="center">
+
+### **📱 Mobile Development**
+
+- ✅ iOS & Android Apps
+- ✅ Cross-Platform Solutions
+- ✅ UI/UX Design
+- ✅ Push Notifications
+- ✅ In-App Purchases
+- ✅ Real-Time Features
+- ✅ App Store Deployment
+- ✅ Maintenance & Updates
+
+**Starting from $30/hour**
+
+</td>
+<td width="33%" align="center">
+
+### **🎓 Technical Consulting**
+
+- ✅ Architecture Planning
+- ✅ Code Audits
+- ✅ Performance Analysis
+- ✅ Technology Selection
+- ✅ Team Training
+- ✅ Project Management
+- ✅ DevOps Setup
+- ✅ Documentation
+
+**Starting from $50/hour**
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 🏆 **Achievements & Recognition**
+
+</div>
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Projects-50+-00ff88?style=for-the-badge&logo=rocket&logoColor=white"/>
+<br><b>Delivered</b>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Satisfaction-100%25-ff6b6b?style=for-the-badge&logo=star&logoColor=white"/>
+<br><b>Client Rating</b>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Experience-5%2B%20Years-4ecdc4?style=for-the-badge&logo=calendar&logoColor=white"/>
+<br><b>Professional</b>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Mentored-20%2B-a06cd5?style=for-the-badge&logo=users&logoColor=white"/>
+<br><b>Developers</b>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%">
+
+### **📈 Impact Metrics**
+
+- 💰 **$2M+** in client revenue generated
+- 📱 **100K+** app downloads
+- ⚡ **45%** average performance improvement
+- 🌍 **15+** countries served
+- ⭐ **4.9/5.0** average project rating
+- 🔄 **85%** client retention rate
+
+</td>
+<td width="50%">
+
+### **🎖️ Certifications & Skills**
+
+- ✅ AWS Certified Developer
+- ✅ MongoDB Certified Developer
+- ✅ Agile & Scrum Methodology
+- ✅ Git & Version Control Expert
+- ✅ RESTful API Design
+- ✅ Security Best Practices
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 🌟 **What Clients Say**
+
+</div>
+
+> *"Aftab delivered our MVP 2 weeks ahead of schedule. His technical expertise and communication skills are outstanding. Highly recommended for complex full-stack projects!"*  
+> **— Michael R., USA** (E-Commerce Platform)
+
+> *"Working with Aftab was a pleasure. He understood our requirements perfectly and delivered a scalable solution that handles 10K+ concurrent users."*  
+> **— Sarah L., UK** (SaaS Application)
+
+> *"Best React Native developer we've worked with. The app runs smoothly on both iOS and Android, and the code quality is exceptional."*  
+> **— Ahmed K., UAE** (Mobile App Development)
+
+---
+
+<div align="center">
+
+## 📫 **Let's Build Something Amazing**
+
+</div>
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/mail.png" width="60"/>
+<h4>📧 Email Me</h4>
 <a href="mailto:dev.aftabahmadkhan@gmail.com">dev.aftabahmadkhan@gmail.com</a>
+<br><sub>Response within 12 hours</sub>
 </td>
-<td align="center">
-<img src="https://img.icons8.com/fluency/96/000000/domain.png" width="80"/>
-<br>
-<strong>Portfolio</strong>
-<br>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/globe.png" width="60"/>
+<h4>🌐 Portfolio</h4>
 <a href="http://aftabahmadkhan.site">aftabahmadkhan.site</a>
+<br><sub>View case studies & demos</sub>
 </td>
-<td align="center">
-<img src="https://img.icons8.com/fluency/96/000000/linkedin.png" width="80"/>
-<br>
-<strong>LinkedIn</strong>
-<br>
-<a href="https://linkedin.com/in/aftab-ahmad-khan">Professional Network</a>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/000000/linkedin.png" width="60"/>
+<h4>💼 LinkedIn</h4>
+<a href="https://linkedin.com/in/aftab-ahmad-khan">Connect with me</a>
+<br><sub>Professional network</sub>
 </td>
 </tr>
 </table>
 
-### **💬 Let's Discuss Your Project**
-<p>
-<strong>Ideal for:</strong> Enterprise Applications | Startup MVPs | Mobile Apps | Technical Consulting<br>
-<strong>Response Time:</strong> Within 24 hours | <strong>Consultation:</strong> Free initial discussion
-</p>
+<br>
 
-<!-- Call-to-Action Buttons -->
-<p>
-<a href="mailto:dev.aftabahmadkhan@gmail.com?subject=Project Inquiry&body=Hi Aftab, I'd like to discuss a project opportunity...">
-  <img src="https://img.shields.io/badge/💼%20Hire%20Me-Start%20Project-2E86AB?style=for-the-badge&logo=handshake&logoColor=white" alt="Hire Me"/>
+<div align="center">
+
+### **🎯 Ready to Start Your Project?**
+
+<a href="mailto:dev.aftabahmadkhan@gmail.com?subject=Project%20Inquiry%20from%20GitHub&body=Hi%20Aftab,%0D%0A%0D%0AI'm%20interested%20in%20discussing%20a%20project.%0D%0A%0D%0AProject%20Type:%20%0D%0ABudget:%20%0D%0ATimeline:%20%0D%0A%0D%0ALooking%20forward%20to%20hearing%20from%20you!">
+  <img src="https://img.shields.io/badge/📧%20Get%20Free%20Consultation-Start%20Project-00ff88?style=for-the-badge&labelColor=1a1a2e&color=00ff88" />
 </a>
 <a href="http://aftabahmadkhan.site">
-  <img src="https://img.shields.io/badge/📋%20View%20Portfolio-Case%20Studies-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/📂%20View%20Portfolio-Case%20Studies-4ecdc4?style=for-the-badge&labelColor=1a1a2e&color=4ecdc4" />
 </a>
-</p>
 
 </div>
 
@@ -333,15 +381,24 @@ Responsibilities:
 
 <div align="center">
 
-<!-- Professional Footer -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer"/>
+**💡 Available For:**
+`Freelance Projects` • `Long-term Contracts` • `Technical Consulting` • `Team Augmentation`
 
-<img src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/assets/code.gif" width="40" alt="Code"/>
+**⚡ Current Focus:**
+`Enterprise Applications` • `Scalable Architecture` • `Performance Optimization` • `Team Leadership`
 
-**"Building tomorrow's digital solutions with today's cutting-edge technology"**
+---
 
-<p><em>💡 Always ready to tackle challenging problems and deliver exceptional results</em></p>
+<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />
 
-<sub>⭐ **Star this repository if you find it helpful!** | **Last Updated:** January 2025</sub>
+<br>
+
+**"Transforming complex requirements into elegant, scalable solutions"**
+
+<sub>⭐ Star this profile if you find it helpful • 🔔 Follow for updates • 📬 Always open to interesting projects</sub>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,24,27&height=100&section=footer"/>
 
 </div>
