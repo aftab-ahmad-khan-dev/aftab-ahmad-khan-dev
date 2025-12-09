@@ -147,10 +147,6 @@ Senior Full-Stack Developer with over 7+ years of experience specializing in MER
 
 I am currently available for new projects and long-term collaborations. Whether you need a full-stack developer for your startup, technical leadership for your team, or consultation on your next big project, I would be happy to discuss how I can help.
 
-**Professional Channels:**
-- 📧 Email: dev.aftabahmadkhan@gmail.com
-- 🌐 Portfolio: http://aftabahmadkhan.site
-- 💼 LinkedIn: https://linkedin.com/in/aftab-ahmad-khan
 
 **Location:** Multan, Pakistan  
 **Working Hours:** Flexible (UTC+5)  
