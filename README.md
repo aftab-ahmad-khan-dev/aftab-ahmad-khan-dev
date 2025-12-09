@@ -28,7 +28,7 @@
 
 ## Professional Summary
 
-Senior Full-Stack Developer with over 5 years of experience specializing in MERN Stack and React Native development. Proven track record of delivering 50+ enterprise-grade applications across multiple industries. Currently serving as Technical Lead at Next Level Software, where I architect scalable solutions and mentor development teams.
+Senior Full-Stack Developer with over 5 years of experience specializing in MERN Stack and React Native development. Proven track record of delivering 50+ enterprise-grade applications across multiple industries. Currently serving as Project Manager at Next Level Software, where I architect scalable solutions and mentor development teams.
 
 **Core Competencies:** Full-Stack Development • Mobile Applications • System Architecture • Team Leadership • Client Relations • Technical Mentoring
 
@@ -71,7 +71,7 @@ Senior Full-Stack Developer with over 5 years of experience specializing in MERN
 
 ## Professional Experience
 
-**Senior Full-Stack Developer & Technical Lead**  
+**Senior Full-Stack Developer & Project Manager**  
 *Next Level Software | 2022 - Present*
 
 - Lead development teams of 3-5 developers on enterprise-level projects
@@ -94,7 +94,7 @@ Senior Full-Stack Developer with over 5 years of experience specializing in MERN
 | Category | Projects Delivered | Key Technologies |
 |----------|-------------------|------------------|
 | E-Commerce Platforms | 15+ | MERN Stack, Payment Gateway Integration, Admin Dashboards |
-| Mobile Applications | 12+ | React Native, Firebase, Push Notifications, In-App Purchases |
+| PWA Apps  | 12+ | React, Firebase, Push Notifications, In-App Purchases |
 | Enterprise Solutions | 8+ | Node.js, PostgreSQL, Microservices, RESTful APIs |
 | SaaS Products | 10+ | Next.js, MongoDB, Authentication Systems, Subscription Management |
 | Custom Web Applications | 20+ | Full-Stack Solutions, Database Design, Third-Party Integrations |
@@ -153,12 +153,12 @@ Senior Full-Stack Developer with over 5 years of experience specializing in MERN
 
 | Metric | Value |
 |--------|-------|
-| Years of Experience | 5+ |
+| Years of Experience | 7+ |
 | Projects Completed | 50+ |
 | Client Satisfaction | 100% |
 | Team Members Mentored | 20+ |
 | Countries Served | 15+ |
-| Average Response Time | Under 24 hours |
+| Average Response Time | Under 1-2 hours |
 
 </div>
 
