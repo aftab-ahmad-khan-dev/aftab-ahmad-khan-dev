@@ -1,0 +1,93 @@
+You are an expert senior full-stack developer specializing in modern, performant, SEO-optimized React applications using Next.js 15+, Tailwind CSS v4+, TypeScript, and best practices in 2026.
+
+Create a complete, production-ready single-page/portfolio application (or multi-page if better for SEO) using **Next.js App Router** (recommended for best SEO) + **React** + **Tailwind CSS** with the following strict requirements:
+
+Design Style & Theme:
+- Ultra-modern, sleek, minimalistic, premium developer portfolio design 2025-2026 trends
+- Primary color theme: blue-600 (#2563eb) as accent + blue-700 for hovers, blue-50/100 for light backgrounds
+- Dark mode support optional but preferred (use next-themes or Tailwind dark variant)
+- Smooth micro-animations (framer-motion or tailwind transitions), glassmorphism / neumorphism subtle effects, gradient backgrounds, elegant typography (use Inter or Poppins font from Google Fonts)
+- Fully responsive, mobile-first (perfect on phones, tablets, desktop – use Tailwind breakpoints sm/md/lg/xl/2xl)
+- Clean spacing, lots of white-space, card-based layout with subtle shadows and hover lifts
+- Hero section with typing/text animation or gradient name reveal effect
+
+Structure & Pages/Routes:
+1. Main portfolio (default route "/"): Normal version with full header, footer, contact info, social links, WhatsApp button, etc.
+2. Special hidden mode: When URL starts with "/upwork-portfolio" (e.g. /upwork-portfolio or /upwork-portfolio/anything) → hide completely:
+   - Header / Navbar
+   - Footer
+   - All contact information (email, phone/WhatsApp, social links, contact form)
+   - Use conditional rendering based on pathname (use usePathname from next/navigation)
+   - This version is clean, client-focused showcase only – perfect for sharing with Upwork clients
+
+Sections (in normal mode – hide contact-related in upwork mode):
+
+- Hero / Introduction: Big name "Aftab Ahmad Khan", professional titles rotating or animated:
+  "Solo Full-Stack Developer | MERN & Next.js Expert"
+  "AI Agents & n8n Automation Specialist"
+  "Backend & API Engineer | Bug Fixing Pro"
+
+- About Me: Use the following texts exactly (format nicely with bold highlights):
+  Web Development | Full-Stack | MERN & Next.js | Scalable SaaS & MVPs
+  Solo Full-Stack Developer | 7+ years | 100% Job Success Score | 50+ successful projects delivered. I build clean, fast, and revenue-focused web apps from scratch everything done by me personally, no hand-offs, no excuses.
+
+  AI Agents & Automations | n8n Expert | AI Workflows & RAG Agents
+  Specializes in Generative AI Modeling
+  𝐒𝐨𝐥𝐨 𝐧𝟖𝐧 𝐀𝐈 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐒𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐬𝐭 | 1+ 𝐲𝐞𝐚𝐫𝐬 | 𝟏𝟎𝟎% 𝐉𝐨𝐛 𝐒𝐮𝐜𝐜𝐞𝐬𝐬 𝐒𝐜𝐨𝐫𝐞 | 10+ 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥 𝐀𝐈 𝐰𝐨𝐫𝐤𝐟𝐥𝐨𝐰𝐬 𝐝𝐞𝐥𝐢𝐯𝐞𝐫𝐞𝐝. I build powerful, no-code/low-code AI agents and automations in n8n that think, decide, and act autonomously all done by me personally, no teams, no delays.
+
+  Backend & API Development | Bug Fixing & Integrations | Node.js, MERN
+  Specializes in Back-End Development
+  𝐒𝐨𝐥𝐨 𝐁𝐚𝐜𝐤𝐞𝐧𝐝 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫 | 𝟕+ 𝐘𝐞𝐚𝐫𝐬 𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 | 𝟏𝟎𝟎% 𝐉𝐨𝐛 𝐒𝐮𝐜𝐜𝐞𝐬𝐬 | 𝟓𝟎+ 𝐏𝐫𝐨𝐝𝐮𝐜𝐭𝐢𝐨𝐧 𝐒𝐲𝐬𝐭𝐞𝐦𝐬
+  If your 𝐟𝐫𝐨𝐧𝐭𝐞𝐧𝐝 𝐢𝐬 𝐫𝐞𝐚𝐝𝐲 but the 𝐛𝐚𝐜𝐤𝐞𝐧𝐝 𝐢𝐬 𝐬𝐥𝐨𝐰, 𝐛𝐮𝐠𝐠𝐲, 𝐢𝐧𝐬𝐞𝐜𝐮𝐫𝐞, 𝐨𝐫 𝐩𝐨𝐨𝐫𝐥𝐲 𝐝𝐞𝐬𝐢𝐠𝐧𝐞𝐝, you’re in the right place. I design and build 𝐜𝐥𝐞𝐚𝐧, 𝐬𝐜𝐚𝐥𝐚𝐛𝐥𝐞, 𝐩𝐫𝐨𝐝𝐮𝐜𝐭𝐢𝐨𝐧-𝐫𝐞𝐚𝐝𝐲 𝐛𝐚𝐜𝐤𝐞𝐧𝐝𝐬 & 𝐀𝐏𝐈𝐬 that don’t fall apart when 𝐫𝐞𝐚𝐥 𝐮𝐬𝐞𝐫𝐬 hit them. 𝐍𝐨 𝐬𝐡𝐨𝐫𝐭𝐜𝐮𝐭𝐬, 𝐧𝐨 𝐜𝐨𝐩𝐲-𝐩𝐚𝐬𝐭𝐞 𝐜𝐡𝐚𝐨𝐬, 𝐧𝐨 𝐝𝐢𝐬𝐚𝐩𝐩𝐞𝐚𝐫𝐢𝐧𝐠 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫.
+
+  Also mention: "I do vibe coding as per client requests as well"
+
+- Tech Stack: Beautiful grid/icons of MERN, Next.js, Node.js, n8n, AI/LLM tools, Tailwind, TypeScript etc.
+
+- Projects/Portfolio Showcase (most important section):
+  - Filterable gallery with categories: Industries (e.g. SaaS, E-commerce, AI Automation, Fintech, Healthcare), Tech Stack (MERN, Next.js, n8n, Node, etc.)
+  - Each project card shows: Title, short description, The Problem, The Solution, Client Feedback (quote), Technologies used, Live link if available, Image/screenshot (use placeholder images or describe them)
+  - Modern grid layout (3–4 columns desktop, 1–2 mobile), hover effects, modal/lightbox for details
+
+- Contact Section (hide in upwork-portfolio mode):
+  - Modern contact form using **EmailJS** (do NOT use server actions for this – use client-side EmailJS)
+  - EmailJS configuration (use these exact values):
+    Service ID: service_kbvfd32
+    Template ID: template_841v9fz
+    Public Key: q1LjEqe1BYoap1aVY
+  - Fields: Name, Email, Message + Submit button with loading state
+  - Success/error toast notification
+  - Direct email link (mailto:) that auto-opens with subject "Hiring Inquiry - Aftab Portfolio"
+  - WhatsApp floating button or link: https://wa.me/923224597697 (use beautiful icon, fixed bottom right)
+  - Social links (beautiful icons, open in new tab):
+    Email: aftabahmadkhan.dev@gmail.com
+    LinkedIn: https://www.linkedin.com/in/aftab-ahmad-khan-193240333/
+    Instagram: https://www.instagram.com/aftab_khan_dev/
+    GitHub: https://github.com/aftab-ahmad-khan-dev
+    Upwork: https://www.upwork.com/freelancers/~01b93a5a5fc08c985f?mp_source=share
+
+SEO Requirements – 100% optimized:
+- Use Next.js Metadata API (generateMetadata or export metadata) for dynamic titles, descriptions, open graph, twitter cards
+- Include strong ranking keywords naturally: "Full Stack Developer Pakistan", "MERN Stack Developer Lahore", "Next.js Developer", "n8n AI Automation Expert", "Solo Freelance Web Developer", "Upwork Top Rated Full Stack Developer", "AI Workflow Automation Specialist"
+- Semantic HTML (h1-h3, section, article)
+- Alt texts for all images
+- Fast performance (use Next/Image, proper lazy loading)
+- Canonical urls, robots.txt basics
+- Structured data (Person & PortfolioItem schema if possible)
+
+Technical Stack & Best Practices:
+- Next.js 15+ App Router
+- TypeScript everywhere
+- Tailwind CSS + PostCSS + autoprefixer
+- Framer Motion for animations
+- lucide-react or heroicons for icons
+- React Hook Form + Zod for contact form (optional but nice)
+- Mobile menu (hamburger) with smooth animation
+- Clean folder structure, reusable components
+- No external heavy libraries unless necessary
+- Responsive navbar that becomes mobile menu
+- Provide complete folder structure + key files code (especially layout.tsx, page.tsx, components/)
+
+Output the FULL code structure with main files content (app/layout.tsx, app/page.tsx, components/*, etc.) and explain briefly how to set up EmailJS and run the project.
+
+Make it look extremely professional, premium and conversion-focused for getting freelance clients.
