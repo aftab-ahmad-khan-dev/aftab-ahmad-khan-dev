@@ -493,10 +493,24 @@ const achievements = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=10B981&text_color=c9d1d9" alt="GitHub Stats"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&langs_count=8&theme=react&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=c9d1d9" alt="Top Languages"/>
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=algolia&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=F59E0B&text_color=c9d1d9&ring_color=10B981"/>
+</a>
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&langs_count=8&theme=algolia&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=c9d1d9&card_width=320"/>
+</a>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=aftab-ahmad-khan-dev&theme=react&hide_border=true&background=0D1117&stroke=10B981&ring=10B981&fire=10B981&currStreakLabel=10B981" alt="GitHub Streak"/>
+<br/>
+
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=aftab-ahmad-khan-dev&theme=dark&hide_border=true&background=0D1117&stroke=10B981&ring=10B981&fire=F59E0B&currStreakLabel=10B981&sideLabels=10B981&dates=c9d1d9" alt="GitHub Streak"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aftab-ahmad-khan-dev&theme=github_dark" alt="Profile Summary"/>
+</a>
 
 </div>
 
