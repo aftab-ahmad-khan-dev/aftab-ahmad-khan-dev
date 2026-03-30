@@ -1,626 +1,37 @@
 <div align="center">
 
-<!-- Hero Section with Custom Gradient -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,6,12,20&height=300&section=header&text=AFTAB%20AHMAD%20KHAN&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Crafting%20Digital%20Excellence%20with%20MERN%20%7C%20Shopify%20%7C%20React%20Native&descAlignY=60&descSize=20"/>
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- HERO SECTION -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
 
-<!-- Signature Tagline -->
-<h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=MERN+Stack+Architect+%F0%9F%9A%80;Shopify+Solutions+Expert+%F0%9F%9B%8D;React+Native+Specialist+%F0%9F%93%B1" alt="Typing SVG" />
-</h3>
-
-<!-- Achievement Badges -->
-<p align="center">
-  <img src="https://img.shields.io/badge/75%2B_Projects-Delivered-10B981?style=flat-square&labelColor=1F2937&logo=checkmarx&logoColor=white&logoWidth=20" height="28"/>
-  <img src="https://img.shields.io/badge/7%2B_Years-Experience-3B82F6?style=flat-square&labelColor=1F2937&logo=clockify&logoColor=white&logoWidth=20" height="28"/>
-  <img src="https://img.shields.io/badge/100%25-Client_Satisfaction-F59E0B?style=flat-square&labelColor=1F2937&logo=star&logoColor=white&logoWidth=20" height="28"/>
-  <img src="https://img.shields.io/badge/100K%2B-Active_Users-EF4444?style=flat-square&labelColor=1F2937&logo=users&logoColor=white&logoWidth=20" height="28"/>
-</p>
-
-<!-- Social Connect Bar -->
-<p align="center">
-  <a href="mailto:aftabahmadkhan.dev@gmail.com">
-    <img src="https://img.shields.io/badge/📧_aftabahmadkhan.dev@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
-<p align="center">
-  <a href="http://aftabahmadkhan.site">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-aftabahmadkhan.site-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://linkedin.com/in/aftab-ahmad-khan">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/aftab-ahmad-khan-dev">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</p>
-
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,25:0d2137,50:10B981,75:0d2137,100:0a0a0a&height=220&section=header&text=&fontSize=0"/>
 
 <br/>
 
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&duration=3000&pause=2000&color=10B981&center=true&vCenter=true&repeat=true&width=700&height=60&lines=AFTAB+AHMAD+KHAN" alt="Name" />
 
 <br/>
 
-## 🎯 **Who I Am**
-
-```javascript
-const aftabAhmadKhan = {
-    title: "Senior MERN Stack Developer & Shopify Expert",
-    location: "Multan, Pakistan 🇵🇰",
-    timezone: "UTC+5",
-    
-    coreExpertise: {
-        primary: "MERN Stack Development (MongoDB, Express, React, Node.js)",
-        specialty_1: "Shopify E-commerce Solutions",
-        specialty_2: "React Native Mobile Apps"
-    },
-    
-    experience: {
-        years: "7+",
-        projectsCompleted: 75,
-        mernProjects: "50+ Full-Stack Applications",
-        shopifyStores: "20+ Custom Stores & Apps",
-        mobileApps: "15+ React Native Applications"
-    },
-    
-    philosophy: "Building scalable, performant, and user-centric solutions",
-    currentStatus: "Available for new projects ✅"
-};
-```
-
-<br/>
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-## 🚀 **Core Specializations**
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="25" /> **MERN Stack**
-<sub>**Primary Focus - 50+ Projects**</sub>
-
-**MongoDB** • **Express.js** • **React** • **Node.js**
-
-✨ **What I Build:**
-- Enterprise Web Applications
-- RESTful & GraphQL APIs
-- Real-time Dashboards
-- Admin Panels & CMS
-- SaaS Platforms
-- E-commerce Solutions
-
-🎯 **Key Features:**
-- JWT & OAuth Authentication
-- Role-based Access Control
-- Payment Gateway Integration
-- WebSocket Real-time Features
-- Cloud Deployment (AWS/GCP)
-- Microservices Architecture
-
-⚡ **Performance Optimized:**
-- 60% faster load times
-- Code splitting & lazy loading
-- Redis caching
-- Database optimization
-- CDN integration
-
-</td>
-<td width="33%" valign="top">
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shopping%20Cart.png" width="25" /> **Shopify Development**
-<sub>**20+ Stores & Custom Apps**</sub>
-
-**Custom Themes** • **Apps** • **Integrations**
-
-✨ **What I Build:**
-- Custom Shopify Themes
-- Complete Store Setup
-- Private/Public Apps
-- App Embedding Solutions
-- Third-party Integrations
-- Custom Checkout Experiences
-
-🎯 **Expertise:**
-- Liquid Template Language
-- Shopify CLI & Polaris
-- Storefront API
-- Admin API & GraphQL
-- Shopify Functions
-- Metafields & Metaobjects
-
-⚡ **Business Impact:**
-- Increased conversion rates
-- Enhanced user experience
-- Custom functionality
-- Seamless integrations
-- Performance optimization
-- Mobile-first design
-
-</td>
-<td width="34%" valign="top">
-
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Mobile%20Phone.png" width="25" /> **React Native**
-<sub>**15+ Mobile Applications**</sub>
-
-**iOS** • **Android** • **Cross-Platform**
-
-✨ **What I Build:**
-- E-commerce Mobile Apps
-- Social Networking Apps
-- Delivery & Logistics Apps
-- AI-powered Chat Apps
-- Fitness & Health Apps
-- Business Management Apps
-
-🎯 **Technologies:**
-- React Native & Expo
-- TypeScript
-- Native Modules
-- Push Notifications
-- In-App Purchases
-- Deep Linking
-
-⚡ **Advanced Features:**
-- Camera & Image Processing
-- Geolocation & Maps
-- Offline-first Architecture
-- Biometric Authentication
-- Real-time Sync
-- App Store Deployment
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-## 🛠️ **Technology Ecosystem**
-
-<div align="center">
-
-### **MERN Stack Technologies**
-
-<p>
-<img src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs,javascript,typescript,nextjs,redux,tailwind,materialui,html,css&theme=dark" />
-</p>
-
-### **Shopify & E-commerce**
-
-<p>
-<img src="https://img.shields.io/badge/Shopify-7AB55C?style=for-the-badge&logo=shopify&logoColor=white" />
-<img src="https://img.shields.io/badge/Liquid-7AB55C?style=for-the-badge&logo=shopify&logoColor=white" />
-<img src="https://img.shields.io/badge/Shopify_CLI-7AB55C?style=for-the-badge&logo=shopify&logoColor=white" />
-<img src="https://img.shields.io/badge/Polaris-7AB55C?style=for-the-badge&logo=shopify&logoColor=white" />
-<img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white" />
-<img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" />
-</p>
-
-### **Mobile Development**
-
-<p>
-<img src="https://skillicons.dev/icons?i=react,typescript,expo&theme=dark" />
-<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
-<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-</p>
-
-### **Database & Backend**
-
-<p>
-<img src="https://skillicons.dev/icons?i=mongodb,postgresql,redis,firebase,mysql&theme=dark" />
-<img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" />
-</p>
-
-### **DevOps & Cloud**
-
-<p>
-<img src="https://skillicons.dev/icons?i=aws,docker,git,github,vercel,heroku&theme=dark" />
-<img src="https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-</p>
-
-### **AI & Automation**
-
-<p>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-<img src="https://img.shields.io/badge/n8n-FF6B6B?style=for-the-badge&logo=n8n&logoColor=white" />
-<img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=aws-lambda&logoColor=white" />
-</p>
-
-</div>
-
-<br/>
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-## 💼 **Featured Projects Portfolio**
-
-<div align="center">
-
-| Project Type | Count | Technologies | Key Achievements |
-|:-------------|:-----:|:-------------|:-----------------|
-| 🌐 **MERN Full-Stack Apps** | **50+** | MongoDB, Express, React, Node.js, TypeScript | Scalable architecture, 100K+ users, Real-time features |
-| 🛍️ **Shopify E-commerce** | **20+** | Liquid, Shopify Apps, Custom Themes, APIs | Increased sales 40%, Custom checkout, App embedding |
-| 📱 **React Native Apps** | **15+** | React Native, Expo, TypeScript, Native APIs | iOS & Android, AI features, 50K+ downloads |
-| ⚡ **E-commerce Platforms** | **10+** | MERN + Payment Gateways + Admin Dashboards | Multi-vendor support, Inventory management |
-| 🤖 **AI-Integrated Apps** | **10+** | OpenAI, MERN, React Native, Automation | Chatbots, Predictive analytics, 70% efficiency |
-
-</div>
-
-<details>
-<summary><b>🔥 MERN Stack Project Highlights (Click to expand)</b></summary>
-<br/>
-
-### **Enterprise Applications Built:**
-
-- 💰 **Multi-Vendor E-commerce Platform**
-  - Role-based dashboards (Admin, Vendor, Customer)
-  - Real-time order tracking with Socket.io
-  - Stripe & PayPal integration
-  - Inventory management system
-  - **Result:** Handling 50K+ daily transactions
-
-- 📊 **Real Estate Management System**
-  - Property listing & management
-  - Advanced search with filters
-  - Agent dashboard & analytics
-  - Document management
-  - **Result:** Managing 10K+ properties
-
-- 🏥 **Healthcare Appointment Platform**
-  - Doctor-Patient portal
-  - Video consultation (WebRTC)
-  - Prescription management
-  - Payment & insurance handling
-  - **Result:** 15K+ successful consultations
-
-- 📚 **Learning Management System (LMS)**
-  - Course creation & management
-  - Video streaming & progress tracking
-  - Quiz & assignment system
-  - Certificate generation
-  - **Result:** 20K+ active students
-
-- 🚚 **Logistics & Delivery Platform**
-  - Real-time GPS tracking
-  - Route optimization
-  - Driver & customer apps
-  - Automated dispatch system
-  - **Result:** 5K+ daily deliveries
-
-</details>
-
-<details>
-<summary><b>🛍️ Shopify Project Highlights (Click to expand)</b></summary>
-<br/>
-
-### **Shopify Solutions Delivered:**
-
-- 🎨 **Custom Fashion Store**
-  - Bespoke Liquid theme from scratch
-  - AR try-on feature integration
-  - Custom size guide
-  - Instagram feed integration
-  - **Result:** 45% increase in conversion
-
-- 📦 **Subscription Box Service**
-  - Custom subscription app (Shopify App)
-  - Recurring billing automation
-  - Customer preference management
-  - Analytics dashboard
-  - **Result:** 1K+ active subscribers
-
-- 💎 **Luxury Jewelry Store**
-  - Premium custom theme
-  - 360° product viewer
-  - Custom checkout experience
-  - Gift registry feature
-  - **Result:** $500K+ monthly revenue
-
-- 🍕 **Multi-location Restaurant**
-  - Location-based menu switching
-  - Custom order management app
-  - POS integration
-  - Delivery tracking
-  - **Result:** 3 locations, unified system
-
-- 🎁 **Personalized Gifts Store**
-  - Custom product designer tool
-  - Real-time preview
-  - Embedded app for customization
-  - Automated production workflow
-  - **Result:** 10K+ custom orders
-
-</details>
-
-<details>
-<summary><b>📱 React Native Project Highlights (Click to expand)</b></summary>
-<br/>
-
-### **Mobile Applications Developed:**
-
-- 🛒 **E-commerce Shopping App**
-  - Full MERN backend integration
-  - Push notifications
-  - In-app purchases
-  - Wishlist & cart management
-  - **Result:** 50K+ downloads, 4.8★ rating
-
-- 💬 **AI-Powered Chat Application**
-  - OpenAI integration
-  - Real-time messaging
-  - Voice messages
-  - Media sharing
-  - **Result:** 30K+ active users
-
-- 🏋️ **Fitness Tracking App**
-  - Workout planning
-  - Progress tracking with charts
-  - Calorie counter
-  - Social features
-  - **Result:** 25K+ users, Featured on App Store
-
-- 🚕 **Ride-Hailing App**
-  - Real-time GPS tracking
-  - Payment integration
-  - Driver & rider apps
-  - Trip history & ratings
-  - **Result:** 500+ daily rides
-
-- 📸 **Photo Editing & Sharing**
-  - AI filters & effects
-  - Social feed
-  - Cloud storage integration
-  - Monetization features
-  - **Result:** 40K+ downloads
-
-</details>
-
-<br/>
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-## 🎯 **What Makes Me Different**
-
-<table>
-<tr>
-<td width="50%">
-
-### **💡 Technical Excellence**
-
-```typescript
-const expertise = {
-    // MERN Mastery
-    mern: {
-        backend: "Scalable APIs, Microservices",
-        frontend: "React, Next.js, TypeScript",
-        database: "MongoDB optimization, Indexing",
-        realtime: "Socket.io, WebRTC",
-        auth: "JWT, OAuth2, Passport.js",
-        performance: "60% faster applications"
-    },
-    
-    // Shopify Expertise
-    shopify: {
-        themes: "Custom Liquid development",
-        apps: "Private/Public app creation",
-        apis: "Storefront & Admin API",
-        optimization: "Speed & conversion",
-        integration: "Third-party services",
-        embedding: "Seamless app integration"
-    },
-    
-    // React Native Skills
-    mobile: {
-        platforms: "iOS & Android",
-        features: "Native modules, Camera, GPS",
-        state: "Redux, Context, MobX",
-        offline: "AsyncStorage, SQLite",
-        deployment: "App Store & Play Store"
-    }
-};
-```
-
-</td>
-<td width="50%">
-
-### **🏆 Proven Track Record**
-
-```javascript
-const achievements = {
-    projectSuccess: {
-        delivered: "75+ projects",
-        satisfaction: "100%",
-        onTime: "95%+ delivery rate",
-        quality: "Production-grade code"
-    },
-    
-    performance: {
-        loadTime: "60% faster",
-        deployment: "60% quicker CI/CD",
-        automation: "40-70% efficiency",
-        scalability: "100K+ concurrent users"
-    },
-    
-    leadership: {
-        teamSize: "20-25 developers",
-        methodology: "Agile/Scrum",
-        codeReview: "High standards",
-        mentorship: "Junior dev training"
-    },
-    
-    industries: [
-        "E-commerce",
-        "FinTech", 
-        "Healthcare",
-        "Education",
-        "Real Estate",
-        "Food Delivery"
-    ]
-};
-```
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-## 📊 **GitHub Analytics**
-
-<div align="center">
-
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=algolia&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=F59E0B&text_color=c9d1d9&ring_color=10B981"/>
-</a>
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&langs_count=8&theme=algolia&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=c9d1d9&card_width=320"/>
-</a>
-
-<br/>
-
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=aftab-ahmad-khan-dev&theme=dark&hide_border=true&background=0D1117&stroke=10B981&ring=10B981&fire=F59E0B&currStreakLabel=10B981&sideLabels=10B981&dates=c9d1d9" alt="GitHub Streak"/>
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=18&duration=2500&pause=800&color=6B7280&center=true&vCenter=true&repeat=true&width=800&height=35&lines=Senior+MERN+Stack+Architect+•+Shopify+Solutions+Expert+•+React+Native+Specialist" alt="Tagline" />
 
 <br/><br/>
 
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aftab-ahmad-khan-dev&theme=github_dark" alt="Profile Summary"/>
-</a>
+<!-- KPI Badges -->
+<img src="https://img.shields.io/badge/7%2B_Years-Engineering_Experience-10B981?style=flat-square&labelColor=111827" height="26"/>
+&nbsp;
+<img src="https://img.shields.io/badge/75%2B-Projects_Delivered-3B82F6?style=flat-square&labelColor=111827" height="26"/>
+&nbsp;
+<img src="https://img.shields.io/badge/100K%2B-Users_Served-F59E0B?style=flat-square&labelColor=111827" height="26"/>
+&nbsp;
+<img src="https://img.shields.io/badge/100%25-Client_Satisfaction-EF4444?style=flat-square&labelColor=111827" height="26"/>
 
-</div>
+<br/><br/>
 
-<br/>
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-## 🤝 **Let's Work Together**
-
-<div align="center">
-
-### **I'm Available For:**
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-#### 🌐 **MERN Stack Projects**
-Full-stack web applications<br/>
-Enterprise solutions<br/>
-SaaS platforms<br/>
-API development<br/>
-Real-time applications
-
-</td>
-<td align="center" width="33%">
-
-#### 🛍️ **Shopify Development**
-Custom theme development<br/>
-Store setup & migration<br/>
-App development<br/>
-Performance optimization<br/>
-Third-party integrations
-
-</td>
-<td align="center" width="34%">
-
-#### 📱 **React Native Apps**
-iOS & Android apps<br/>
-Cross-platform solutions<br/>
-E-commerce mobile apps<br/>
-AI-powered features<br/>
-App Store deployment
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-### **📋 Engagement Models**
-
-| Type | Description | Best For |
-|:----:|:------------|:---------|
-| 💰 **Fixed Price** | Complete project with defined scope | Well-defined projects with clear requirements |
-| ⏰ **Hourly** | Flexible hourly engagement | Ongoing support, maintenance, consulting |
-| 🤝 **Long-term** | Dedicated monthly partnership | Retainer, multiple projects, team augmentation |
-
-<br/>
-
-### **📍 Work Information**
-
-```yaml
-Location: Multan, Pakistan 🇵🇰
-Timezone: UTC+5 (Pakistan Standard Time)
-Availability: Full-time available ✅
-Response Time: Within 2-4 hours
-Communication: English (Fluent)
-Work Hours: Flexible (Can adjust to your timezone)
-```
-
-</div>
-
-<br/>
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-## 📬 **Get In Touch**
-
-<div align="center">
-
-<h3>Ready to start your next project? Let's talk!</h3>
-
-<p>
-<a href="mailto:aftabahmadkhan.dev@gmail.com">
-  <img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" height="40"/>
-</a>
-<a href="http://aftabahmadkhan.site">
-  <img src="https://img.shields.io/badge/View_Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=000000" alt="Portfolio" height="40"/>
-</a>
-</p>
-
-<p>
-<a href="https://linkedin.com/in/aftab-ahmad-khan">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn" height="40"/>
-</a>
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img src="https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" alt="GitHub" height="40"/>
-</a>
-</p>
-
-<br/>
-
-<img src="https://komarev.com/ghpvc/?username=aftab-ahmad-khan-dev&style=for-the-badge&color=10B981&label=PROFILE+VIEWS" alt="Profile Views"/>
+<!-- Contact Links -->
+<a href="mailto:aftabahmadkhan.dev@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="30"/></a>&nbsp;
+<a href="http://aftabahmadkhan.site"><img src="https://img.shields.io/badge/Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" height="30"/></a>&nbsp;
+<a href="https://linkedin.com/in/aftab-ahmad-khan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="30"/></a>&nbsp;
+<a href="https://github.com/aftab-ahmad-khan-dev"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="30"/></a>
 
 </div>
 
@@ -628,24 +39,395 @@ Work Hours: Flexible (Can adjust to your timezone)
 
 ---
 
-<div align="center">
+<br/>
 
-### ⭐ **If my work resonates with you, consider starring my repositories!**
+## `$ whoami`
+
+```js
+const aftab = {
+  role:       "Senior MERN Stack Developer & Shopify Expert",
+  location:   "Multan, Pakistan 🇵🇰",
+  timezone:   "UTC+5 — flexible to overlap with any timezone",
+  languages:  ["English (Fluent)", "Urdu (Native)"],
+
+  stack: {
+    primary:   "MongoDB · Express · React · Node.js",
+    ecommerce: "Shopify (Liquid, CLI, Polaris, Storefront API)",
+    mobile:    "React Native · Expo · TypeScript",
+  },
+
+  track_record: {
+    years:           "7+",
+    total_projects:  "75+",
+    mern_apps:       "50+ full-stack applications",
+    shopify_stores:  "20+ custom stores & apps",
+    mobile_apps:     "15+ published iOS/Android apps",
+  },
+
+  status: "✅ Open to new engagements",
+};
+```
 
 <br/>
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote"/>
+---
+
+<br/>
+
+## Core Expertise
+
+<table>
+<tr>
+
+<!-- ─── MERN ─── -->
+<td width="33%" valign="top">
+
+### 🖥️ MERN Stack
+<sub>50+ Production Applications</sub>
+
+**MongoDB · Express · React · Node.js**
+
+**I build:** Enterprise web apps, SaaS platforms, real-time dashboards, RESTful & GraphQL APIs, admin panels, CMS solutions, multi-vendor marketplaces.
+
+**Key capabilities:**
+JWT/OAuth auth · RBAC · Payment gateways (Stripe, PayPal) · WebSocket real-time features · Microservices · AWS/GCP deployment · Redis caching · CI/CD pipelines
+
+**Results:** 60% faster load times · 100K+ concurrent users · 50K+ daily transactions handled
+
+</td>
+
+<!-- ─── SHOPIFY ─── -->
+<td width="33%" valign="top">
+
+### 🛍️ Shopify Development
+<sub>20+ Stores & Custom Apps</sub>
+
+**Liquid · Shopify CLI · Polaris · APIs**
+
+**I build:** Custom themes from scratch, private/public apps, embedded app extensions, custom checkout flows, third-party integrations, subscription systems.
+
+**Key capabilities:**
+Storefront API · Admin API & GraphQL · Shopify Functions · Metafields & Metaobjects · App Bridge · Webhook automation · POS integration
+
+**Results:** 45% conversion lift · $500K+/mo store revenue · 1K+ active subscribers on subscription platforms
+
+</td>
+
+<!-- ─── MOBILE ─── -->
+<td width="34%" valign="top">
+
+### 📱 React Native
+<sub>15+ Published Applications</sub>
+
+**iOS · Android · Cross-Platform**
+
+**I build:** E-commerce apps, AI-powered chat apps, ride-hailing platforms, fitness trackers, social networks, delivery & logistics apps.
+
+**Key capabilities:**
+Expo & bare workflow · Native modules · Push notifications · In-app purchases · Deep linking · Biometric auth · Offline-first (AsyncStorage, SQLite) · Camera & Maps
+
+**Results:** 50K+ downloads · 4.8★ App Store rating · 500+ daily rides on ride-hailing platform
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+## Technology Stack
+
+<div align="center">
+
+#### Frontend & Frameworks
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,redux,tailwind,html,css,materialui&theme=dark" />
+</p>
+
+#### Backend & Databases
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgresql,redis,firebase,mysql&theme=dark" />
+</p>
+
+#### Shopify & E-commerce
+<p>
+<img src="https://img.shields.io/badge/Shopify-7AB55C?style=for-the-badge&logo=shopify&logoColor=white" />
+<img src="https://img.shields.io/badge/Liquid-7AB55C?style=for-the-badge&logo=shopify&logoColor=white" />
+<img src="https://img.shields.io/badge/Polaris-5C6AC4?style=for-the-badge&logo=shopify&logoColor=white" />
+<img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white" />
+<img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" />
+</p>
+
+#### Mobile
+<p>
+<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
+<img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+</p>
+
+#### DevOps & Cloud
+<p>
+<img src="https://skillicons.dev/icons?i=aws,docker,git,github,vercel&theme=dark" />
+<img src="https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+</p>
+
+#### AI & Automation
+<p>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/n8n-FF6B6B?style=for-the-badge&logo=n8n&logoColor=white" />
+<img src="https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=aws-lambda&logoColor=white" />
+</p>
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+## Project Highlights
+
+<div align="center">
+
+| Domain | Count | Stack | Impact |
+|:---|:---:|:---|:---|
+| **MERN Full-Stack Apps** | 50+ | MongoDB, Express, React, Node.js, TS | 100K+ users · real-time features · microservices |
+| **Shopify E-commerce** | 20+ | Liquid, Custom Apps, Themes, APIs | 45% conversion lift · custom checkout · app embedding |
+| **React Native Apps** | 15+ | RN, Expo, TypeScript, Native APIs | 50K+ downloads · 4.8★ rating · AI features |
+| **E-commerce Platforms** | 10+ | MERN + Stripe + Admin Dashboards | Multi-vendor · inventory management · 50K daily txns |
+| **AI-Integrated Apps** | 10+ | OpenAI, MERN, RN, Automation | Chatbots · predictive analytics · 70% efficiency gain |
+
+</div>
+
+<br/>
+
+<details>
+<summary><strong>MERN Stack — Select Projects</strong></summary>
+<br/>
+
+**Multi-Vendor E-commerce Platform** — Role-based dashboards (Admin, Vendor, Customer), real-time order tracking via Socket.io, Stripe & PayPal integration, inventory management. *Handles 50K+ daily transactions.*
+
+**Real Estate Management System** — Property listing engine with advanced search/filters, agent dashboards with analytics, document management. *Managing 10K+ properties.*
+
+**Healthcare Appointment Platform** — Doctor-Patient portal with WebRTC video consultations, prescription management, payment & insurance handling. *15K+ successful consultations.*
+
+**Learning Management System** — Course creation, video streaming with progress tracking, quiz/assignment engine, automated certificate generation. *20K+ active students.*
+
+**Logistics & Delivery Platform** — Real-time GPS tracking, route optimization, driver & customer apps, automated dispatch. *5K+ daily deliveries.*
+
+</details>
+
+<details>
+<summary><strong>Shopify — Select Projects</strong></summary>
+<br/>
+
+**Custom Fashion Store** — Bespoke Liquid theme, AR try-on integration, custom size guide, Instagram feed. *45% increase in conversion.*
+
+**Subscription Box Service** — Custom Shopify subscription app, recurring billing automation, customer preference engine, analytics dashboard. *1K+ active subscribers.*
+
+**Luxury Jewelry Store** — Premium custom theme, 360° product viewer, custom checkout, gift registry. *$500K+ monthly revenue.*
+
+**Multi-location Restaurant** — Location-based menu switching, custom order management app, POS integration, delivery tracking. *3 locations on a unified system.*
+
+**Personalized Gifts Store** — Custom product designer tool with real-time preview, embedded customization app, automated production workflow. *10K+ custom orders.*
+
+</details>
+
+<details>
+<summary><strong>React Native — Select Projects</strong></summary>
+<br/>
+
+**E-commerce Shopping App** — Full MERN backend, push notifications, in-app purchases, wishlist & cart. *50K+ downloads, 4.8★ rating.*
+
+**AI-Powered Chat Application** — OpenAI integration, real-time messaging, voice messages, media sharing. *30K+ active users.*
+
+**Fitness Tracking App** — Workout planner, progress charts, calorie counter, social features. *25K+ users, Featured on App Store.*
+
+**Ride-Hailing App** — Real-time GPS, payment integration, driver & rider apps, trip history & ratings. *500+ daily rides.*
+
+**Photo Editing & Sharing** — AI filters & effects, social feed, cloud storage, monetization features. *40K+ downloads.*
+
+</details>
+
+<br/>
+
+---
+
+<br/>
+
+## GitHub Analytics
+
+<div align="center">
+
+<!-- Stats & Languages side by side -->
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=10B981&icon_color=F59E0B&text_color=c9d1d9&ring_color=10B981" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=10B981&text_color=c9d1d9&card_width=320" />
+</a>
 
 <br/><br/>
 
-**💭 "Building tomorrow's solutions with today's best practices"**
+<!-- Streak Stats — all-time, no broken images -->
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img src="https://streak-stats.demolab.com?user=aftab-ahmad-khan-dev&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=10B981&ring=10B981&fire=F59E0B&currStreakLabel=10B981&sideLabels=10B981&dates=6B7280&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
+</a>
+
+<br/><br/>
+
+<!-- Profile Summary Card -->
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aftab-ahmad-khan-dev&theme=github_dark" alt="Contribution Graph"/>
+</a>
+
+<br/><br/>
+
+<!-- Repo & Contribution Badges -->
+<img src="https://badges.pufler.dev/repos/aftab-ahmad-khan-dev?style=flat-square&color=10B981&labelColor=111827&label=Total+Repos" alt="Total Repos" />
+&nbsp;
+<img src="https://badges.pufler.dev/commits/all/aftab-ahmad-khan-dev?style=flat-square&color=3B82F6&labelColor=111827&label=Total+Commits" alt="Total Commits" />
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=aftab-ahmad-khan-dev&style=flat-square&color=F59E0B&label=Profile+Views" alt="Profile Views" />
+
+<br/><br/>
+
+<!-- Activity Graph -->
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aftab-ahmad-khan-dev&theme=github-compact&hide_border=true&bg_color=0d1117&color=10B981&line=10B981&point=F59E0B&area=true&area_color=10B98130" alt="Activity Graph" />
+</a>
+
+</div>
 
 <br/>
 
-*Transforming ideas into scalable MERN applications, stunning Shopify stores, and powerful mobile experiences* 🚀
+---
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,6,12,20&height=120&section=footer"/>
+## What Sets Me Apart
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Engineering Approach
+
+```yaml
+Architecture:
+  - Clean, modular, testable code
+  - Microservices when complexity demands it
+  - Monolith-first when simplicity wins
+
+Performance:
+  - 60% faster load times (code splitting, SSR, CDN)
+  - Redis caching for high-traffic endpoints
+  - Database indexing & query optimization
+
+Security:
+  - JWT + OAuth2 + MFA
+  - Role-based access control
+  - Input sanitization & rate limiting
+
+Process:
+  - Agile/Scrum methodology
+  - CI/CD with automated testing
+  - Code review culture
+```
+
+</td>
+<td width="50%" valign="top">
+
+### Proven Results
+
+```yaml
+Delivery:
+  - 75+ projects shipped
+  - 95%+ on-time delivery rate
+  - 100% client satisfaction
+
+Scale:
+  - 100K+ concurrent users supported
+  - 50K+ daily transactions processed
+  - 40-70% efficiency gains via automation
+
+Leadership:
+  - Led teams of 20-25 developers
+  - Mentored 30+ junior engineers
+  - Established code review standards
+
+Industries:
+  - E-commerce & Retail
+  - FinTech & Payments
+  - Healthcare & Telemedicine
+  - EdTech & LMS
+  - Real Estate
+  - Food & Logistics
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+## Engagement Models
+
+<div align="center">
+
+| Model | Description | Best For |
+|:---:|:---|:---|
+| **Fixed Price** | Defined scope, milestones, deliverables | Projects with clear requirements |
+| **Hourly** | Flexible engagement, pay-as-you-go | Ongoing support, consulting, maintenance |
+| **Retainer** | Dedicated monthly partnership | Long-term collaboration, team augmentation |
+
+<br/>
+
+```
+📍 Multan, Pakistan (UTC+5)        ✉️  aftabahmadkhan.dev@gmail.com
+⏱️  Response within 2–4 hours       🌐  aftabahmadkhan.site
+🕐 Flexible hours — timezone-adaptive
+```
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<div align="center">
+
+### Let's Build Something Great
+
+<br/>
+
+<a href="mailto:aftabahmadkhan.dev@gmail.com"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="38"/></a>&nbsp;&nbsp;
+<a href="http://aftabahmadkhan.site"><img src="https://img.shields.io/badge/View_Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" height="38"/></a>&nbsp;&nbsp;
+<a href="https://linkedin.com/in/aftab-ahmad-khan"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="38"/></a>
+
+<br/><br/>
+
+⭐ **If you find my work valuable, consider starring my repositories.**
+
+<br/>
+
+<sub>Building scalable MERN applications · Crafting high-converting Shopify stores · Shipping cross-platform mobile experiences</sub>
+
+<br/><br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,25:0d2137,50:10B981,75:0d2137,100:0a0a0a&height=100&section=footer"/>
 
 </div>
