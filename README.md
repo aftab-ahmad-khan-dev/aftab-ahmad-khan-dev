@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Hero Section with Custom Gradient -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,6,12,20&height=300&section=header&text=AFTAB%20AHMAD%20KHAN&fontSize=80&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Crafting%20Digital%20Excellence%20with%20MERN%20%7C%20Shopify%20%7C%20React%20Native&descAlignY=60&descSize=20"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,6,12,20&height=200&section=header&text=AFTAB%20AHMAD%20KHAN&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=45&desc=Crafting%20Digital%20Excellence%20with%20MERN%20%7C%20Shopify%20%7C%20React%20Native&descAlignY=68&descSize=16"/>
 
 <!-- Signature Tagline -->
 <h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=MERN+Stack+Architect+%F0%9F%9A%80;Shopify+Solutions+Expert+%F0%9F%9B%8D;React+Native+Specialist+%F0%9F%93%B1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=MERN+Stack+Architect+%F0%9F%9A%80;Shopify+Solutions+Expert+%F0%9F%9B%8D;React+Native+Specialist+%F0%9F%93%B1" alt="Typing SVG" />
 </h3>
 
 <!-- Achievement Badges -->
@@ -261,6 +261,97 @@ const aftabAhmadKhan = {
 | 🤖 **AI-Integrated Apps** | **10+** | OpenAI, MERN, React Native, Automation | Chatbots, Predictive analytics, 70% efficiency |
 
 </div>
+
+<br/>
+
+### 🔗 **Live Project Showcase**
+
+<details>
+<summary><b>💳 FinTech & Payment Platforms (Click to expand)</b></summary>
+<br/>
+
+| Project | Live URL | Description |
+|:--------|:---------|:------------|
+| 💰 **NovaPay** | [novapay-rho.vercel.app](https://novapay-rho.vercel.app/) | Modern digital payment platform |
+| 💡 **LumoPay** | [lumo-pay.vercel.app](https://lumo-pay.vercel.app/) | Seamless payment gateway solution |
+| 🔗 **NexaPay** | [nexa-pay-ashen.vercel.app](https://nexa-pay-ashen.vercel.app/) | Next-gen payment processing system |
+| 💼 **CFC – NovixPay** | [cfc.novixpay.com](https://cfc.novixpay.com/) | Corporate financial control portal |
+| 💳 **Spendly** | [spendly-lemon.vercel.app](https://spendly-lemon.vercel.app/) | Personal finance & spending tracker |
+| 🏦 **Pro Trade Investment** | [protradeinvestment.com](https://protradeinvestment.com/) | Investment & trading platform |
+| 📈 **Capital X Academy** | [capitalxacademy.com](https://capitalxacademy.com/) | Financial education & trading academy |
+| 🏛️ **Nishimatsu Financial** | [nishimatsu-financial.vercel.app](https://nishimatsu-financial.vercel.app/) | Corporate financial services portal |
+| 🏛️ **Nishimatsu Financial (Alt)** | [nishimatsu-financial-gilt.vercel.app](https://nishimatsu-financial-gilt.vercel.app/) | Alternative financial solutions portal |
+| 🎖️ **Forex Knights** | [forex-knights.vercel.app](https://forex-knights.vercel.app/) | Forex trading community & tools |
+| 🔐 **Trust Refunds** | [trustrefunds.fund](https://www.trustrefunds.fund/) | Secure refund & recovery platform |
+| 💰 **ClearPay Link** | [clearpaylink.ca](https://www.clearpaylink.ca/Saintxcapital/) | Payment gateway & capital solutions |
+| 🌐 **FairTrade Digital** | [fairtrade-digital.vercel.app](https://fairtrade-digital.vercel.app/) | Digital fair trade marketplace |
+| 🔗 **Coxi Link** | [coxi-link.vercel.app](https://coxi-link.vercel.app/) | Financial connectivity platform |
+
+</details>
+
+<details>
+<summary><b>🏥 Healthcare & MedTech Platforms (Click to expand)</b></summary>
+<br/>
+
+| Project | Live URL | Description |
+|:--------|:---------|:------------|
+| ❤️ **Vital Monitor** | [vital-monitor-pi.vercel.app](https://vital-monitor-pi.vercel.app/) | Real-time patient vitals monitoring |
+| 💊 **MedRemind** | [med-remind-jade.vercel.app](https://med-remind-jade.vercel.app/) | Smart medication reminder system |
+| 📊 **VitalSign** | [vitalsign-beige.vercel.app](https://vitalsign-beige.vercel.app/) | Comprehensive vital signs dashboard |
+| 🏥 **MedixPro** | [medix-pro-ten.vercel.app](https://medix-pro-ten.vercel.app/) | Professional medical management system |
+| 🔬 **LabTrack** | [lab-track-eta.vercel.app](https://lab-track-eta.vercel.app/) | Laboratory results tracking platform |
+| 🤝 **CareLink** | [carelink-delta-pink.vercel.app](https://carelink-delta-pink.vercel.app/) | Patient-doctor care coordination |
+| 🧠 **MindWeave Clinic** | [mind-weave-clinic-nine.vercel.app](https://mind-weave-clinic-nine.vercel.app/) | Mental health clinic management |
+| 🏃 **RehabFlow** | [rehab-flow-neon.vercel.app](https://rehab-flow-neon.vercel.app/) | Rehabilitation program tracking |
+| 👴 **ElderGuard Health** | [elder-guard-health-omega.vercel.app](https://elder-guard-health-omega.vercel.app/) | Elderly care & health monitoring |
+| 🔪 **SurgiCore** | [surgi-core.vercel.app](https://surgi-core.vercel.app/) | Surgical operations management system |
+| 🌿 **Vitalis Health** | [vitalis-health-green.vercel.app](https://vitalis-health-green.vercel.app/) | Holistic health & wellness platform |
+
+</details>
+
+<details>
+<summary><b>🌐 Business, SaaS & Web Platforms (Click to expand)</b></summary>
+<br/>
+
+| Project | Live URL | Description |
+|:--------|:---------|:------------|
+| 💎 **LuxlyDeals** | [luxlydeals.com](https://luxlydeals.com/) | Premium luxury deals & offers platform |
+| 🌐 **OrgConnect** | [orgconnectapp.com](https://orgconnectapp.com/) | Organization connectivity & management |
+| ⚙️ **VorksPro** | [vorkspro.com](https://vorkspro.com/) | Professional workflow & productivity tool |
+| 📊 **Gigadat** | [web-gigadat.vercel.app](https://web-gigadat.vercel.app/) | Data analytics & management platform |
+| 🚀 **Evolvo Technologies** | [evolvo-technologies.vercel.app](https://evolvo-technologies.vercel.app/) | Tech company showcase & services |
+| 🎨 **Iconotic** | [iconotic.vercel.app](https://iconotic.vercel.app/) | Icon design & branding platform |
+| 💼 **ConsultPro** | [consult-pro-one.vercel.app](https://consult-pro-one.vercel.app/) | Professional consulting services portal |
+| 📡 **GCCH Replica** | [gcch-replica.vercel.app](https://gcch-replica.vercel.app/) | Government/corporate communication hub |
+| 🏰 **Montero Private** | [monteroprivate.com](https://monteroprivate.com/) | Exclusive private membership platform |
+| 🎓 **Alpha Beacon School** | [alpha-beacon-international-school.vercel.app](https://alpha-beacon-international-school.vercel.app/) | International school management system |
+| ⛳ **DP Golf Energy** | [dp-golf-energy.vercel.app](https://dp-golf-energy.vercel.app/) | Golf energy & sports analytics |
+
+</details>
+
+<details>
+<summary><b>🛍️ E-commerce & Shopify Projects (Click to expand)</b></summary>
+<br/>
+
+| Project | Live URL | Description |
+|:--------|:---------|:------------|
+| 📦 **SheetBundles** | [sheetbundles.com](https://www.sheetbundles.com/) | Shopify store for bundled sheet products |
+| 🔄 **Shopify Reorder System** | [shopify-reorder-system.vercel.app](https://shopify-reorder-system.vercel.app/) | Custom Shopify reorder automation app |
+| 📋 **Sheet-Box** | [216.128.145.43](http://216.128.145.43/) | Spreadsheet & document management SaaS |
+
+</details>
+
+<details>
+<summary><b>🐾 Specialty & Niche Platforms (Click to expand)</b></summary>
+<br/>
+
+| Project | Live URL | Description |
+|:--------|:---------|:------------|
+| 🐾 **Pemetery (Pet Owner)** | [pemetery-pet-owner.vercel.app](https://pemetery-pet-owner.vercel.app/) | Pet memorial & owner portal |
+| 🏥 **Pemetery (Platform Admin)** | [pemetery-platform-admin.vercel.app](https://pemetery-platform-admin.vercel.app/) | Pet memorial platform admin dashboard |
+| 🏪 **Pemetery (Clinic Admin)** | [pemetery-clinic-admin.vercel.app](https://pemetery-clinic-admin.vercel.app/) | Veterinary clinic admin management |
+
+</details>
 
 <details>
 <summary><b>🔥 MERN Stack Project Highlights (Click to expand)</b></summary>
