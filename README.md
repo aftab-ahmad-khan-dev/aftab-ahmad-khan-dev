@@ -10,10 +10,11 @@
 
 <!-- Achievement Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/75%2B_Projects-Delivered-10B981?style=flat-square&labelColor=1F2937&logo=checkmarx&logoColor=white&logoWidth=20" height="28"/>
+  <img src="https://img.shields.io/badge/100%2B_Projects-Delivered-10B981?style=flat-square&labelColor=1F2937&logo=checkmarx&logoColor=white&logoWidth=20" height="28"/>
   <img src="https://img.shields.io/badge/7%2B_Years-Experience-3B82F6?style=flat-square&labelColor=1F2937&logo=clockify&logoColor=white&logoWidth=20" height="28"/>
   <img src="https://img.shields.io/badge/100%25-Client_Satisfaction-F59E0B?style=flat-square&labelColor=1F2937&logo=star&logoColor=white&logoWidth=20" height="28"/>
   <img src="https://img.shields.io/badge/100K%2B-Active_Users-EF4444?style=flat-square&labelColor=1F2937&logo=users&logoColor=white&logoWidth=20" height="28"/>
+  <img src="https://img.shields.io/badge/~150_LOC-Avg_Commit_Size-8B5CF6?style=flat-square&labelColor=1F2937&logo=git&logoColor=white&logoWidth=20" height="28"/>
 </p>
 
 <!-- Social Connect Bar -->
@@ -23,8 +24,8 @@
   </a>
 </p>
 <p align="center">
-  <a href="http://aftabahmadkhan.site">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-aftabahmadkhan.site-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+  <a href="http://aftabahmadkhan.online">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-aftabahmadkhan.online-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
   <a href="https://linkedin.com/in/aftab-ahmad-khan">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
@@ -59,10 +60,11 @@ const aftabAhmadKhan = {
     
     experience: {
         years: "7+",
-        projectsCompleted: 75,
+        projectsCompleted: 100,
         mernProjects: "50+ Full-Stack Applications",
         shopifyStores: "20+ Custom Stores & Apps",
-        mobileApps: "15+ React Native Applications"
+        mobileApps: "15+ React Native Applications",
+        avgCommitSize: "~150 LOC/commit"
     },
     
     philosophy: "Building scalable, performant, and user-centric solutions",
@@ -538,7 +540,7 @@ const expertise = {
 ```javascript
 const achievements = {
     projectSuccess: {
-        delivered: "75+ projects",
+        delivered: "100+ projects",
         satisfaction: "100%",
         onTime: "95%+ delivery rate",
         quality: "Production-grade code"
@@ -548,7 +550,8 @@ const achievements = {
         loadTime: "60% faster",
         deployment: "60% quicker CI/CD",
         automation: "40-70% efficiency",
-        scalability: "100K+ concurrent users"
+        scalability: "100K+ concurrent users",
+        avgCommitLOC: "~150 lines/commit"
     },
     
     leadership: {
@@ -695,7 +698,7 @@ Work Hours: Flexible (Can adjust to your timezone)
 <a href="mailto:aftabahmadkhan.dev@gmail.com">
   <img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email" height="40"/>
 </a>
-<a href="http://aftabahmadkhan.site">
+<a href="http://aftabahmadkhan.online">
   <img src="https://img.shields.io/badge/View_Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=000000" alt="Portfolio" height="40"/>
 </a>
 </p>
