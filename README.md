@@ -116,18 +116,30 @@
 | Project | URL |
 |:--|:--|
 | NovaPay | [novapay-rho.vercel.app](https://novapay-rho.vercel.app/) |
+| NovixPay | [novixpay.com](https://novixpay.com/) |
+| CFC – NovixPay | [cfc.novixpay.com](https://cfc.novixpay.com/) |
 | LumoPay | [lumo-pay.vercel.app](https://lumo-pay.vercel.app/) |
 | NexaPay | [nexa-pay-ashen.vercel.app](https://nexa-pay-ashen.vercel.app/) |
-| CFC – NovixPay | [cfc.novixpay.com](https://cfc.novixpay.com/) |
 | Spendly | [spendly-lemon.vercel.app](https://spendly-lemon.vercel.app/) |
+| BitVault | [bit-vault-xi.vercel.app](https://bit-vault-xi.vercel.app/) |
+| Quantum Ledger | [quantum-ledger-wheat.vercel.app](https://quantum-ledger-wheat.vercel.app/) |
+| Platinum Edge | [platinum-edge.vercel.app](https://platinum-edge.vercel.app/) |
 | Pro Trade Investment | [protradeinvestment.com](https://protradeinvestment.com/) |
-| Capital X Academy | [capitalxacademy.com](https://capitalxacademy.com/) |
+| Capital X Academy | [capitalxacademy.com](https://www.capitalxacademy.com/) |
+| Capital X Academy (App) | [capital-x-academy.vercel.app](https://capital-x-academy.vercel.app/) |
 | Nishimatsu Financial | [nishimatsu-financial.vercel.app](https://nishimatsu-financial.vercel.app/) |
+| Nishimatsu Financial (Alt) | [nishimatsu-financial-gilt.vercel.app](https://nishimatsu-financial-gilt.vercel.app/) |
 | Forex Knights | [forex-knights.vercel.app](https://forex-knights.vercel.app/) |
+| Elite Fusion Trading | [elitefusiontrading.com](https://www.elitefusiontrading.com/) |
+| Elite Fusion Agent | [agent.elitefusiontrading.com](https://agent.elitefusiontrading.com/) |
+| Nexus Capital | [nexus-capital-olive.vercel.app](https://nexus-capital-olive.vercel.app/) |
+| Prop Capitals | [prop-capitals-com.vercel.app](https://prop-capitals-com.vercel.app/) |
 | Trust Refunds | [trustrefunds.fund](https://www.trustrefunds.fund/) |
+| Trusted Refunds | [trusted-refunds.vercel.app](https://trusted-refunds.vercel.app/) |
 | ClearPay Link | [clearpaylink.ca](https://www.clearpaylink.ca/Saintxcapital/) |
 | FairTrade Digital | [fairtrade-digital.vercel.app](https://fairtrade-digital.vercel.app/) |
 | Coxi Link | [coxi-link.vercel.app](https://coxi-link.vercel.app/) |
+| Remember Loan | [rememberloan.vercel.app](https://rememberloan.vercel.app/) |
 
 </details>
 
@@ -147,6 +159,11 @@
 | ElderGuard Health | [elder-guard-health-omega.vercel.app](https://elder-guard-health-omega.vercel.app/) |
 | SurgiCore | [surgi-core.vercel.app](https://surgi-core.vercel.app/) |
 | Vitalis Health | [vitalis-health-green.vercel.app](https://vitalis-health-green.vercel.app/) |
+| BabyVax | [babyvax-five.vercel.app](https://babyvax-five.vercel.app/) |
+| Baby Vax | [baby-vax.vercel.app](https://baby-vax.vercel.app/) |
+| VisionScope | [visionscope-dev.vercel.app](https://visionscope-dev.vercel.app/) |
+| OpticScope AI | [opticscopeai.vercel.app](https://opticscopeai.vercel.app/) |
+| Optivana AI | [optivana-ai.vercel.app](https://optivana-ai.vercel.app/) |
 
 </details>
 
@@ -156,18 +173,33 @@
 | Project | URL |
 |:--|:--|
 | LuxlyDeals | [luxlydeals.com](https://luxlydeals.com/) |
+| Lux K Gate | [luxkgate.com](https://www.luxkgate.com/) |
 | OrgConnect | [orgconnectapp.com](https://orgconnectapp.com/) |
 | VorksPro | [vorkspro.com](https://vorkspro.com/) |
 | Gigadat | [web-gigadat.vercel.app](https://web-gigadat.vercel.app/) |
 | Evolvo Technologies | [evolvo-technologies.vercel.app](https://evolvo-technologies.vercel.app/) |
+| Evolvo Construction | [evolvo-construction.vercel.app](https://evolvo-construction.vercel.app/) |
+| Evolvo Development | [evolvo-development.vercel.app](https://evolvo-development.vercel.app/) |
 | Iconotic | [iconotic.vercel.app](https://iconotic.vercel.app/) |
 | ConsultPro | [consult-pro-one.vercel.app](https://consult-pro-one.vercel.app/) |
 | GCCH Replica | [gcch-replica.vercel.app](https://gcch-replica.vercel.app/) |
 | Montero Private | [monteroprivate.com](https://monteroprivate.com/) |
+| Montero Private (App) | [montero-private.vercel.app](https://montero-private.vercel.app/) |
 | Alpha Beacon School | [alpha-beacon-international-school.vercel.app](https://alpha-beacon-international-school.vercel.app/) |
+| Apex Academia | [apex-academia-five.vercel.app](https://apex-academia-five.vercel.app/) |
 | DP Golf Energy | [dp-golf-energy.vercel.app](https://dp-golf-energy.vercel.app/) |
 | NAQ Technologies | [naq-technologies.com](https://naq-technologies.com/) |
-| Evolvo Construction | [evolvo-construction.vercel.app](https://evolvo-construction.vercel.app/) |
+| CoreX Giveaways | [corex-giveaways.vercel.app](https://corex-giveaways.vercel.app/) |
+| Realo Group | [realo-group.vercel.app](https://realo-group.vercel.app/) |
+| Real Group Replica | [real-group-replica.vercel.app](https://real-group-replica.vercel.app/) |
+| Sheet Doc | [sheet-doc.vercel.app](https://sheet-doc.vercel.app/) |
+| Plasnewydd Group | [plasnewyddgroup.vercel.app](https://plasnewyddgroup.vercel.app/) |
+| Tirritiko Block | [tirritikoblock.vercel.app](https://tirritikoblock.vercel.app/) |
+| ScandiPortalen | [scandiportalen.com](https://scandiportalen.com/) |
+| QB Solutions | [q-bsolutions.com](https://www.q-bsolutions.com/) |
+| Beam Panda | [beam-panda.com](https://beam-panda.com/) |
+| LearnBizTech | [learnbiztech.com](https://learnbiztech.com/) |
+| The Roamers | [theroamrs.com](https://theroamrs.com/) |
 
 </details>
 
