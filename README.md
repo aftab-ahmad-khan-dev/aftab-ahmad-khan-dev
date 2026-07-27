@@ -34,28 +34,86 @@
 
 ## 🎯 Professional Profile
 
-```javascript
-const aftabAhmadKhan = {
-  role: "Senior Full-Stack Engineer",
-  focus: "MERN · Shopify · React Native",
-  location: "Multan, Pakistan 🇵🇰 · UTC+5",
-  tenure: "7+ years shipping production software",
-  delivery: {
-    projects: "97+",
-    repositories: "189+",
-    commitsPerDay: 6.1,
-    avgCommitSize: "~128 LOC",
-    clientMarkets: "14+ countries"
-  },
-  stack: {
-    frontend: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
-    backend: ["Node.js", "Express", "REST", "GraphQL"],
-    data: ["MongoDB", "PostgreSQL / SQL", "Redis"],
-    mobile: ["React Native", "Expo"]
-  },
-  availability: "Open to full-time & contract engagements ✅"
-};
-```
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Role**<br/>
+Senior Full-Stack Engineer
+
+</td>
+<td width="50%" valign="top">
+
+**Focus**<br/>
+MERN · Shopify · React Native
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Location**<br/>
+Multan, Pakistan 🇵🇰 · UTC+5
+
+</td>
+<td width="50%" valign="top">
+
+**Tenure**<br/>
+7+ years shipping production software
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td align="center" width="20%"><b>97+</b><br/><sub>Projects</sub></td>
+<td align="center" width="20%"><b>189+</b><br/><sub>Repositories</sub></td>
+<td align="center" width="20%"><b>6.1</b><br/><sub>Commits / day</sub></td>
+<td align="center" width="20%"><b>~128</b><br/><sub>LOC / commit</sub></td>
+<td align="center" width="20%"><b>14+</b><br/><sub>Countries</sub></td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+**Frontend**<br/>
+React<br/>
+Next.js<br/>
+Tailwind CSS<br/>
+TypeScript
+
+</td>
+<td width="25%" valign="top">
+
+**Backend**<br/>
+Node.js<br/>
+Express<br/>
+REST<br/>
+GraphQL
+
+</td>
+<td width="25%" valign="top">
+
+**Data**<br/>
+MongoDB<br/>
+PostgreSQL / SQL<br/>
+Redis
+
+</td>
+<td width="25%" valign="top">
+
+**Mobile**<br/>
+React Native<br/>
+Expo
+
+</td>
+</tr>
+</table>
+
+<p align="center"><b>Availability:</b> Open to full-time &amp; contract engagements ✅</p>
 
 ---
 
