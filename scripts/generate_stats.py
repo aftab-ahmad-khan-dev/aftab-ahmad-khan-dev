@@ -14,7 +14,8 @@ from datetime import datetime, timezone
 TOKEN = os.environ.get("ACCESS_TOKEN") or os.environ.get("GITHUB_TOKEN")
 USERNAME = os.environ.get("GITHUB_ACTOR") or os.environ.get("GITHUB_REPOSITORY_OWNER") or "aftab-ahmad-khan-dev"
 OUT_DIR = pathlib.Path("generated")
-AVG_LOC = int(os.environ.get("AVG_LOC", "128"))
+# Optional override; otherwise computed from recent commit stats
+AVG_LOC_OVERRIDE = os.environ.get("AVG_LOC")
 
 ORGS = [
     "E-volvo",
@@ -148,6 +149,73 @@ def personal_repo_count() -> int:
                 break
             page += 1
         return total
+
+
+def estimate_avg_loc() -> int:
+    """
+    Mean lines added per commit from recent owned-repo commits.
+    Skips empty commits and bulk dumps (>5000 churn).
+    """
+    if AVG_LOC_OVERRIDE:
+        return int(AVG_LOC_OVERRIDE)
+
+    additions: list[int] = []
+    try:
+        repos: list[str] = []
+        for page in (1, 2):
+            try:
+                batch = api(
+                    f"https://api.github.com/user/repos?per_page=30&affiliation=owner&sort=pushed&page={page}"
+                )
+            except urllib.error.HTTPError:
+                batch = api(
+                    f"https://api.github.com/users/{USERNAME}/repos?per_page=30&type=owner&sort=pushed&page={page}"
+                )
+            if not isinstance(batch, list) or not batch:
+                break
+            for repo in batch:
+                if repo.get("fork"):
+                    continue
+                name = repo.get("name")
+                owner = repo.get("owner", {}).get("login", USERNAME)
+                if owner != USERNAME or not name:
+                    continue
+                repos.append(f"{USERNAME}/{name}")
+            if len(batch) < 30:
+                break
+
+        for full in repos[:18]:
+            try:
+                commits = api(
+                    f"https://api.github.com/repos/{full}/commits?per_page=8&author={USERNAME}"
+                )
+            except urllib.error.HTTPError:
+                continue
+            if not isinstance(commits, list):
+                continue
+            for commit in commits[:6]:
+                try:
+                    detail = api(f"https://api.github.com/repos/{full}/commits/{commit['sha']}")
+                except urllib.error.HTTPError:
+                    continue
+                stats = detail.get("stats") or {}
+                added = int(stats.get("additions") or 0)
+                deleted = int(stats.get("deletions") or 0)
+                if added + deleted == 0 or added + deleted > 5000:
+                    continue
+                additions.append(added)
+                if len(additions) >= 80:
+                    break
+            if len(additions) >= 80:
+                break
+    except Exception as exc:
+        print(f"avg LOC sampling failed ({exc}); using fallback 485")
+        return 485
+
+    if not additions:
+        return 485
+    mean = sum(additions) / len(additions)
+    return int(round(mean / 5.0) * 5)
 
 
 def fetch_overview() -> dict:
@@ -357,16 +425,17 @@ def main() -> None:
     total = personal + org_total
     commits_year = overview["commits"]
     avg_day = round(commits_year / 365, 1)
+    avg_loc = estimate_avg_loc()
 
     (OUT_DIR / "overview.svg").write_text(render_overview(overview), encoding="utf-8")
     (OUT_DIR / "languages.svg").write_text(render_languages(langs), encoding="utf-8")
     (OUT_DIR / "metrics.svg").write_text(
-        render_metrics(personal, org_counts, total, avg_day, AVG_LOC, commits_year),
+        render_metrics(personal, org_counts, total, avg_day, avg_loc, commits_year),
         encoding="utf-8",
     )
     print(
         f"Wrote overview/languages/metrics · personal={personal} orgs={org_total} "
-        f"total={total} commits={commits_year} avg/day={avg_day} langs={len(langs)}"
+        f"total={total} commits={commits_year} avg/day={avg_day} avgLOC={avg_loc} langs={len(langs)}"
     )
 
 

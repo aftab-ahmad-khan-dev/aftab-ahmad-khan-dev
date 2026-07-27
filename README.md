@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/97%2B_Projects-Delivered-10B981?style=flat-square&labelColor=1F2937" height="28"/>
   <img src="https://img.shields.io/badge/189%2B_Repos-Tracked-8B5CF6?style=flat-square&labelColor=1F2937" height="28"/>
   <img src="https://img.shields.io/badge/6.1_Commits%2FDay-Measured-F59E0B?style=flat-square&labelColor=1F2937" height="28"/>
-  <img src="https://img.shields.io/badge/~128_LOC-Per_Commit-EF4444?style=flat-square&labelColor=1F2937" height="28"/>
+  <img src="https://img.shields.io/badge/~485_LOC-Per_Commit-EF4444?style=flat-square&labelColor=1F2937" height="28"/>
   <img src="https://img.shields.io/badge/React_%7C_Node_%7C_SQL-Core_Stack-06B6D4?style=flat-square&labelColor=1F2937" height="28"/>
 </p>
 
@@ -70,7 +70,7 @@ Multan, Pakistan 🇵🇰 · UTC+5
 <td align="center" width="20%"><b>97+</b><br/><sub>Projects</sub></td>
 <td align="center" width="20%"><b>189+</b><br/><sub>Repositories</sub></td>
 <td align="center" width="20%"><b>6.1</b><br/><sub>Commits / day</sub></td>
-<td align="center" width="20%"><b>~128</b><br/><sub>LOC / commit</sub></td>
+<td align="center" width="20%"><b>~485</b><br/><sub>LOC / commit</sub></td>
 <td align="center" width="20%"><b>14+</b><br/><sub>Countries</sub></td>
 </tr>
 </table>

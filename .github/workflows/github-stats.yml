@@ -32,7 +32,6 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
           GITHUB_ACTOR: ${{ github.repository_owner }}
-          AVG_LOC: "128"
         run: |
           mkdir -p generated
           python3 scripts/generate_stats.py
