@@ -1,10 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="210" viewBox="0 0 420 210" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="270" viewBox="0 0 560 270" role="img">
   <style>
-    .title { fill:#10B981; font:700 16px Segoe UI,Ubuntu,sans-serif }
-    .label { fill:#8B949E; font:600 13px Segoe UI,Ubuntu,sans-serif }
-    .val { fill:#C9D1D9; font:700 13px Segoe UI,Ubuntu,sans-serif }
+    .title { fill:#10B981; font:700 20px Segoe UI,Ubuntu,sans-serif }
+    .sub { fill:#6B7280; font:500 12px Segoe UI,Ubuntu,sans-serif }
+    .label { fill:#9CA3AF; font:600 15px Segoe UI,Ubuntu,sans-serif }
+    .val { fill:#F3F4F6; font:700 16px Segoe UI,Ubuntu,sans-serif }
   </style>
-  <rect width="420" height="210" rx="8" fill="#0D1117"/>
-  <text x="28" y="36" class="title">Aftab Ahmad Khan's GitHub Stats</text>
-  <text x="28" y="68" class="label">Total Stars:</text><text x="250" y="68" class="val">0</text><text x="28" y="96" class="label">Total Commits (12 mo):</text><text x="250" y="96" class="val">2,228</text><text x="28" y="124" class="label">Total PRs:</text><text x="250" y="124" class="val">0</text><text x="28" y="152" class="label">Total Issues:</text><text x="250" y="152" class="val">0</text><text x="28" y="180" class="label">Contributed to:</text><text x="250" y="180" class="val">58</text>
+  <rect width="560" height="270" rx="12" fill="#0D1117"/>
+  <rect x="0" y="0" width="4" height="270" fill="#10B981"/>
+  <text x="36" y="40" class="title">Aftab Ahmad Khan</text>
+  <text x="36" y="58" class="sub">GitHub activity snapshot</text>
+  <text x="36" y="78" class="label">Total Stars Earned</text><text x="520" y="78" class="val" text-anchor="end">0</text><text x="36" y="112" class="label">Commits (last 12 months)</text><text x="520" y="112" class="val" text-anchor="end">2,232</text><text x="36" y="146" class="label">Pull Requests</text><text x="520" y="146" class="val" text-anchor="end">0</text><text x="36" y="180" class="label">Issues Opened</text><text x="520" y="180" class="val" text-anchor="end">0</text><text x="36" y="214" class="label">Repos Contributed To</text><text x="520" y="214" class="val" text-anchor="end">58</text>
 </svg>

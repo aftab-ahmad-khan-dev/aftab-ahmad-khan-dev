@@ -13,12 +13,12 @@
 </h3>
 
 <p>
-  <img src="https://img.shields.io/badge/97%2B_Projects-Shipped-10B981?style=flat-square&labelColor=1F2937" height="28"/>
-  <img src="https://img.shields.io/badge/7%2B_Years-Experience-3B82F6?style=flat-square&labelColor=1F2937" height="28"/>
-  <img src="https://img.shields.io/badge/189%2B_Repos-Across_5_Orgs-8B5CF6?style=flat-square&labelColor=1F2937" height="28"/>
-  <img src="https://img.shields.io/badge/6.1_Commits%2FDay-Last_12_mo-F59E0B?style=flat-square&labelColor=1F2937" height="28"/>
-  <img src="https://img.shields.io/badge/~128_LOC-Avg_Commit-EF4444?style=flat-square&labelColor=1F2937" height="28"/>
-  <img src="https://img.shields.io/badge/14%2B_Countries-Clients-06B6D4?style=flat-square&labelColor=1F2937" height="28"/>
+  <img src="https://img.shields.io/badge/7%2B_Years-Engineering-3B82F6?style=flat-square&labelColor=1F2937" height="28"/>
+  <img src="https://img.shields.io/badge/97%2B_Projects-Delivered-10B981?style=flat-square&labelColor=1F2937" height="28"/>
+  <img src="https://img.shields.io/badge/189%2B_Repos-Tracked-8B5CF6?style=flat-square&labelColor=1F2937" height="28"/>
+  <img src="https://img.shields.io/badge/6.1_Commits%2FDay-Measured-F59E0B?style=flat-square&labelColor=1F2937" height="28"/>
+  <img src="https://img.shields.io/badge/~128_LOC-Per_Commit-EF4444?style=flat-square&labelColor=1F2937" height="28"/>
+  <img src="https://img.shields.io/badge/React_%7C_Node_%7C_SQL-Core_Stack-06B6D4?style=flat-square&labelColor=1F2937" height="28"/>
 </p>
 
 <p>
@@ -32,16 +32,28 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🎯 Who I Am
+## 🎯 Professional Profile
 
 ```javascript
 const aftabAhmadKhan = {
-  title: "Senior MERN Stack Developer & Shopify Expert",
-  location: "Multan, Pakistan 🇵🇰",
-  experience: { years: "7+", projectsShipped: "97+", clients: "14+ countries" },
-  delivery: { repos: "189+", avgCommitsPerDay: 6.1, avgLOCPerCommit: "~128" },
-  expertise: ["MongoDB, Express, React, Node.js", "Shopify (Liquid, Apps, APIs)", "React Native (iOS/Android)"],
-  status: "Available for new projects ✅"
+  role: "Senior Full-Stack Engineer",
+  focus: "MERN · Shopify · React Native",
+  location: "Multan, Pakistan 🇵🇰 · UTC+5",
+  tenure: "7+ years shipping production software",
+  delivery: {
+    projects: "97+",
+    repositories: "189+",
+    commitsPerDay: 6.1,
+    avgCommitSize: "~128 LOC",
+    clientMarkets: "14+ countries"
+  },
+  stack: {
+    frontend: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+    backend: ["Node.js", "Express", "REST", "GraphQL"],
+    data: ["MongoDB", "PostgreSQL / SQL", "Redis"],
+    mobile: ["React Native", "Expo"]
+  },
+  availability: "Open to full-time & contract engagements ✅"
 };
 ```
 
@@ -53,26 +65,29 @@ const aftabAhmadKhan = {
 <tr>
 <td width="33%" valign="top">
 
-### 💻 MERN Stack
-**50+ Projects** — Enterprise apps, REST/GraphQL APIs, real-time dashboards, SaaS
-- JWT/OAuth, RBAC, payments, WebSockets, AWS/GCP
-- ⚡ Up to 60% faster loads via caching & code-splitting
+### 💻 MERN Platform Engineering
+**50+ production apps** built with **React**, **Node.js**, **Express**, and **MongoDB**
+- REST/GraphQL APIs, auth (JWT/OAuth), RBAC, WebSockets
+- **Tailwind CSS** UI systems + performance budgets (caching, code-split)
+- ⚡ Measurable load-time gains on client dashboards & SaaS
 
 </td>
 <td width="33%" valign="top">
 
-### 🛒 Shopify
-**20+ Stores & Apps** — Liquid themes, private/public apps, Storefront & Admin API
-- Shopify Functions, metafields, custom checkout
-- ⚡ Up to 45% conversion-rate lift
+### 🛒 Shopify Commerce
+**20+ stores & apps** — Liquid themes, private/public apps, Admin & Storefront API
+- Custom checkout, metafields, Shopify Functions
+- Stripe / PayPal payment flows
+- ⚡ Conversion-focused storefront work
 
 </td>
 <td width="34%" valign="top">
 
-### 📱 React Native
-**15+ Apps** — E-commerce, social, delivery, AI-chat, fitness — iOS & Android
-- Native modules, push, offline-first, deep linking
-- ⚡ 50K+ combined downloads
+### 📱 React Native Products
+**15+ iOS/Android apps** — commerce, social, delivery, health, AI chat
+- Offline-first, push notifications, deep linking
+- Shared TypeScript patterns with web React
+- ⚡ App Store / Play releases with real users
 
 </td>
 </tr>
@@ -80,37 +95,39 @@ const aftabAhmadKhan = {
 
 ---
 
-## 🛠️ Technology Ecosystem
+## 🛠️ Technical Stack
 
 <div align="center">
 
-**MERN & Frontend**
-<p><img src="https://skillicons.dev/icons?i=mongodb,express,react,nodejs,javascript,typescript,nextjs,redux,tailwind,html,css&theme=dark"/></p>
+**Primary stack — React · Tailwind · Node · Express · Mongo · SQL**
 
-**Shopify & Payments**
+<img src="https://skillicons.dev/icons?i=react,tailwind,nodejs,express,mongodb,postgresql,mysql,typescript,javascript,nextjs&theme=dark&perline=10" width="680" alt="Primary stack"/>
+
+**Supporting tools**
+
+<img src="https://skillicons.dev/icons?i=redux,html,css,redis,firebase,aws,docker,git,github,vercel&theme=dark&perline=10" width="680" alt="Supporting tools"/>
+
 <p>
 <img src="https://img.shields.io/badge/Shopify-7AB55C?style=for-the-badge&logo=shopify&logoColor=white"/>
-<img src="https://img.shields.io/badge/Liquid-7AB55C?style=for-the-badge&logo=shopify&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white"/>
 <img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white"/>
-<img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
 </p>
-
-**Mobile · Database · DevOps · AI**
-<p><img src="https://skillicons.dev/icons?i=react,typescript,expo,mongodb,postgresql,redis,firebase,aws,docker,git,vercel&theme=dark"/></p>
-<p><img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/n8n-FF6B6B?style=for-the-badge&logo=n8n&logoColor=white"/></p>
 
 </div>
 
 ---
 
-## 💼 Project Portfolio
+## 💼 Selected Delivery Record
 
-| Type | Count | Highlight |
-|:---|:---:|:---|
-| 🌐 MERN Full-Stack | **50+** | Real-time SaaS, 100K+ users |
-| 🛍️ Shopify | **20+** | +40% sales, custom checkout |
-| 📱 React Native | **15+** | 50K+ downloads |
-| 🤖 AI-Integrated | **10+** | Chatbots, agentic workflows |
+| Domain | Volume | Stack emphasis | Outcome signal |
+|:---|:---:|:---|:---|
+| 🌐 Full-stack web (MERN) | **50+** | React, Node, Express, Mongo, Tailwind | SaaS & dashboards in production |
+| 🗄️ Data-backed platforms | **30+** | MongoDB + PostgreSQL/SQL | Multi-tenant & transactional systems |
+| 🛍️ Shopify commerce | **20+** | Liquid, Apps, Stripe/PayPal | Custom checkout & store ops |
+| 📱 Mobile (React Native) | **15+** | RN, TypeScript, Expo | Cross-platform releases |
+| 🤖 AI-assisted products | **10+** | OpenAI + Node/React | Chat & automation workflows |
 
 <details>
 <summary><b>💳 FinTech & Payments</b></summary>
@@ -212,28 +229,20 @@ const aftabAhmadKhan = {
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/metrics.svg?sanitize=true" alt="Delivery metrics"/>
+<img width="720" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/metrics.svg?sanitize=true" alt="Delivery metrics"/>
 
 <br/><br/>
 
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/overview.svg?sanitize=true" alt="GitHub stats"/>
-</a>
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/languages.svg?sanitize=true" alt="Top languages"/>
-</a>
+<img width="48%" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/overview.svg?sanitize=true" alt="GitHub stats"/>
+<img width="48%" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/languages.svg?sanitize=true" alt="Top languages"/>
 
-<br/>
+<br/><br/>
 
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img src="https://streak-stats.demolab.com/?user=aftab-ahmad-khan-dev&theme=dark&hide_border=true&background=0D1117&stroke=10B981&ring=10B981&fire=F59E0B&currStreakLabel=10B981&sideLabels=10B981&dates=c9d1d9" alt="GitHub Streak"/>
-</a>
+<img width="720" src="https://streak-stats.demolab.com/?user=aftab-ahmad-khan-dev&theme=dark&hide_border=true&background=0D1117&stroke=10B981&ring=10B981&fire=F59E0B&currStreakLabel=10B981&sideLabels=10B981&dates=c9d1d9" alt="GitHub Streak"/>
 
-<br/>
+<br/><br/>
 
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=aftab-ahmad-khan-dev&theme=react-dark&bg_color=0D1117&color=10B981&hide_border=true" alt="Contribution trend"/>
-</a>
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=aftab-ahmad-khan-dev&theme=react-dark&bg_color=0D1117&color=10B981&hide_border=true" alt="Contribution trend"/>
 
 </div>
 

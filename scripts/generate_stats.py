@@ -228,57 +228,66 @@ def fetch_languages(limit: int = 8) -> list[tuple[str, int]]:
 
 def render_overview(stats: dict) -> str:
     rows = [
-        ("Total Stars", stats["stars"], "⭐"),
-        ("Total Commits (12 mo)", stats["commits"], "📝"),
-        ("Total PRs", stats["prs"], "🔀"),
-        ("Total Issues", stats["issues"], "❗"),
-        ("Contributed to", stats["contributed"], "📦"),
+        ("Total Stars Earned", stats["stars"]),
+        ("Commits (last 12 months)", stats["commits"]),
+        ("Pull Requests", stats["prs"]),
+        ("Issues Opened", stats["issues"]),
+        ("Repos Contributed To", stats["contributed"]),
     ]
     lines = []
-    y = 68
-    for label, value, _ in rows:
+    y = 78
+    for label, value in rows:
         lines.append(
-            f'<text x="28" y="{y}" class="label">{escape(label)}:</text>'
-            f'<text x="250" y="{y}" class="val">{escape(fmt(value))}</text>'
+            f'<text x="36" y="{y}" class="label">{escape(label)}</text>'
+            f'<text x="520" y="{y}" class="val" text-anchor="end">{escape(fmt(value))}</text>'
         )
-        y += 28
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="420" height="210" viewBox="0 0 420 210" role="img">
+        y += 34
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="560" height="270" viewBox="0 0 560 270" role="img">
   <style>
-    .title {{ fill:#10B981; font:700 16px Segoe UI,Ubuntu,sans-serif }}
-    .label {{ fill:#8B949E; font:600 13px Segoe UI,Ubuntu,sans-serif }}
-    .val {{ fill:#C9D1D9; font:700 13px Segoe UI,Ubuntu,sans-serif }}
+    .title {{ fill:#10B981; font:700 20px Segoe UI,Ubuntu,sans-serif }}
+    .sub {{ fill:#6B7280; font:500 12px Segoe UI,Ubuntu,sans-serif }}
+    .label {{ fill:#9CA3AF; font:600 15px Segoe UI,Ubuntu,sans-serif }}
+    .val {{ fill:#F3F4F6; font:700 16px Segoe UI,Ubuntu,sans-serif }}
   </style>
-  <rect width="420" height="210" rx="8" fill="#0D1117"/>
-  <text x="28" y="36" class="title">{escape(stats["name"])}'s GitHub Stats</text>
+  <rect width="560" height="270" rx="12" fill="#0D1117"/>
+  <rect x="0" y="0" width="4" height="270" fill="#10B981"/>
+  <text x="36" y="40" class="title">{escape(stats["name"])}</text>
+  <text x="36" y="58" class="sub">GitHub activity snapshot</text>
   {''.join(lines)}
 </svg>
 '''
 
 
 def render_languages(langs: list[tuple[str, int]]) -> str:
+    # Drop noise languages under 0.15%
+    total_all = sum(v for _, v in langs) or 1
+    langs = [(n, v) for n, v in langs if (v / total_all) * 100 >= 0.15][:7]
     total = sum(v for _, v in langs) or 1
     bars = []
-    y = 62
+    y = 78
     for name, value in langs:
         pct = value / total * 100
-        width = max(8, int(pct / 100 * 360))
+        width = max(12, int(pct / 100 * 480))
         color = LANG_COLORS.get(name, "#10B981")
         bars.append(
-            f'<text x="28" y="{y}" class="label">{escape(name)}</text>'
-            f'<text x="390" y="{y}" class="val" text-anchor="end">{pct:.1f}%</text>'
-            f'<rect x="28" y="{y + 6}" width="360" height="8" rx="4" fill="#21262D"/>'
-            f'<rect x="28" y="{y + 6}" width="{width}" height="8" rx="4" fill="{color}"/>'
+            f'<text x="36" y="{y}" class="label">{escape(name)}</text>'
+            f'<text x="520" y="{y}" class="val" text-anchor="end">{pct:.1f}%</text>'
+            f'<rect x="36" y="{y + 8}" width="480" height="10" rx="5" fill="#21262D"/>'
+            f'<rect x="36" y="{y + 8}" width="{width}" height="10" rx="5" fill="{color}"/>'
         )
-        y += 36
-    height = max(180, y + 16)
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="420" height="{height}" viewBox="0 0 420 {height}" role="img">
+        y += 42
+    height = max(240, y + 24)
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="560" height="{height}" viewBox="0 0 560 {height}" role="img">
   <style>
-    .title {{ fill:#10B981; font:700 16px Segoe UI,Ubuntu,sans-serif }}
-    .label {{ fill:#C9D1D9; font:600 12px Segoe UI,Ubuntu,sans-serif }}
-    .val {{ fill:#8B949E; font:600 12px Segoe UI,Ubuntu,sans-serif }}
+    .title {{ fill:#10B981; font:700 20px Segoe UI,Ubuntu,sans-serif }}
+    .sub {{ fill:#6B7280; font:500 12px Segoe UI,Ubuntu,sans-serif }}
+    .label {{ fill:#E5E7EB; font:600 14px Segoe UI,Ubuntu,sans-serif }}
+    .val {{ fill:#9CA3AF; font:600 14px Segoe UI,Ubuntu,sans-serif }}
   </style>
-  <rect width="420" height="{height}" rx="8" fill="#0D1117"/>
-  <text x="28" y="36" class="title">Most Used Languages</text>
+  <rect width="560" height="{height}" rx="12" fill="#0D1117"/>
+  <rect x="0" y="0" width="4" height="{height}" fill="#10B981"/>
+  <text x="36" y="40" class="title">Most Used Languages</text>
+  <text x="36" y="58" class="sub">Across owned repositories</text>
   {''.join(bars)}
 </svg>
 '''
