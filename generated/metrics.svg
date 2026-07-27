@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="344" viewBox="0 0 560 344" role="img" aria-label="GitHub delivery metrics">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <style>
+      .title { fill:#10B981; font:700 16px 'Segoe UI',Ubuntu,Sans-Serif; }
+      .label { fill:#9CA3AF; font:600 13px 'Segoe UI',Ubuntu,Sans-Serif; }
+      .val { fill:#E5E7EB; font:700 13px 'Segoe UI',Ubuntu,Sans-Serif; }
+      .big { fill:#F9FAFB; font:800 28px 'Segoe UI',Ubuntu,Sans-Serif; }
+      .muted { fill:#6B7280; font:500 12px 'Segoe UI',Ubuntu,Sans-Serif; }
+      .accent { fill:#34D399; font:700 13px 'Segoe UI',Ubuntu,Sans-Serif; }
+    </style>
+  </defs>
+  <rect width="560" height="344" rx="12" fill="url(#bg)"/>
+  <rect x="0" y="0" width="4" height="344" fill="#10B981"/>
+  <text x="24" y="36" class="title">DELIVERY METRICS · refreshed 2026-07-27</text>
+
+  <text x="40" y="72" class="label">Total repositories</text>
+  <text x="40" y="100" class="big">189+</text>
+  <text x="200" y="72" class="label">Personal</text>
+  <text x="200" y="100" class="big">113</text>
+  <text x="360" y="72" class="label">Organizations</text>
+  <text x="360" y="100" class="big">5</text>
+
+  <text x="40" y="128" class="accent">Org repo breakdown</text>
+  <text x="40" y="148" class="muted">E-volvo</text><text x="520" y="148" class="val" text-anchor="end">54</text><text x="40" y="170" class="muted">Evolvo-Technologies</text><text x="520" y="170" class="val" text-anchor="end">11</text><text x="40" y="192" class="muted">Synaptrix-Solution-Dev</text><text x="520" y="192" class="val" text-anchor="end">5</text><text x="40" y="214" class="muted">Synaptrix-Solution</text><text x="520" y="214" class="val" text-anchor="end">2</text><text x="40" y="236" class="muted">NPM-Packages-Modules</text><text x="520" y="236" class="val" text-anchor="end">4</text>
+
+  <rect x="24" y="268" width="512" height="1" fill="#1F2937"/>
+
+  <text x="40" y="300" class="label">Avg commits / day</text>
+  <text x="40" y="326" class="big">6.1</text>
+  <text x="200" y="300" class="label">Avg LOC / commit</text>
+  <text x="200" y="326" class="big">~128</text>
+  <text x="360" y="300" class="label">Commits (12 mo)</text>
+  <text x="360" y="326" class="big">2,225</text>
+</svg>

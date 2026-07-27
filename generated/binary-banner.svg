@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="72" viewBox="0 0 900 72" role="img" aria-label="Binary stream boot sequence">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#10B981" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.15"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="900" height="72" rx="8"/></clipPath>
+    <style>
+      .bg { fill:#0D1117; }
+      .bin {
+        font: 500 11px 'JetBrains Mono', ui-monospace, monospace;
+        fill: #10B981;
+        opacity: 0.35;
+      }
+      .dash {
+        stroke: #10B981;
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        fill: none;
+        opacity: 0.7;
+      }
+      .msg {
+        font: 700 15px 'JetBrains Mono', ui-monospace, monospace;
+        fill: #ECFDF5;
+      }
+      .cursor {
+        fill: #10B981;
+        animation: blink 0.9s steps(1) infinite;
+      }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes type {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      @keyframes rain {
+        0% { transform: translateY(-8px); opacity: 0; }
+        20% { opacity: 0.55; }
+        100% { transform: translateY(8px); opacity: 0; }
+      }
+      @keyframes draw {
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .r1 { animation: rain 2.4s linear infinite; }
+      .r2 { animation: rain 2.8s linear infinite 0.4s; }
+      .r3 { animation: rain 3.1s linear infinite 0.8s; }
+      .r4 { animation: rain 2.6s linear infinite 1.2s; }
+      .line1 { stroke-dasharray: 220; stroke-dashoffset: 220; animation: draw 1.6s ease forwards 0.2s; }
+      .line2 { stroke-dasharray: 180; stroke-dashoffset: 180; animation: draw 1.8s ease forwards 0.6s; }
+      .reveal { opacity: 0; animation: fadeIn 0.8s ease forwards 1.4s; }
+    </style>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect class="bg" width="900" height="72"/>
+    <rect width="900" height="72" fill="url(#g)"/>
+
+    <!-- Binary rain columns  re-animates on every profile page hit -->
+    <g class="bin">
+      <text class="r1" x="28" y="22">01001101</text>
+      <text class="r2" x="110" y="34">101--110</text>
+      <text class="r3" x="192" y="18">01100101</text>
+      <text class="r4" x="274" y="40">11--0101</text>
+      <text class="r1" x="356" y="26">01010010</text>
+      <text class="r2" x="438" y="36">--010011</text>
+      <text class="r3" x="520" y="20">01001110</text>
+      <text class="r4" x="602" y="38">001--101</text>
+      <text class="r1" x="684" y="24">01010011</text>
+      <text class="r2" x="766" y="32">101100--</text>
+      <text class="r3" x="848" y="28">01</text>
+    </g>
+
+    <!-- Dashes that draw in -->
+    <path class="dash line1" d="M40 56 H260"/>
+    <path class="dash line2" d="M640 56 H860"/>
+
+    <!-- Final message after binary settles -->
+    <g class="reveal">
+      <text class="msg" x="450" y="44" text-anchor="middle">$ ./ship  MERN · Shopify · React Native</text>
+      <rect class="cursor" x="678" y="32" width="8" height="16" rx="1"/>
+    </g>
+  </g>
+</svg>

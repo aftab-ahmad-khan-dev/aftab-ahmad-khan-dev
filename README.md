@@ -1,17 +1,23 @@
+<!-- Binary banner re-animates on every profile page hit -->
+<div align="center">
+  <img width="100%" src="./generated/binary-banner.svg" alt="Binary boot sequence"/>
+</div>
+
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,6,12,20&height=200&section=header&text=AFTAB%20AHMAD%20KHAN&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=45&desc=Crafting%20Digital%20Excellence%20with%20MERN%20%7C%20Shopify%20%7C%20React%20Native&descAlignY=68&descSize=16"/>
 
 <h3>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=MERN+Stack+Architect+%F0%9F%9A%80;Shopify+Solutions+Expert+%F0%9F%9B%8D;React+Native+Specialist+%F0%9F%93%B1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=900&color=10B981&center=true&vCenter=true&width=880&height=55&lines=01001101+01000101+01010010+01001110+-----%3E+Shipping+production+code;MERN+Architect+%C2%B7+Shopify+Expert+%C2%B7+React+Native" alt="Typing SVG" />
 </h3>
 
 <p>
-  <img src="https://img.shields.io/badge/100%2B_Projects-Delivered-10B981?style=flat-square&labelColor=1F2937&logo=checkmarx&logoColor=white" height="28"/>
-  <img src="https://img.shields.io/badge/7%2B_Years-Experience-3B82F6?style=flat-square&labelColor=1F2937&logo=clockify&logoColor=white" height="28"/>
-  <img src="https://img.shields.io/badge/100%25-Client_Satisfaction-F59E0B?style=flat-square&labelColor=1F2937&logo=star&logoColor=white" height="28"/>
-  <img src="https://img.shields.io/badge/100K%2B-Active_Users-EF4444?style=flat-square&labelColor=1F2937&logo=users&logoColor=white" height="28"/>
-  <img src="https://img.shields.io/badge/~150_LOC-Avg_Commit_Size-8B5CF6?style=flat-square&labelColor=1F2937&logo=git&logoColor=white" height="28"/>
+  <img src="https://img.shields.io/badge/97%2B_Projects-Shipped-10B981?style=flat-square&labelColor=1F2937" height="28"/>
+  <img src="https://img.shields.io/badge/7%2B_Years-Experience-3B82F6?style=flat-square&labelColor=1F2937" height="28"/>
+  <img src="https://img.shields.io/badge/189%2B_Repos-Across_5_Orgs-8B5CF6?style=flat-square&labelColor=1F2937" height="28"/>
+  <img src="https://img.shields.io/badge/6.1_Commits%2FDay-Last_12_mo-F59E0B?style=flat-square&labelColor=1F2937" height="28"/>
+  <img src="https://img.shields.io/badge/~128_LOC-Avg_Commit-EF4444?style=flat-square&labelColor=1F2937" height="28"/>
+  <img src="https://img.shields.io/badge/14%2B_Countries-Clients-06B6D4?style=flat-square&labelColor=1F2937" height="28"/>
 </p>
 
 <p>
@@ -31,7 +37,8 @@
 const aftabAhmadKhan = {
   title: "Senior MERN Stack Developer & Shopify Expert",
   location: "Multan, Pakistan 🇵🇰",
-  experience: { years: "7+", projects: 100, avgCommitLOC: "~150 lines/commit" },
+  experience: { years: "7+", projectsShipped: "97+", clients: "14+ countries" },
+  delivery: { repos: "189+", avgCommitsPerDay: 6.1, avgLOCPerCommit: "~128" },
   expertise: ["MongoDB, Express, React, Node.js", "Shopify (Liquid, Apps, APIs)", "React Native (iOS/Android)"],
   status: "Available for new projects ✅"
 };
@@ -46,17 +53,15 @@ const aftabAhmadKhan = {
 <td width="33%" valign="top">
 
 ### 💻 MERN Stack
-**50+ Projects**
-Enterprise web apps, REST/GraphQL APIs, real-time dashboards, SaaS platforms
-- JWT/OAuth auth, RBAC, payment integration, WebSockets, AWS/GCP deploys
-- ⚡ 60% faster load times via caching & code-splitting
+**50+ Projects** — Enterprise apps, REST/GraphQL APIs, real-time dashboards, SaaS
+- JWT/OAuth, RBAC, payments, WebSockets, AWS/GCP
+- ⚡ Up to 60% faster loads via caching & code-splitting
 
 </td>
 <td width="33%" valign="top">
 
-### 🛒 Shopify Development
-**20+ Stores & Apps**
-Custom Liquid themes, private/public apps, Storefront & Admin API
+### 🛒 Shopify
+**20+ Stores & Apps** — Liquid themes, private/public apps, Storefront & Admin API
 - Shopify Functions, metafields, custom checkout
 - ⚡ Up to 45% conversion-rate lift
 
@@ -64,9 +69,8 @@ Custom Liquid themes, private/public apps, Storefront & Admin API
 <td width="34%" valign="top">
 
 ### 📱 React Native
-**15+ Mobile Apps**
-E-commerce, social, delivery, AI-chat, fitness apps — iOS & Android
-- Native modules, push notifications, offline-first, deep linking
+**15+ Apps** — E-commerce, social, delivery, AI-chat, fitness — iOS & Android
+- Native modules, push, offline-first, deep linking
 - ⚡ 50K+ combined downloads
 
 </td>
@@ -90,11 +94,8 @@ E-commerce, social, delivery, AI-chat, fitness apps — iOS & Android
 <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"/>
 </p>
 
-**Mobile**
-<p><img src="https://skillicons.dev/icons?i=react,typescript,expo&theme=dark"/> <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/></p>
-
-**Database, DevOps & AI**
-<p><img src="https://skillicons.dev/icons?i=mongodb,postgresql,redis,firebase,mysql,aws,docker,git,github,vercel&theme=dark"/></p>
+**Mobile · Database · DevOps · AI**
+<p><img src="https://skillicons.dev/icons?i=react,typescript,expo,mongodb,postgresql,redis,firebase,aws,docker,git,vercel&theme=dark"/></p>
 <p><img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/n8n-FF6B6B?style=for-the-badge&logo=n8n&logoColor=white"/></p>
 
 </div>
@@ -103,61 +104,106 @@ E-commerce, social, delivery, AI-chat, fitness apps — iOS & Android
 
 ## 💼 Project Portfolio
 
-| Project Type | Count | Stack | Highlight |
-|:---|:---:|:---|:---|
-| 🌐 MERN Full-Stack | **50+** | Mongo/Express/React/Node/TS | 100K+ users, real-time features |
-| 🛍️ Shopify Stores/Apps | **20+** | Liquid, Storefront/Admin API | +40% sales, custom checkout |
-| 📱 React Native | **15+** | RN, Expo, TS | 50K+ downloads |
-| ⚡ E-commerce Platforms | **10+** | MERN + payments + dashboards | Multi-vendor, inventory mgmt |
-| 🤖 AI-Integrated Apps | **10+** | OpenAI + MERN/RN | Chatbots, 70% efficiency gain |
+| Type | Count | Highlight |
+|:---|:---:|:---|
+| 🌐 MERN Full-Stack | **50+** | Real-time SaaS, 100K+ users |
+| 🛍️ Shopify | **20+** | +40% sales, custom checkout |
+| 📱 React Native | **15+** | 50K+ downloads |
+| 🤖 AI-Integrated | **10+** | Chatbots, agentic workflows |
 
 <details>
-<summary><b>🔗 Flagship Live Projects (click to expand)</b></summary>
-<br/>
+<summary><b>💳 FinTech & Payments</b></summary>
 
-| Project | Live URL | Domain |
-|:--|:--|:--|
-| 💰 NovaPay | [novapay-rho.vercel.app](https://novapay-rho.vercel.app/) | FinTech |
-| 💼 CFC – NovixPay | [cfc.novixpay.com](https://cfc.novixpay.com/) | FinTech |
-| 📈 Capital X Academy | [capitalxacademy.com](https://capitalxacademy.com/) | FinTech/Education |
-| 🔐 Trust Refunds | [trustrefunds.fund](https://www.trustrefunds.fund/) | FinTech |
-| ❤️ Vital Monitor | [vital-monitor-pi.vercel.app](https://vital-monitor-pi.vercel.app/) | Healthcare |
-| 🏥 MedixPro | [medix-pro-ten.vercel.app](https://medix-pro-ten.vercel.app/) | Healthcare |
-| 🧠 MindWeave Clinic | [mind-weave-clinic-nine.vercel.app](https://mind-weave-clinic-nine.vercel.app/) | Healthcare |
-| 💎 LuxlyDeals | [luxlydeals.com](https://luxlydeals.com/) | E-commerce |
-| ⚙️ VorksPro | [vorkspro.com](https://vorkspro.com/) | SaaS |
-| 🚀 Evolvo Technologies | [evolvo-technologies.vercel.app](https://evolvo-technologies.vercel.app/) | Corporate |
-| 📦 SheetBundles | [sheetbundles.com](https://www.sheetbundles.com/) | Shopify |
-| 🐾 Pemetery | [pemetery-pet-owner.vercel.app](https://pemetery-pet-owner.vercel.app/) | Niche/Pet |
-
-*Full list of 60+ live projects available on request or via portfolio site.*
+| Project | URL |
+|:--|:--|
+| NovaPay | [novapay-rho.vercel.app](https://novapay-rho.vercel.app/) |
+| LumoPay | [lumo-pay.vercel.app](https://lumo-pay.vercel.app/) |
+| NexaPay | [nexa-pay-ashen.vercel.app](https://nexa-pay-ashen.vercel.app/) |
+| CFC – NovixPay | [cfc.novixpay.com](https://cfc.novixpay.com/) |
+| Spendly | [spendly-lemon.vercel.app](https://spendly-lemon.vercel.app/) |
+| Pro Trade Investment | [protradeinvestment.com](https://protradeinvestment.com/) |
+| Capital X Academy | [capitalxacademy.com](https://capitalxacademy.com/) |
+| Nishimatsu Financial | [nishimatsu-financial.vercel.app](https://nishimatsu-financial.vercel.app/) |
+| Forex Knights | [forex-knights.vercel.app](https://forex-knights.vercel.app/) |
+| Trust Refunds | [trustrefunds.fund](https://www.trustrefunds.fund/) |
+| ClearPay Link | [clearpaylink.ca](https://www.clearpaylink.ca/Saintxcapital/) |
+| FairTrade Digital | [fairtrade-digital.vercel.app](https://fairtrade-digital.vercel.app/) |
+| Coxi Link | [coxi-link.vercel.app](https://coxi-link.vercel.app/) |
 
 </details>
 
 <details>
-<summary><b>🔥 Selected Highlights by Stack</b></summary>
-<br/>
+<summary><b>🏥 Healthcare & MedTech</b></summary>
 
-**MERN:** Multi-vendor e-commerce (Socket.io live tracking, Stripe/PayPal, 50K+ daily transactions) · Healthcare telehealth platform (WebRTC video, 15K+ consultations) · LMS with video streaming & certificates (20K+ students)
-
-**Shopify:** Fashion store with AR try-on (+45% conversion) · Subscription-box app with recurring billing (1K+ subscribers) · Luxury jewelry theme with 360° viewer ($500K+ monthly revenue)
-
-**React Native:** AI chat app with OpenAI + voice messages (30K+ users) · Fitness tracker with social features (25K+ users, App Store featured) · Ride-hailing app with live GPS (500+ daily rides)
+| Project | URL |
+|:--|:--|
+| Vital Monitor | [vital-monitor-pi.vercel.app](https://vital-monitor-pi.vercel.app/) |
+| MedRemind | [med-remind-jade.vercel.app](https://med-remind-jade.vercel.app/) |
+| VitalSign | [vitalsign-beige.vercel.app](https://vitalsign-beige.vercel.app/) |
+| MedixPro | [medix-pro-ten.vercel.app](https://medix-pro-ten.vercel.app/) |
+| LabTrack | [lab-track-eta.vercel.app](https://lab-track-eta.vercel.app/) |
+| CareLink | [carelink-delta-pink.vercel.app](https://carelink-delta-pink.vercel.app/) |
+| MindWeave Clinic | [mind-weave-clinic-nine.vercel.app](https://mind-weave-clinic-nine.vercel.app/) |
+| RehabFlow | [rehab-flow-neon.vercel.app](https://rehab-flow-neon.vercel.app/) |
+| ElderGuard Health | [elder-guard-health-omega.vercel.app](https://elder-guard-health-omega.vercel.app/) |
+| SurgiCore | [surgi-core.vercel.app](https://surgi-core.vercel.app/) |
+| Vitalis Health | [vitalis-health-green.vercel.app](https://vitalis-health-green.vercel.app/) |
 
 </details>
 
----
+<details>
+<summary><b>🌐 SaaS, Business & Web</b></summary>
 
-## 🏆 Track Record
+| Project | URL |
+|:--|:--|
+| LuxlyDeals | [luxlydeals.com](https://luxlydeals.com/) |
+| OrgConnect | [orgconnectapp.com](https://orgconnectapp.com/) |
+| VorksPro | [vorkspro.com](https://vorkspro.com/) |
+| Gigadat | [web-gigadat.vercel.app](https://web-gigadat.vercel.app/) |
+| Evolvo Technologies | [evolvo-technologies.vercel.app](https://evolvo-technologies.vercel.app/) |
+| Iconotic | [iconotic.vercel.app](https://iconotic.vercel.app/) |
+| ConsultPro | [consult-pro-one.vercel.app](https://consult-pro-one.vercel.app/) |
+| GCCH Replica | [gcch-replica.vercel.app](https://gcch-replica.vercel.app/) |
+| Montero Private | [monteroprivate.com](https://monteroprivate.com/) |
+| Alpha Beacon School | [alpha-beacon-international-school.vercel.app](https://alpha-beacon-international-school.vercel.app/) |
+| DP Golf Energy | [dp-golf-energy.vercel.app](https://dp-golf-energy.vercel.app/) |
+| NAQ Technologies | [naq-technologies.com](https://naq-technologies.com/) |
+| Evolvo Construction | [evolvo-construction.vercel.app](https://evolvo-construction.vercel.app/) |
 
-```javascript
-const achievements = {
-  delivery: { projects: "100+", satisfaction: "100%", onTime: "95%+" },
-  performance: { loadTime: "-60%", automationGains: "40-70%", scale: "100K+ concurrent users" },
-  codeQuality: { avgCommitLOC: "~150 lines/commit", teamsLed: "20-25 devs", methodology: "Agile/Scrum" },
-  industries: ["E-commerce", "FinTech", "Healthcare", "Education", "Real Estate", "Food Delivery"]
-};
-```
+</details>
+
+<details>
+<summary><b>🛍️ E-commerce & Shopify</b></summary>
+
+| Project | URL |
+|:--|:--|
+| SheetBundles | [sheetbundles.com](https://www.sheetbundles.com/) |
+| Shopify Reorder System | [shopify-reorder-system.vercel.app](https://shopify-reorder-system.vercel.app/) |
+| Sheet-Box | [sheetbundles.com](https://www.sheetbundles.com/) |
+
+</details>
+
+<details>
+<summary><b>🐾 Specialty & Niche</b></summary>
+
+| Project | URL |
+|:--|:--|
+| Pemetery (Pet Owner) | [pemetery-pet-owner.vercel.app](https://pemetery-pet-owner.vercel.app/) |
+| Pemetery (Platform Admin) | [pemetery-platform-admin.vercel.app](https://pemetery-platform-admin.vercel.app/) |
+| Pemetery (Clinic Admin) | [pemetery-clinic-admin.vercel.app](https://pemetery-clinic-admin.vercel.app/) |
+
+</details>
+
+<details>
+<summary><b>🔥 Selected impact highlights</b></summary>
+
+**MERN:** Multi-vendor e-commerce (Socket.io + Stripe/PayPal) · Telehealth (WebRTC, 15K+ consults) · LMS (20K+ students)  
+**Shopify:** AR try-on fashion (+45% conversion) · Subscription billing (1K+ subs) · Luxury jewelry theme  
+**React Native:** AI chat (30K+ users) · Fitness tracker (App Store featured) · Ride-hailing (live GPS)
+
+</details>
+
+<p align="center"><i>97+ live products — full case studies at <a href="http://aftabahmadkhan.online">aftabahmadkhan.online</a></i></p>
 
 ---
 
@@ -165,15 +211,15 @@ const achievements = {
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=14&pause=1200&color=10B981&center=true&vCenter=true&width=650&lines=%24+git+log+--stat+%7C+compiling;01001100+01001111+01000011;build+successful+-+~150+LOC%2Fcommit" alt="terminal"/>
+<img src="./generated/metrics.svg" alt="Delivery metrics — repos, orgs, commits/day, LOC/commit"/>
 
 <br/><br/>
 
 <a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="./generated/overview.svg#gh-dark-mode-only"/>
+  <img height="180em" src="./generated/overview.svg"/>
 </a>
 <a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="./generated/languages.svg#gh-dark-mode-only"/>
+  <img height="180em" src="./generated/languages.svg"/>
 </a>
 
 <br/>
@@ -190,35 +236,28 @@ const achievements = {
 
 </div>
 
-> **Widget reliability:** the stats and top-languages cards are now **self-hosted** — a GitHub Action (`.github/workflows/github-stats.yml`) regenerates `generated/overview.svg` and `generated/languages.svg` once a day and commits them straight into this repo, so they load from GitHub itself instead of a shared third-party server. Setup (one-time, ~2 minutes):
-> 1. Create a [Personal Access Token](https://github.com/settings/tokens/new) (classic) with the `repo` and `read:user` scopes.
-> 2. In this repo, go to **Settings → Secrets and variables → Actions → New repository secret**, name it `ACCESS_TOKEN`, and paste the token.
-> 3. Go to the **Actions** tab and manually run "GitHub Stats (self-hosted)" once (via *Run workflow*) to generate the first set of images — after that it refreshes automatically every day.
->
-> The **streak card** is the one exception — it's still pulled from `streak-stats.demolab.com`, since that service isn't self-hostable as a simple Action. It's the lowest-stakes card to lose occasionally; if it keeps breaking, just say the word and I'll drop it from the README entirely.
-
 ---
 
 ## 🤝 Let's Work Together
 
 <div align="center">
 
-| Type | Description | Best For |
-|:--:|:--|:--|
-| 💰 Fixed Price | Defined scope, defined price | Well-scoped projects |
-| ⏰ Hourly | Flexible engagement | Support & consulting |
-| 🤝 Long-term | Monthly retainer | Team augmentation |
+| Engagement | Best for |
+|:--|:--|
+| 💰 Fixed Price | Scoped product builds |
+| ⏰ Hourly | Support & consulting |
+| 🤝 Retainer | Ongoing team augmentation |
 
-```yaml
-Location: Multan, Pakistan 🇵🇰
-Timezone: UTC+5
-Availability: Full-time ✅
-Response Time: 2-4 hours
-```
+<table>
+  <tr>
+    <td align="center"><b>Location</b><br/>Multan, Pakistan 🇵🇰</td>
+    <td align="center"><b>Timezone</b><br/>UTC+5</td>
+    <td align="center"><b>Availability</b><br/>Full-time ✅</td>
+    <td align="center"><b>Response</b><br/>2–4 hours</td>
+  </tr>
+</table>
 
-</div>
-
-<div align="center">
+<br/>
 
 <a href="mailto:aftabahmadkhan.dev@gmail.com"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" height="40"/></a>
 <a href="http://aftabahmadkhan.online"><img src="https://img.shields.io/badge/View_Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=000000" height="40"/></a>
