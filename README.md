@@ -170,10 +170,10 @@ const achievements = {
 <br/><br/>
 
 <a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=algolia&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=F59E0B&text_color=c9d1d9&ring_color=10B981&cache_seconds=86400"/>
+  <img height="180em" src="./generated/overview.svg#gh-dark-mode-only"/>
 </a>
 <a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&langs_count=8&theme=algolia&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=c9d1d9&card_width=320&cache_seconds=86400"/>
+  <img height="180em" src="./generated/languages.svg#gh-dark-mode-only"/>
 </a>
 
 <br/>
@@ -190,9 +190,12 @@ const achievements = {
 
 </div>
 
-> **Why these can still occasionally look broken:** these are all free, third-party hosted widgets (`vercel.app`, `demolab.com`). Every GitHub profile that embeds them shares the *same* GitHub API token pool on that host, so during traffic spikes the whole service gets rate-limited for everyone at once — that's what caused the "Failed to retrieve contributions" error, and it can't be fully eliminated from the README side, only reduced (I added `cache_seconds=86400` to the stats/lang cards so they refresh from cache instead of hitting the API every page load). If a card is still down after a refresh, it's the host, not your markup — it typically recovers within minutes to a few hours.
+> **Widget reliability:** the stats and top-languages cards are now **self-hosted** — a GitHub Action (`.github/workflows/github-stats.yml`) regenerates `generated/overview.svg` and `generated/languages.svg` once a day and commits them straight into this repo, so they load from GitHub itself instead of a shared third-party server. Setup (one-time, ~2 minutes):
+> 1. Create a [Personal Access Token](https://github.com/settings/tokens/new) (classic) with the `repo` and `read:user` scopes.
+> 2. In this repo, go to **Settings → Secrets and variables → Actions → New repository secret**, name it `ACCESS_TOKEN`, and paste the token.
+> 3. Go to the **Actions** tab and manually run "GitHub Stats (self-hosted)" once (via *Run workflow*) to generate the first set of images — after that it refreshes automatically every day.
 >
-> **The permanent fix**, if this keeps bothering you: self-host these via a scheduled **GitHub Action** that regenerates static SVGs into your own repo (using the same open-source generators behind these sites) and commit them directly — then nothing depends on a third party's live server at all. Say the word and I'll set that workflow up for you.
+> The **streak card** is the one exception — it's still pulled from `streak-stats.demolab.com`, since that service isn't self-hostable as a simple Action. It's the lowest-stakes card to lose occasionally; if it keeps breaking, just say the word and I'll drop it from the README entirely.
 
 ---
 
@@ -213,11 +216,13 @@ Availability: Full-time ✅
 Response Time: 2-4 hours
 ```
 
-<p>
+</div>
+
+<div align="center">
+
 <a href="mailto:aftabahmadkhan.dev@gmail.com"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" height="40"/></a>
 <a href="http://aftabahmadkhan.online"><img src="https://img.shields.io/badge/View_Portfolio-10B981?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=000000" height="40"/></a>
 <a href="https://github.com/aftab-ahmad-khan-dev"><img src="https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=000000" height="40"/></a>
-</p>
 
 <img src="https://komarev.com/ghpvc/?username=aftab-ahmad-khan-dev&style=for-the-badge&color=10B981&label=PROFILE+VIEWS" alt="Profile Views"/>
 
