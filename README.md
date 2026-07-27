@@ -1,6 +1,6 @@
-<!-- Binary/dashes banner — SMIL animates on every profile page load -->
+<!-- Binary + dashes boot sequence — retypes on every profile page hit -->
 <p align="center">
-  <img width="900" height="70" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/binary-banner.svg" alt="binary boot sequence"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=2200&pause=600&color=10B981&center=true&vCenter=true&width=900&height=70&background=0D1117&lines=01001101+01000101+01010010+01001110+----------+compiling;101--110+01100101+11--0101+----------+linking;01010010+--+01001110+--+01010011+-----%3E+ready;.%2Fship+—+MERN+·+Shopify+·+React+Native" alt="binary boot sequence"/>
 </p>
 
 <div align="center">
@@ -211,15 +211,15 @@ const aftabAhmadKhan = {
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/metrics.svg" alt="Delivery metrics"/>
+<img src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/metrics.svg?sanitize=true" alt="Delivery metrics"/>
 
 <br/><br/>
 
 <a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/overview.svg" alt="GitHub stats"/>
+  <img height="180em" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/overview.svg?sanitize=true" alt="GitHub stats"/>
 </a>
 <a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/languages.svg" alt="Top languages"/>
+  <img height="180em" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/languages.svg?sanitize=true" alt="Top languages"/>
 </a>
 
 <br/>
