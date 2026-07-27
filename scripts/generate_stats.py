@@ -153,8 +153,9 @@ def personal_repo_count() -> int:
 
 def estimate_avg_loc() -> int:
     """
-    Mean lines added per commit from recent owned-repo commits.
-    Skips empty commits and bulk dumps (>5000 churn).
+    Typical LOC added per commit = 10–90% trimmed mean of recent commits.
+    Raw mean is skewed by scaffold/import dumps; median alone understates
+    normal feature work. Trimmed mean is the fairest 'average'.
     """
     if AVG_LOC_OVERRIDE:
         return int(AVG_LOC_OVERRIDE)
@@ -184,16 +185,16 @@ def estimate_avg_loc() -> int:
             if len(batch) < 30:
                 break
 
-        for full in repos[:18]:
+        for full in repos[:20]:
             try:
                 commits = api(
-                    f"https://api.github.com/repos/{full}/commits?per_page=8&author={USERNAME}"
+                    f"https://api.github.com/repos/{full}/commits?per_page=10&author={USERNAME}"
                 )
             except urllib.error.HTTPError:
                 continue
             if not isinstance(commits, list):
                 continue
-            for commit in commits[:6]:
+            for commit in commits[:8]:
                 try:
                     detail = api(f"https://api.github.com/repos/{full}/commits/{commit['sha']}")
                 except urllib.error.HTTPError:
@@ -201,21 +202,28 @@ def estimate_avg_loc() -> int:
                 stats = detail.get("stats") or {}
                 added = int(stats.get("additions") or 0)
                 deleted = int(stats.get("deletions") or 0)
-                if added + deleted == 0 or added + deleted > 5000:
+                # Skip empty + bulk dumps (lockfiles, generated assets, big imports)
+                if added + deleted == 0 or added + deleted > 2000:
                     continue
                 additions.append(added)
-                if len(additions) >= 80:
+                if len(additions) >= 120:
                     break
-            if len(additions) >= 80:
+            if len(additions) >= 120:
                 break
     except Exception as exc:
-        print(f"avg LOC sampling failed ({exc}); using fallback 485")
-        return 485
+        print(f"avg LOC sampling failed ({exc}); using fallback 155")
+        return 155
 
-    if not additions:
-        return 485
-    mean = sum(additions) / len(additions)
-    return int(round(mean / 5.0) * 5)
+    if len(additions) < 5:
+        return 155
+
+    additions.sort()
+    n = len(additions)
+    lo, hi = int(n * 0.10), max(int(n * 0.10) + 1, int(n * 0.90))
+    trimmed = additions[lo:hi]
+    mean = sum(trimmed) / len(trimmed)
+    # Round to nearest 5 for stable display
+    return max(20, int(round(mean / 5.0) * 5))
 
 
 def fetch_overview() -> dict:
