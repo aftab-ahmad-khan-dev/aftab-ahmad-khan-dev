@@ -14,33 +14,50 @@ permissions:
   contents: write
 
 jobs:
-  stats-cards:
-    name: Generate overview & languages
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate overview & languages SVGs
-        uses: jstrieb/github-stats@master
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          EXCLUDE: ""
-          EXCLUDE_LANGS: ""
-          LINE_HEIGHT: "21"
-          HIDE_BORDER: "true"
-
-  delivery-metrics:
-    name: Generate delivery metrics
-    needs: stats-cards
+  generate:
+    name: Generate stats images
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Generate overview card
+        uses: stn1slv/github-stats-card@v1.1.9
+        with:
+          card-type: user-stats
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.ACCESS_TOKEN }}
+          output: generated/overview.svg
+          theme: vue-dark
+          hide-border: "true"
+          show-icons: "true"
+          include-all-commits: "true"
+          show: repos
+          title-color: "10B981"
+          bg-color: "0D1117"
+          text-color: "c9d1d9"
+
+      - name: Generate languages card
+        uses: stn1slv/github-stats-card@v1.1.9
+        with:
+          card-type: top-langs
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.ACCESS_TOKEN }}
+          output: generated/languages.svg
+          theme: vue-dark
+          hide-border: "true"
+          layout: compact
+          langs-count: "8"
+          title-color: "10B981"
+          bg-color: "0D1117"
+          text-color: "c9d1d9"
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Generate metrics.svg
+      - name: Generate delivery metrics
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           AVG_LOC: "128"
@@ -48,14 +65,14 @@ jobs:
           mkdir -p generated
           python3 scripts/generate_metrics.py
 
-      - name: Commit metrics
+      - name: Commit generated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated/metrics.svg
+          git add generated/overview.svg generated/languages.svg generated/metrics.svg
           if git diff --staged --quiet; then
-            echo "No metrics changes"
+            echo "No stats changes to commit"
           else
-            git commit -m "chore: refresh delivery metrics"
+            git commit -m "chore: refresh self-hosted GitHub stats"
             git push
           fi
