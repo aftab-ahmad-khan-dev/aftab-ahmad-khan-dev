@@ -8,7 +8,7 @@ on:
     branches: [main, master]
     paths:
       - ".github/workflows/github-stats.yml"
-      - "scripts/generate_metrics.py"
+      - "scripts/**"
 
 permissions:
   contents: write
@@ -21,49 +21,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate overview card
-        uses: stn1slv/github-stats-card@v1.1.9
-        with:
-          card-type: user-stats
-          username: ${{ github.repository_owner }}
-          token: ${{ secrets.ACCESS_TOKEN }}
-          output: generated/overview.svg
-          theme: vue-dark
-          hide-border: "true"
-          show-icons: "true"
-          include-all-commits: "true"
-          show: repos
-          title-color: "10B981"
-          bg-color: "0D1117"
-          text-color: "c9d1d9"
-
-      - name: Generate languages card
-        uses: stn1slv/github-stats-card@v1.1.9
-        with:
-          card-type: top-langs
-          username: ${{ github.repository_owner }}
-          token: ${{ secrets.ACCESS_TOKEN }}
-          output: generated/languages.svg
-          theme: vue-dark
-          hide-border: "true"
-          layout: compact
-          langs-count: "8"
-          title-color: "10B981"
-          bg-color: "0D1117"
-          text-color: "c9d1d9"
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Generate delivery metrics
+      - name: Generate overview, languages & metrics
         env:
+          # Prefer classic PAT (private + org repos). Falls back to GITHUB_TOKEN.
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_ACTOR: ${{ github.repository_owner }}
           AVG_LOC: "128"
         run: |
           mkdir -p generated
-          python3 scripts/generate_metrics.py
+          python3 scripts/generate_stats.py
 
       - name: Commit generated assets
         run: |

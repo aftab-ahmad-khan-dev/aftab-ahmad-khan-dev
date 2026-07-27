@@ -1,5 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="195" role="img">
-  <rect width="480" height="195" rx="8" fill="#0D1117"/>
-  <text x="24" y="40" fill="#10B981" font-family="Segoe UI" font-size="16" font-weight="700">GitHub Stats</text>
-  <text x="24" y="80" fill="#9CA3AF" font-family="Segoe UI" font-size="13">Run "GitHub Stats (self-hosted)" Action to generate live cards.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="210" viewBox="0 0 420 210" role="img">
+  <style>
+    .title { fill:#10B981; font:700 16px Segoe UI,Ubuntu,sans-serif }
+    .label { fill:#8B949E; font:600 13px Segoe UI,Ubuntu,sans-serif }
+    .val { fill:#C9D1D9; font:700 13px Segoe UI,Ubuntu,sans-serif }
+  </style>
+  <rect width="420" height="210" rx="8" fill="#0D1117"/>
+  <text x="28" y="36" class="title">Aftab Ahmad Khan's GitHub Stats</text>
+  <text x="28" y="68" class="label">Total Stars:</text><text x="250" y="68" class="val">0</text><text x="28" y="96" class="label">Total Commits (12 mo):</text><text x="250" y="96" class="val">2,227</text><text x="28" y="124" class="label">Total PRs:</text><text x="250" y="124" class="val">0</text><text x="28" y="152" class="label">Total Issues:</text><text x="250" y="152" class="val">0</text><text x="28" y="180" class="label">Contributed to:</text><text x="250" y="180" class="val">58</text>
 </svg>

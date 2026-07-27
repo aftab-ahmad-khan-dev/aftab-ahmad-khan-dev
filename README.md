@@ -1,7 +1,7 @@
-<!-- Binary banner re-animates on every profile page hit -->
-<div align="center">
-  <img width="100%" src="./generated/binary-banner.svg" alt="Binary boot sequence"/>
-</div>
+<!-- Binary/dashes banner — SMIL animates on every profile page load -->
+<p align="center">
+  <img width="900" height="70" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/binary-banner.svg" alt="binary boot sequence"/>
+</p>
 
 <div align="center">
 
@@ -211,15 +211,15 @@ const aftabAhmadKhan = {
 
 <div align="center">
 
-<img src="./generated/metrics.svg" alt="Delivery metrics — repos, orgs, commits/day, LOC/commit"/>
+<img src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/metrics.svg" alt="Delivery metrics"/>
 
 <br/><br/>
 
 <a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="./generated/overview.svg"/>
+  <img height="180em" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/overview.svg" alt="GitHub stats"/>
 </a>
 <a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="./generated/languages.svg"/>
+  <img height="180em" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/languages.svg" alt="Top languages"/>
 </a>
 
 <br/>
