@@ -165,32 +165,34 @@ const achievements = {
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=1200&color=10B981&center=true&vCenter=true&width=650&lines=%24+git+log+--stat+%7C+compiling...;01001100 01001111 01000011;build+successful+%E2%9C%93+~150+LOC%2Fcommit" alt="terminal"/>
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=14&pause=1200&color=10B981&center=true&vCenter=true&width=650&lines=%24+git+log+--stat+%7C+compiling;01001100+01001111+01000011;build+successful+-+~150+LOC%2Fcommit" alt="terminal"/>
 
 <br/><br/>
 
 <a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=algolia&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=F59E0B&text_color=c9d1d9&ring_color=10B981&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=aftab-ahmad-khan-dev&show_icons=true&theme=algolia&hide_border=true&bg_color=0D1117&title_color=10B981&icon_color=F59E0B&text_color=c9d1d9&ring_color=10B981&cache_seconds=86400"/>
 </a>
 <a href="https://github.com/aftab-ahmad-khan-dev">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&langs_count=8&theme=algolia&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=c9d1d9&card_width=320"/>
-</a>
-
-<br/>
-
-<a href="https://github.com/aftab-ahmad-khan-dev">
-  <img src="https://streak-stats.demolab.com?user=aftab-ahmad-khan-dev&theme=dark&hide_border=true&background=0D1117&stroke=10B981&ring=10B981&fire=F59E0B&currStreakLabel=10B981&sideLabels=10B981&dates=c9d1d9" alt="GitHub Streak"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aftab-ahmad-khan-dev&layout=compact&langs_count=8&theme=algolia&hide_border=true&bg_color=0D1117&title_color=10B981&text_color=c9d1d9&card_width=320&cache_seconds=86400"/>
 </a>
 
 <br/>
 
 <a href="https://github.com/aftab-ahmad-khan-dev">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=aftab-ahmad-khan-dev&theme=react-dark&bg_color=0D1117&color=10B981&line=10B981&point=F59E0B&area=true&hide_border=true" alt="Contribution trend"/>
+  <img src="https://streak-stats.demolab.com/?user=aftab-ahmad-khan-dev&theme=dark&hide_border=true&background=0D1117&stroke=10B981&ring=10B981&fire=F59E0B&currStreakLabel=10B981&sideLabels=10B981&dates=c9d1d9" alt="GitHub Streak"/>
+</a>
+
+<br/>
+
+<a href="https://github.com/aftab-ahmad-khan-dev">
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=aftab-ahmad-khan-dev&theme=react-dark&bg_color=0D1117&color=10B981&hide_border=true" alt="Contribution trend"/>
 </a>
 
 </div>
 
-> **Note on widgets:** the old streak-stats service (`herokuapp.com`) is unmaintained and frequently hits GitHub's API rate limit, which is what caused the "Failed to retrieve contributions" error in your screenshot. It's now pointed at **`streak-stats.demolab.com`**, an actively-maintained fork, and I dropped `github-profile-summary-cards` (also long-abandoned) in favor of the activity-graph above for the same information. If a widget ever shows an error again, it's almost always transient rate-limiting on GitHub's side — a page refresh a minute later usually fixes it.
+> **Why these can still occasionally look broken:** these are all free, third-party hosted widgets (`vercel.app`, `demolab.com`). Every GitHub profile that embeds them shares the *same* GitHub API token pool on that host, so during traffic spikes the whole service gets rate-limited for everyone at once — that's what caused the "Failed to retrieve contributions" error, and it can't be fully eliminated from the README side, only reduced (I added `cache_seconds=86400` to the stats/lang cards so they refresh from cache instead of hitting the API every page load). If a card is still down after a refresh, it's the host, not your markup — it typically recovers within minutes to a few hours.
+>
+> **The permanent fix**, if this keeps bothering you: self-host these via a scheduled **GitHub Action** that regenerates static SVGs into your own repo (using the same open-source generators behind these sites) and commit them directly — then nothing depends on a third party's live server at all. Say the word and I'll set that workflow up for you.
 
 ---
 
