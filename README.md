@@ -1,6 +1,6 @@
 <div align="center">
 
-![binary boot sequence](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=400&color=10B981&center=true&vCenter=true&width=860&height=45&lines=01001101+01000101+01010010+01001110+..+compiling;101--110+..+01100101+..+linking;01010010+..+01001110+..+ready;.%2Fship+-+MERN+%7C+Shopify+%7C+React+Native)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2200&pause=700&color=10B981&center=true&vCenter=true&width=900&height=50&lines=01001101+01000101+01010010+01001110+-----%3E+compiling;101--110+--+01100101+--+linking;01010010+--+01001110+--+ready;.%2Fship+-+MERN+%7C+Shopify+%7C+React+Native" alt="binary boot sequence" />
 
 </div>
 
