@@ -64,13 +64,13 @@
     <g transform="translate(348,0)">
       <rect class="panel" width="164" height="78" rx="10"/>
       <rect class="stroke" width="164" height="78" rx="10"/>
-      <text x="82" y="36" text-anchor="middle" class="metric">6.1</text>
+      <text x="82" y="36" text-anchor="middle" class="metric">6.2</text>
       <text x="82" y="56" text-anchor="middle" class="metricLabel">Commits / day</text>
     </g>
     <g transform="translate(522,0)">
       <rect class="panel" width="164" height="78" rx="10"/>
       <rect class="stroke" width="164" height="78" rx="10"/>
-      <text x="82" y="36" text-anchor="middle" class="metric">~155</text>
+      <text x="82" y="36" text-anchor="middle" class="metric">~120</text>
       <text x="82" y="56" text-anchor="middle" class="metricLabel">LOC / commit</text>
     </g>
     <g transform="translate(696,0)">

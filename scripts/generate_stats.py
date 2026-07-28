@@ -6,6 +6,7 @@ from __future__ import annotations
 import json
 import os
 import pathlib
+import re
 import urllib.error
 import urllib.request
 from collections import Counter
@@ -420,6 +421,161 @@ def render_metrics(
 '''
 
 
+def render_profile(
+    total_repos: int,
+    avg_day: float,
+    avg_loc: int,
+) -> str:
+    """Professional profile card — same LOC/day numbers as metrics.svg."""
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-label="Professional profile">
+  <defs>
+    <style>
+      .bg {{ fill: #0D1117; }}
+      .panel {{ fill: #161B22; }}
+      .stroke {{ stroke: #30363D; stroke-width: 1; fill: none; }}
+      .accent {{ fill: #10B981; }}
+      .label {{ fill: #6B7280; font: 600 11px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 0.6px; }}
+      .value {{ fill: #F3F4F6; font: 600 15px 'Segoe UI', Ubuntu, sans-serif; }}
+      .metric {{ fill: #F9FAFB; font: 800 22px 'Segoe UI', Ubuntu, sans-serif; }}
+      .metricLabel {{ fill: #9CA3AF; font: 500 11px 'Segoe UI', Ubuntu, sans-serif; }}
+      .colTitle {{ fill: #34D399; font: 700 12px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 0.4px; }}
+      .item {{ fill: #D1D5DB; font: 500 13px 'Segoe UI', Ubuntu, sans-serif; }}
+      .avail {{ fill: #E5E7EB; font: 600 13px 'Segoe UI', Ubuntu, sans-serif; }}
+      .title {{ fill: #10B981; font: 700 14px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 0.8px; }}
+    </style>
+  </defs>
+
+  <rect class="bg" width="900" height="520" rx="14"/>
+  <rect x="0" y="0" width="4" height="520" class="accent"/>
+  <text x="28" y="36" class="title">PROFESSIONAL PROFILE</text>
+
+  <g transform="translate(24,52)">
+    <rect class="panel" width="418" height="72" rx="10"/>
+    <rect class="stroke" width="418" height="72" rx="10"/>
+    <text x="18" y="28" class="label">ROLE</text>
+    <text x="18" y="52" class="value">Senior Full-Stack Engineer</text>
+
+    <g transform="translate(434,0)">
+      <rect class="panel" width="418" height="72" rx="10"/>
+      <rect class="stroke" width="418" height="72" rx="10"/>
+      <text x="18" y="28" class="label">FOCUS</text>
+      <text x="18" y="52" class="value">MERN | Shopify | React Native</text>
+    </g>
+
+    <g transform="translate(0,84)">
+      <rect class="panel" width="418" height="72" rx="10"/>
+      <rect class="stroke" width="418" height="72" rx="10"/>
+      <text x="18" y="28" class="label">LOCATION</text>
+      <text x="18" y="52" class="value">Multan, Pakistan | UTC+5</text>
+    </g>
+
+    <g transform="translate(434,84)">
+      <rect class="panel" width="418" height="72" rx="10"/>
+      <rect class="stroke" width="418" height="72" rx="10"/>
+      <text x="18" y="28" class="label">TENURE</text>
+      <text x="18" y="52" class="value">7+ years in production software</text>
+    </g>
+  </g>
+
+  <g transform="translate(24,226)">
+    <g>
+      <rect class="panel" width="164" height="78" rx="10"/>
+      <rect class="stroke" width="164" height="78" rx="10"/>
+      <text x="82" y="36" text-anchor="middle" class="metric">97+</text>
+      <text x="82" y="56" text-anchor="middle" class="metricLabel">Projects</text>
+    </g>
+    <g transform="translate(174,0)">
+      <rect class="panel" width="164" height="78" rx="10"/>
+      <rect class="stroke" width="164" height="78" rx="10"/>
+      <text x="82" y="36" text-anchor="middle" class="metric">{total_repos}+</text>
+      <text x="82" y="56" text-anchor="middle" class="metricLabel">Repositories</text>
+    </g>
+    <g transform="translate(348,0)">
+      <rect class="panel" width="164" height="78" rx="10"/>
+      <rect class="stroke" width="164" height="78" rx="10"/>
+      <text x="82" y="36" text-anchor="middle" class="metric">{avg_day}</text>
+      <text x="82" y="56" text-anchor="middle" class="metricLabel">Commits / day</text>
+    </g>
+    <g transform="translate(522,0)">
+      <rect class="panel" width="164" height="78" rx="10"/>
+      <rect class="stroke" width="164" height="78" rx="10"/>
+      <text x="82" y="36" text-anchor="middle" class="metric">~{avg_loc}</text>
+      <text x="82" y="56" text-anchor="middle" class="metricLabel">LOC / commit</text>
+    </g>
+    <g transform="translate(696,0)">
+      <rect class="panel" width="164" height="78" rx="10"/>
+      <rect class="stroke" width="164" height="78" rx="10"/>
+      <text x="82" y="36" text-anchor="middle" class="metric">14+</text>
+      <text x="82" y="56" text-anchor="middle" class="metricLabel">Countries</text>
+    </g>
+  </g>
+
+  <g transform="translate(24,322)">
+    <g>
+      <rect class="panel" width="207" height="140" rx="10"/>
+      <rect class="stroke" width="207" height="140" rx="10"/>
+      <text x="16" y="28" class="colTitle">FRONTEND</text>
+      <text x="16" y="54" class="item">React</text>
+      <text x="16" y="76" class="item">Next.js</text>
+      <text x="16" y="98" class="item">Tailwind CSS</text>
+      <text x="16" y="120" class="item">TypeScript</text>
+    </g>
+    <g transform="translate(217,0)">
+      <rect class="panel" width="207" height="140" rx="10"/>
+      <rect class="stroke" width="207" height="140" rx="10"/>
+      <text x="16" y="28" class="colTitle">BACKEND</text>
+      <text x="16" y="54" class="item">Node.js</text>
+      <text x="16" y="76" class="item">Express</text>
+      <text x="16" y="98" class="item">REST</text>
+      <text x="16" y="120" class="item">GraphQL</text>
+    </g>
+    <g transform="translate(434,0)">
+      <rect class="panel" width="207" height="140" rx="10"/>
+      <rect class="stroke" width="207" height="140" rx="10"/>
+      <text x="16" y="28" class="colTitle">DATA</text>
+      <text x="16" y="54" class="item">MongoDB</text>
+      <text x="16" y="76" class="item">PostgreSQL / SQL</text>
+      <text x="16" y="98" class="item">Redis</text>
+      <text x="16" y="120" class="item">Firebase</text>
+    </g>
+    <g transform="translate(651,0)">
+      <rect class="panel" width="207" height="140" rx="10"/>
+      <rect class="stroke" width="207" height="140" rx="10"/>
+      <text x="16" y="28" class="colTitle">MOBILE</text>
+      <text x="16" y="54" class="item">React Native</text>
+      <text x="16" y="76" class="item">Expo</text>
+      <text x="16" y="98" class="item">TypeScript</text>
+      <text x="16" y="120" class="item">iOS / Android</text>
+    </g>
+  </g>
+
+  <g transform="translate(24,478)">
+    <rect class="panel" width="852" height="28" rx="8"/>
+    <rect class="stroke" width="852" height="28" rx="8"/>
+    <circle cx="18" cy="14" r="4" class="accent"/>
+    <text x="32" y="18" class="avail">Availability - Open to full-time and contract engagements</text>
+  </g>
+</svg>
+'''
+
+
+def sync_readme_loc_badge(avg_loc: int) -> None:
+    """Keep the hero Shields badge in sync with computed avg LOC."""
+    readme = pathlib.Path("README.md")
+    if not readme.exists():
+        return
+    text = readme.read_text(encoding="utf-8")
+    updated = re.sub(
+        r"~?\d+_LOC-Per_Commit",
+        f"~{avg_loc}_LOC-Per_Commit",
+        text,
+        count=1,
+    )
+    if updated != text:
+        readme.write_text(updated, encoding="utf-8")
+        print(f"Synced README LOC badge to ~{avg_loc}")
+
+
 def main() -> None:
     require_token()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -441,8 +597,13 @@ def main() -> None:
         render_metrics(personal, org_counts, total, avg_day, avg_loc, commits_year),
         encoding="utf-8",
     )
+    (OUT_DIR / "profile.svg").write_text(
+        render_profile(total, avg_day, avg_loc),
+        encoding="utf-8",
+    )
+    sync_readme_loc_badge(avg_loc)
     print(
-        f"Wrote overview/languages/metrics · personal={personal} orgs={org_total} "
+        f"Wrote overview/languages/metrics/profile · personal={personal} orgs={org_total} "
         f"total={total} commits={commits_year} avg/day={avg_day} avgLOC={avg_loc} langs={len(langs)}"
     )
 
