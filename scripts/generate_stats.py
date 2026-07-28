@@ -234,6 +234,8 @@ def fetch_overview() -> dict:
         name
         repositories(ownerAffiliations: OWNER, isFork: false) {{ totalCount }}
         repositoriesContributedTo(contributionTypes: [COMMIT, ISSUE, PULL_REQUEST, REPOSITORY], first: 1) {{ totalCount }}
+        pullRequests {{ totalCount }}
+        issues {{ totalCount }}
         contributionsCollection {{
           totalCommitContributions
           restrictedContributionsCount
@@ -248,6 +250,21 @@ def fetch_overview() -> dict:
     user = gql(q)["data"]["user"]
     c = user["contributionsCollection"]
     commits = int(c["totalCommitContributions"]) + int(c["restrictedContributionsCount"])
+
+    # Lifetime PR totals (contribution-year graph often undercounts private work as 0)
+    prs = int(user["pullRequests"]["totalCount"])
+    issues = int(user["issues"]["totalCount"])
+
+    # Merged PR count via Search API
+    merged = 0
+    try:
+        search = api(
+            f"https://api.github.com/search/issues?q=author:{USERNAME}+type:pr+is:merged&per_page=1"
+        )
+        if isinstance(search, dict):
+            merged = int(search.get("total_count") or 0)
+    except urllib.error.HTTPError:
+        merged = int(c["totalPullRequestContributions"])
 
     # Stars across owned repos (sample up to 100)
     stars = 0
@@ -266,8 +283,9 @@ def fetch_overview() -> dict:
     return {
         "name": user.get("name") or USERNAME,
         "commits": commits,
-        "prs": int(c["totalPullRequestContributions"]),
-        "issues": int(c["totalIssueContributions"]),
+        "prs": prs,
+        "merged": merged,
+        "issues": issues,
         "reviews": int(c["totalPullRequestReviewContributions"]),
         "contributed": int(user["repositoriesContributedTo"]["totalCount"]),
         "repos": int(user["repositories"]["totalCount"]),
@@ -307,7 +325,8 @@ def render_overview(stats: dict) -> str:
     rows = [
         ("Total Stars Earned", stats["stars"]),
         ("Commits (last 12 months)", stats["commits"]),
-        ("Pull Requests", stats["prs"]),
+        ("Pull Requests (total)", stats["prs"]),
+        ("Merged PRs", stats["merged"]),
         ("Issues Opened", stats["issues"]),
         ("Repos Contributed To", stats["contributed"]),
     ]
@@ -318,16 +337,17 @@ def render_overview(stats: dict) -> str:
             f'<text x="36" y="{y}" class="label">{escape(label)}</text>'
             f'<text x="520" y="{y}" class="val" text-anchor="end">{escape(fmt(value))}</text>'
         )
-        y += 34
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="560" height="270" viewBox="0 0 560 270" role="img">
+        y += 32
+    height = max(270, y + 24)
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="560" height="{height}" viewBox="0 0 560 {height}" role="img">
   <style>
     .title {{ fill:#10B981; font:700 20px Segoe UI,Ubuntu,sans-serif }}
     .sub {{ fill:#6B7280; font:500 12px Segoe UI,Ubuntu,sans-serif }}
     .label {{ fill:#9CA3AF; font:600 15px Segoe UI,Ubuntu,sans-serif }}
     .val {{ fill:#F3F4F6; font:700 16px Segoe UI,Ubuntu,sans-serif }}
   </style>
-  <rect width="560" height="270" rx="12" fill="#0D1117"/>
-  <rect x="0" y="0" width="4" height="270" fill="#10B981"/>
+  <rect width="560" height="{height}" rx="12" fill="#0D1117"/>
+  <rect x="0" y="0" width="4" height="{height}" fill="#10B981"/>
   <text x="36" y="40" class="title">{escape(stats["name"])}</text>
   <text x="36" y="58" class="sub">GitHub activity snapshot</text>
   {''.join(lines)}

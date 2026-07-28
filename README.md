@@ -42,37 +42,9 @@
 
 ## 🚀 Core Specializations
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 💻 MERN Platform Engineering
-**50+ production apps** built with **React**, **Node.js**, **Express**, and **MongoDB**
-- REST/GraphQL APIs, auth (JWT/OAuth), RBAC, WebSockets
-- **Tailwind CSS** UI systems + performance budgets (caching, code-split)
-- ⚡ Measurable load-time gains on client dashboards & SaaS
-
-</td>
-<td width="33%" valign="top">
-
-### 🛒 Shopify Commerce
-**20+ stores & apps** — Liquid themes, private/public apps, Admin & Storefront API
-- Custom checkout, metafields, Shopify Functions
-- Stripe / PayPal payment flows
-- ⚡ Conversion-focused storefront work
-
-</td>
-<td width="34%" valign="top">
-
-### 📱 React Native Products
-**15+ iOS/Android apps** — commerce, social, delivery, health, AI chat
-- Offline-first, push notifications, deep linking
-- Shared TypeScript patterns with web React
-- ⚡ App Store / Play releases with real users
-
-</td>
-</tr>
-</table>
+<div align="center">
+  <img width="900" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/specializations.svg?sanitize=true" alt="Core specializations"/>
+</div>
 
 ---
 

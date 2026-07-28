@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340" role="img" aria-label="Core specializations">
+  <defs>
+    <style>
+      .bg { fill: #0D1117; }
+      .panel { fill: #161B22; }
+      .stroke { stroke: #30363D; stroke-width: 1; fill: none; }
+      .accent { fill: #10B981; }
+      .title { fill: #10B981; font: 700 14px 'Segoe UI', Ubuntu, sans-serif; letter-spacing: 0.8px; }
+      .head { fill: #F3F4F6; font: 700 15px 'Segoe UI', Ubuntu, sans-serif; }
+      .summary { fill: #D1D5DB; font: 500 12px 'Segoe UI', Ubuntu, sans-serif; }
+      .item { fill: #9CA3AF; font: 500 12px 'Segoe UI', Ubuntu, sans-serif; }
+      .flash { fill: #34D399; font: 600 12px 'Segoe UI', Ubuntu, sans-serif; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="900" height="340" rx="14"/>
+  <rect x="0" y="0" width="4" height="340" class="accent"/>
+  <text x="28" y="36" class="title">CORE SPECIALIZATIONS</text>
+
+  <!-- Card 1: MERN -->
+  <g transform="translate(24,52)">
+    <rect class="panel" width="276" height="268" rx="12"/>
+    <rect class="stroke" width="276" height="268" rx="12"/>
+    <text x="18" y="32" class="head">MERN Platform Engineering</text>
+    <text x="18" y="58" class="summary">50+ production apps</text>
+    <text x="18" y="78" class="summary">React · Node · Express · MongoDB</text>
+    <text x="18" y="112" class="item">REST / GraphQL APIs</text>
+    <text x="18" y="134" class="item">JWT / OAuth · RBAC · WebSockets</text>
+    <text x="18" y="156" class="item">Tailwind UI systems</text>
+    <text x="18" y="178" class="item">Caching · code-splitting</text>
+    <text x="18" y="210" class="flash">Measurable load-time gains</text>
+    <text x="18" y="232" class="flash">on dashboards and SaaS</text>
+  </g>
+
+  <!-- Card 2: Shopify -->
+  <g transform="translate(312,52)">
+    <rect class="panel" width="276" height="268" rx="12"/>
+    <rect class="stroke" width="276" height="268" rx="12"/>
+    <text x="18" y="32" class="head">Shopify Commerce</text>
+    <text x="18" y="58" class="summary">20+ stores and apps</text>
+    <text x="18" y="78" class="summary">Liquid · Admin · Storefront API</text>
+    <text x="18" y="112" class="item">Custom checkout flows</text>
+    <text x="18" y="134" class="item">Metafields · Shopify Functions</text>
+    <text x="18" y="156" class="item">Private / public apps</text>
+    <text x="18" y="178" class="item">Stripe / PayPal payments</text>
+    <text x="18" y="210" class="flash">Conversion-focused</text>
+    <text x="18" y="232" class="flash">storefront delivery</text>
+  </g>
+
+  <!-- Card 3: React Native -->
+  <g transform="translate(600,52)">
+    <rect class="panel" width="276" height="268" rx="12"/>
+    <rect class="stroke" width="276" height="268" rx="12"/>
+    <text x="18" y="32" class="head">React Native Products</text>
+    <text x="18" y="58" class="summary">15+ iOS / Android apps</text>
+    <text x="18" y="78" class="summary">Commerce · social · health · AI</text>
+    <text x="18" y="112" class="item">Offline-first architecture</text>
+    <text x="18" y="134" class="item">Push notifications · deep links</text>
+    <text x="18" y="156" class="item">Shared TypeScript with web</text>
+    <text x="18" y="178" class="item">Expo and native modules</text>
+    <text x="18" y="210" class="flash">App Store / Play releases</text>
+    <text x="18" y="232" class="flash">with real users</text>
+  </g>
+</svg>
