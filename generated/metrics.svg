@@ -22,7 +22,7 @@
   <text x="40" y="300" class="label">Avg commits / day</text>
   <text x="40" y="326" class="big">6.3</text>
   <text x="200" y="300" class="label">Avg LOC / commit</text>
-  <text x="200" y="326" class="big">~395</text>
+  <text x="200" y="326" class="big">~550</text>
   <text x="360" y="300" class="label">Commits (12 mo)</text>
-  <text x="360" y="326" class="big">2,291</text>
+  <text x="360" y="326" class="big">2,292</text>
 </svg>
