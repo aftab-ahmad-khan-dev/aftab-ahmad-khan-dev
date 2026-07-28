@@ -11,9 +11,9 @@
   <rect x="0" y="0" width="4" height="344" fill="#10B981"/>
   <text x="24" y="36" class="title">DELIVERY METRICS · refreshed 2026-07-28</text>
   <text x="40" y="72" class="label">Total repositories</text>
-  <text x="40" y="100" class="big">189+</text>
+  <text x="40" y="100" class="big">190+</text>
   <text x="200" y="72" class="label">Personal</text>
-  <text x="200" y="100" class="big">113</text>
+  <text x="200" y="100" class="big">114</text>
   <text x="360" y="72" class="label">Organizations</text>
   <text x="360" y="100" class="big">5</text>
   <text x="40" y="128" class="accent">Org repo breakdown</text>
@@ -22,7 +22,7 @@
   <text x="40" y="300" class="label">Avg commits / day</text>
   <text x="40" y="326" class="big">6.3</text>
   <text x="200" y="300" class="label">Avg LOC / commit</text>
-  <text x="200" y="326" class="big">~550</text>
+  <text x="200" y="326" class="big">~460</text>
   <text x="360" y="300" class="label">Commits (12 mo)</text>
-  <text x="360" y="326" class="big">2,292</text>
+  <text x="360" y="326" class="big">2,310</text>
 </svg>
