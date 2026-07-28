@@ -24,5 +24,5 @@
   <text x="200" y="300" class="label">Avg LOC / commit</text>
   <text x="200" y="326" class="big">~115</text>
   <text x="360" y="300" class="label">Commits (12 mo)</text>
-  <text x="360" y="326" class="big">2,288</text>
+  <text x="360" y="326" class="big">2,289</text>
 </svg>
