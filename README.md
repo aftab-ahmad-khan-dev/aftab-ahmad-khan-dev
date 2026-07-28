@@ -43,7 +43,9 @@
 ## 🚀 Core Specializations
 
 <div align="center">
-  <img width="900" src="https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/specializations.svg?sanitize=true" alt="Core specializations"/>
+
+![Core specializations](https://raw.githubusercontent.com/aftab-ahmad-khan-dev/aftab-ahmad-khan-dev/main/generated/specializations.svg?sanitize=true)
+
 </div>
 
 ---
