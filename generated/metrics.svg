@@ -20,9 +20,9 @@
   <text x="40" y="148" class="muted">E-volvo</text><text x="520" y="148" class="val" text-anchor="end">54</text><text x="40" y="170" class="muted">Evolvo-Technologies</text><text x="520" y="170" class="val" text-anchor="end">11</text><text x="40" y="192" class="muted">Synaptrix-Solution-Dev</text><text x="520" y="192" class="val" text-anchor="end">5</text><text x="40" y="214" class="muted">Synaptrix-Solution</text><text x="520" y="214" class="val" text-anchor="end">2</text><text x="40" y="236" class="muted">NPM-Packages-Modules</text><text x="520" y="236" class="val" text-anchor="end">4</text>
   <rect x="24" y="268" width="512" height="1" fill="#1F2937"/>
   <text x="40" y="300" class="label">Avg commits / day</text>
-  <text x="40" y="326" class="big">6.2</text>
+  <text x="40" y="326" class="big">6.3</text>
   <text x="200" y="300" class="label">Avg LOC / commit</text>
-  <text x="200" y="326" class="big">~120</text>
+  <text x="200" y="326" class="big">~115</text>
   <text x="360" y="300" class="label">Commits (12 mo)</text>
-  <text x="360" y="326" class="big">2,280</text>
+  <text x="360" y="326" class="big">2,288</text>
 </svg>
