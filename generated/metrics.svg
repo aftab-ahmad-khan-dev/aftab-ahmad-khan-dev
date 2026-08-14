@@ -9,7 +9,7 @@
   </style>
   <rect width="560" height="344" rx="12" fill="#0D1117"/>
   <rect x="0" y="0" width="4" height="344" fill="#10B981"/>
-  <text x="24" y="36" class="title">DELIVERY METRICS · refreshed 2026-08-13</text>
+  <text x="24" y="36" class="title">DELIVERY METRICS · refreshed 2026-08-14</text>
   <text x="40" y="72" class="label">Total repositories</text>
   <text x="40" y="100" class="big">197+</text>
   <text x="200" y="72" class="label">Personal</text>
@@ -22,7 +22,7 @@
   <text x="40" y="300" class="label">Avg commits / day</text>
   <text x="40" y="326" class="big">7.4</text>
   <text x="200" y="300" class="label">Avg LOC / commit</text>
-  <text x="200" y="326" class="big">~540</text>
+  <text x="200" y="326" class="big">~460</text>
   <text x="360" y="300" class="label">Commits (12 mo)</text>
-  <text x="360" y="326" class="big">2,698</text>
+  <text x="360" y="326" class="big">2,707</text>
 </svg>
