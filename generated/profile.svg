@@ -58,19 +58,19 @@
     <g transform="translate(174,0)">
       <rect class="panel" width="164" height="78" rx="10"/>
       <rect class="stroke" width="164" height="78" rx="10"/>
-      <text x="82" y="36" text-anchor="middle" class="metric">204+</text>
+      <text x="82" y="36" text-anchor="middle" class="metric">205+</text>
       <text x="82" y="56" text-anchor="middle" class="metricLabel">Repositories</text>
     </g>
     <g transform="translate(348,0)">
       <rect class="panel" width="164" height="78" rx="10"/>
       <rect class="stroke" width="164" height="78" rx="10"/>
-      <text x="82" y="36" text-anchor="middle" class="metric">7.8</text>
+      <text x="82" y="36" text-anchor="middle" class="metric">8.1</text>
       <text x="82" y="56" text-anchor="middle" class="metricLabel">Commits / day</text>
     </g>
     <g transform="translate(522,0)">
       <rect class="panel" width="164" height="78" rx="10"/>
       <rect class="stroke" width="164" height="78" rx="10"/>
-      <text x="82" y="36" text-anchor="middle" class="metric">~380</text>
+      <text x="82" y="36" text-anchor="middle" class="metric">~460</text>
       <text x="82" y="56" text-anchor="middle" class="metricLabel">LOC / commit</text>
     </g>
     <g transform="translate(696,0)">
