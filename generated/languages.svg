@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="354" viewBox="0 0 560 354" role="img">
+  <style>
+    .title { fill:#10B981; font:700 20px Segoe UI,Ubuntu,sans-serif }
+    .sub { fill:#6B7280; font:500 12px Segoe UI,Ubuntu,sans-serif }
+    .label { fill:#E5E7EB; font:600 14px Segoe UI,Ubuntu,sans-serif }
+    .val { fill:#9CA3AF; font:600 14px Segoe UI,Ubuntu,sans-serif }
+  </style>
+  <rect width="560" height="354" rx="12" fill="#0D1117"/>
+  <rect x="0" y="0" width="4" height="354" fill="#10B981"/>
+  <text x="36" y="40" class="title">Most Used Languages</text>
+  <text x="36" y="58" class="sub">Across owned repositories</text>
+  <text x="36" y="78" class="label">JavaScript</text><text x="520" y="78" class="val" text-anchor="end">74.9%</text><rect x="36" y="86" width="480" height="10" rx="5" fill="#21262D"/><rect x="36" y="86" width="359" height="10" rx="5" fill="#F1E05A"/><text x="36" y="120" class="label">TypeScript</text><text x="520" y="120" class="val" text-anchor="end">16.1%</text><rect x="36" y="128" width="480" height="10" rx="5" fill="#21262D"/><rect x="36" y="128" width="77" height="10" rx="5" fill="#3178C6"/><text x="36" y="162" class="label">Csound</text><text x="520" y="162" class="val" text-anchor="end">4.4%</text><rect x="36" y="170" width="480" height="10" rx="5" fill="#21262D"/><rect x="36" y="170" width="21" height="10" rx="5" fill="#10B981"/><text x="36" y="204" class="label">CSS</text><text x="520" y="204" class="val" text-anchor="end">2.3%</text><rect x="36" y="212" width="480" height="10" rx="5" fill="#21262D"/><rect x="36" y="212" width="12" height="10" rx="5" fill="#563D7C"/><text x="36" y="246" class="label">HTML</text><text x="520" y="246" class="val" text-anchor="end">1.5%</text><rect x="36" y="254" width="480" height="10" rx="5" fill="#21262D"/><rect x="36" y="254" width="12" height="10" rx="5" fill="#E34C26"/><text x="36" y="288" class="label">Python</text><text x="520" y="288" class="val" text-anchor="end">0.7%</text><rect x="36" y="296" width="480" height="10" rx="5" fill="#21262D"/><rect x="36" y="296" width="12" height="10" rx="5" fill="#3572A5"/>
+</svg>
